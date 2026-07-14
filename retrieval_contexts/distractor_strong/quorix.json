@@ -1,0 +1,547 @@
+{
+  "quorix_l1_001": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l1_002": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l1_003": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l1_004": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l1_005": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l1_006": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l1_007": [
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l1_008": [
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l1_009": [
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l1_010": [
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l1_011": [
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l1_012": [
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l1_013": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n"
+  ],
+  "quorix_l1_014": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n"
+  ],
+  "quorix_l1_015": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n"
+  ],
+  "quorix_l1_016": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n"
+  ],
+  "quorix_l1_017": [
+    "def evaluate_condition_or_instead_of_and(condition: str, context: dict[str, Any]) -> bool:\n    \"\"\"Evaluate condition but replace 'and' with 'or' (operator bug).\"\"\"\n    modified = condition.replace(\" and \", \" or \")\n    try:\n        tree = ast.parse(modified, mode=\"eval\")\n    except SyntaxError:\n        return False\n\n    def _eval(node):\n        if isinstance(node, ast.BoolOp):\n            values = [_eval(v) for v in node.values]\n            return any(values)\n        if isinstance(node, ast.Compare):\n            left = _eval(node.left)\n            op_node = node.ops[0]\n            right = _eval(node.comparators[0])\n            for op_symbol, func in _COMPARISON_OPS.items():\n                if isinstance(op_node, _op_class(op_symbol)):\n                    return func(left, right)\n            return False\n        if isinstance(node, ast.Constant):\n            return node.value\n        if isinstance(node, ast.Name):\n            return context.get(node.id, None)\n        return False\n\n    return bool(_eval(tree.body))\n"
+  ],
+  "quorix_l1_018": [
+    "def evaluate_condition_or_instead_of_and(condition: str, context: dict[str, Any]) -> bool:\n    \"\"\"Evaluate condition but replace 'and' with 'or' (operator bug).\"\"\"\n    modified = condition.replace(\" and \", \" or \")\n    try:\n        tree = ast.parse(modified, mode=\"eval\")\n    except SyntaxError:\n        return False\n\n    def _eval(node):\n        if isinstance(node, ast.BoolOp):\n            values = [_eval(v) for v in node.values]\n            return any(values)\n        if isinstance(node, ast.Compare):\n            left = _eval(node.left)\n            op_node = node.ops[0]\n            right = _eval(node.comparators[0])\n            for op_symbol, func in _COMPARISON_OPS.items():\n                if isinstance(op_node, _op_class(op_symbol)):\n                    return func(left, right)\n            return False\n        if isinstance(node, ast.Constant):\n            return node.value\n        if isinstance(node, ast.Name):\n            return context.get(node.id, None)\n        return False\n\n    return bool(_eval(tree.body))\n"
+  ],
+  "quorix_l1_019": [
+    "def evaluate_condition_or_instead_of_and(condition: str, context: dict[str, Any]) -> bool:\n    \"\"\"Evaluate condition but replace 'and' with 'or' (operator bug).\"\"\"\n    modified = condition.replace(\" and \", \" or \")\n    try:\n        tree = ast.parse(modified, mode=\"eval\")\n    except SyntaxError:\n        return False\n\n    def _eval(node):\n        if isinstance(node, ast.BoolOp):\n            values = [_eval(v) for v in node.values]\n            return any(values)\n        if isinstance(node, ast.Compare):\n            left = _eval(node.left)\n            op_node = node.ops[0]\n            right = _eval(node.comparators[0])\n            for op_symbol, func in _COMPARISON_OPS.items():\n                if isinstance(op_node, _op_class(op_symbol)):\n                    return func(left, right)\n            return False\n        if isinstance(node, ast.Constant):\n            return node.value\n        if isinstance(node, ast.Name):\n            return context.get(node.id, None)\n        return False\n\n    return bool(_eval(tree.body))\n"
+  ],
+  "quorix_l1_020": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l1_021": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l1_022": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l1_023": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l1_024": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l1_025": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l1_026": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l1_027": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l1_028": [
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l1_029": [
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l1_030": [
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l1_031": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l1_032": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l1_033": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l1_034": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l1_035": [
+    "def format_subject_missing_level(role: str, department: str, level: int) -> str:\n    \"\"\"Format a subject string but omit the level field.\"\"\"\n    return f\"role={role};department={department}\"\n"
+  ],
+  "quorix_l1_036": [
+    "def format_subject_missing_level(role: str, department: str, level: int) -> str:\n    \"\"\"Format a subject string but omit the level field.\"\"\"\n    return f\"role={role};department={department}\"\n"
+  ],
+  "quorix_l1_037": [
+    "def format_resource_wrong_sensitivity(type: str, sensitivity: str, owner: str) -> str:\n    \"\"\"Format a resource string with a hard-coded sensitivity.\"\"\"\n    return f\"type={type};sensitivity=low;owner={owner}\"\n"
+  ],
+  "quorix_l1_038": [
+    "def format_resource_wrong_sensitivity(type: str, sensitivity: str, owner: str) -> str:\n    \"\"\"Format a resource string with a hard-coded sensitivity.\"\"\"\n    return f\"type={type};sensitivity=low;owner={owner}\"\n"
+  ],
+  "quorix_l1_039": [
+    "def is_admin_inverted(subject: str | dict[str, Any]) -> bool:\n    \"\"\"Return True for every role except admin.\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"role\"] != \"admin\"\n"
+  ],
+  "quorix_l1_040": [
+    "def is_sensitive_wrong_threshold(resource: str | dict[str, Any], threshold: str = \"medium\") -> bool:\n    \"\"\"Treat 'low' as sensitive regardless of threshold.\"\"\"\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return resource[\"sensitivity\"] != \"low\"\n"
+  ],
+  "quorix_l1_041": [
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l1_042": [
+    "def subject_has_role_case_insensitive(subject: str | dict[str, Any], role: str) -> bool:\n    \"\"\"Compare roles case-insensitively (the real API uses exact match).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"role\"].lower() == role.lower()\n"
+  ],
+  "quorix_l1_043": [
+    "def subject_level_at_least_off_by_one(subject: str | dict[str, Any], min_level: int) -> bool:\n    \"\"\"Use a strict greater-than comparison instead of greater-or-equal.\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"level\"] > min_level\n"
+  ],
+  "quorix_l1_044": [
+    "def resource_owned_by_inverted(resource: str | dict[str, Any], department: str) -> bool:\n    \"\"\"Return True when the owner differs from the department.\"\"\"\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return resource[\"owner\"] != department\n"
+  ],
+  "quorix_l1_045": [
+    "def count_matching_policies_ignore_effect(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n) -> int:\n    \"\"\"Return the total number of policies instead of matching ones.\"\"\"\n    return len(policies)\n"
+  ],
+  "quorix_l1_046": [
+    "def count_matching_policies_ignore_effect(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n) -> int:\n    \"\"\"Return the total number of policies instead of matching ones.\"\"\"\n    return len(policies)\n"
+  ],
+  "quorix_l1_047": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n"
+  ],
+  "quorix_l1_048": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n"
+  ],
+  "quorix_l1_049": [
+    "def make_policy_inverted_effect(condition: str, effect: str) -> str:\n    \"\"\"Format a policy with the effect inverted.\"\"\"\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return f\"({condition}) -> {inverted}\"\n"
+  ],
+  "quorix_l1_050": [
+    "def make_policy_inverted_effect(condition: str, effect: str) -> str:\n    \"\"\"Format a policy with the effect inverted.\"\"\"\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return f\"({condition}) -> {inverted}\"\n"
+  ],
+  "quorix_l2_001": [
+    "def subject_has_role_case_insensitive(subject: str | dict[str, Any], role: str) -> bool:\n    \"\"\"Compare roles case-insensitively (the real API uses exact match).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"role\"].lower() == role.lower()\n",
+    "def subject_level_at_least_off_by_one(subject: str | dict[str, Any], min_level: int) -> bool:\n    \"\"\"Use a strict greater-than comparison instead of greater-or-equal.\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"level\"] > min_level\n"
+  ],
+  "quorix_l2_002": [
+    "def subject_has_role_case_insensitive(subject: str | dict[str, Any], role: str) -> bool:\n    \"\"\"Compare roles case-insensitively (the real API uses exact match).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"role\"].lower() == role.lower()\n",
+    "def subject_level_at_least_off_by_one(subject: str | dict[str, Any], min_level: int) -> bool:\n    \"\"\"Use a strict greater-than comparison instead of greater-or-equal.\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"level\"] > min_level\n"
+  ],
+  "quorix_l2_003": [
+    "def subject_has_role_case_insensitive(subject: str | dict[str, Any], role: str) -> bool:\n    \"\"\"Compare roles case-insensitively (the real API uses exact match).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"role\"].lower() == role.lower()\n",
+    "def subject_level_at_least_off_by_one(subject: str | dict[str, Any], min_level: int) -> bool:\n    \"\"\"Use a strict greater-than comparison instead of greater-or-equal.\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"level\"] > min_level\n"
+  ],
+  "quorix_l2_004": [
+    "def subject_has_role_case_insensitive(subject: str | dict[str, Any], role: str) -> bool:\n    \"\"\"Compare roles case-insensitively (the real API uses exact match).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"role\"].lower() == role.lower()\n",
+    "def subject_level_at_least_off_by_one(subject: str | dict[str, Any], min_level: int) -> bool:\n    \"\"\"Use a strict greater-than comparison instead of greater-or-equal.\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"level\"] > min_level\n"
+  ],
+  "quorix_l2_005": [
+    "def subject_has_role_case_insensitive(subject: str | dict[str, Any], role: str) -> bool:\n    \"\"\"Compare roles case-insensitively (the real API uses exact match).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"role\"].lower() == role.lower()\n",
+    "def subject_level_at_least_off_by_one(subject: str | dict[str, Any], min_level: int) -> bool:\n    \"\"\"Use a strict greater-than comparison instead of greater-or-equal.\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    return subject[\"level\"] > min_level\n"
+  ],
+  "quorix_l2_006": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n",
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l2_007": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n",
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l2_008": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n",
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l2_009": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n",
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l2_010": [
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n",
+    "def parse_resource_wrong_sensitivity(resource: str) -> dict[str, Any]:\n    \"\"\"Parse resource but accept any sensitivity (missing validation).\"\"\"\n    rec = _parse_kv_string(resource)\n    if \"type\" not in rec:\n        rec[\"type\"] = \"file\"\n    if \"sensitivity\" not in rec:\n        rec[\"sensitivity\"] = \"low\"\n    if \"owner\" not in rec:\n        rec[\"owner\"] = \"eng\"\n    return rec\n"
+  ],
+  "quorix_l2_011": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l2_012": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l2_013": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l2_014": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l2_015": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l2_016": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l2_017": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l2_018": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l2_019": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l2_020": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n"
+  ],
+  "quorix_l2_021": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_022": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_023": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_024": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_025": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_026": [
+    "def count_matching_policies_ignore_effect(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n) -> int:\n    \"\"\"Return the total number of policies instead of matching ones.\"\"\"\n    return len(policies)\n"
+  ],
+  "quorix_l2_027": [
+    "def count_matching_policies_ignore_effect(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n) -> int:\n    \"\"\"Return the total number of policies instead of matching ones.\"\"\"\n    return len(policies)\n"
+  ],
+  "quorix_l2_028": [
+    "def count_matching_policies_ignore_effect(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n) -> int:\n    \"\"\"Return the total number of policies instead of matching ones.\"\"\"\n    return len(policies)\n"
+  ],
+  "quorix_l2_029": [
+    "def count_matching_policies_ignore_effect(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n) -> int:\n    \"\"\"Return the total number of policies instead of matching ones.\"\"\"\n    return len(policies)\n"
+  ],
+  "quorix_l2_030": [
+    "def count_matching_policies_ignore_effect(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n) -> int:\n    \"\"\"Return the total number of policies instead of matching ones.\"\"\"\n    return len(policies)\n"
+  ],
+  "quorix_l2_031": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_032": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_033": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_034": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_035": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l2_036": [
+    "def format_subject_missing_level(role: str, department: str, level: int) -> str:\n    \"\"\"Format a subject string but omit the level field.\"\"\"\n    return f\"role={role};department={department}\"\n",
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l2_037": [
+    "def format_subject_missing_level(role: str, department: str, level: int) -> str:\n    \"\"\"Format a subject string but omit the level field.\"\"\"\n    return f\"role={role};department={department}\"\n",
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l2_038": [
+    "def format_subject_missing_level(role: str, department: str, level: int) -> str:\n    \"\"\"Format a subject string but omit the level field.\"\"\"\n    return f\"role={role};department={department}\"\n",
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l2_039": [
+    "def format_subject_missing_level(role: str, department: str, level: int) -> str:\n    \"\"\"Format a subject string but omit the level field.\"\"\"\n    return f\"role={role};department={department}\"\n",
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l2_040": [
+    "def format_subject_missing_level(role: str, department: str, level: int) -> str:\n    \"\"\"Format a subject string but omit the level field.\"\"\"\n    return f\"role={role};department={department}\"\n",
+    "def parse_subject_missing_level(subject: str) -> dict[str, Any]:\n    \"\"\"Parse subject but do not require level (missing field validation).\"\"\"\n    rec = _parse_kv_string(subject)\n    if \"role\" not in rec:\n        rec[\"role\"] = \"intern\"\n    if \"department\" not in rec:\n        rec[\"department\"] = \"eng\"\n    if \"level\" not in rec:\n        rec[\"level\"] = 1\n    return rec\n"
+  ],
+  "quorix_l2_041": [
+    "def is_sensitive_wrong_threshold(resource: str | dict[str, Any], threshold: str = \"medium\") -> bool:\n    \"\"\"Treat 'low' as sensitive regardless of threshold.\"\"\"\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return resource[\"sensitivity\"] != \"low\"\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l2_042": [
+    "def is_sensitive_wrong_threshold(resource: str | dict[str, Any], threshold: str = \"medium\") -> bool:\n    \"\"\"Treat 'low' as sensitive regardless of threshold.\"\"\"\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return resource[\"sensitivity\"] != \"low\"\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l2_043": [
+    "def is_sensitive_wrong_threshold(resource: str | dict[str, Any], threshold: str = \"medium\") -> bool:\n    \"\"\"Treat 'low' as sensitive regardless of threshold.\"\"\"\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return resource[\"sensitivity\"] != \"low\"\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l2_044": [
+    "def is_sensitive_wrong_threshold(resource: str | dict[str, Any], threshold: str = \"medium\") -> bool:\n    \"\"\"Treat 'low' as sensitive regardless of threshold.\"\"\"\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return resource[\"sensitivity\"] != \"low\"\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l2_045": [
+    "def is_sensitive_wrong_threshold(resource: str | dict[str, Any], threshold: str = \"medium\") -> bool:\n    \"\"\"Treat 'low' as sensitive regardless of threshold.\"\"\"\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return resource[\"sensitivity\"] != \"low\"\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l2_046": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l2_047": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l2_048": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l2_049": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l2_050": [
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l3_001": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_002": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_003": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_004": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_005": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_006": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_007": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_008": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_009": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_010": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_011": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l3_012": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l3_013": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l3_014": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l3_015": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def audit_access_no_decision(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    decision: bool,\n) -> str:\n    \"\"\"Generate audit log but omit the decision (incomplete).\"\"\"\n    if isinstance(subject, str):\n        subject = parse_subject_missing_level(subject)\n    if isinstance(resource, str):\n        resource = parse_resource_wrong_sensitivity(resource)\n    return (\n        f\"[{subject['role']}/{subject['department']}/L{subject['level']}] \"\n        f\"{action} {resource['type']}:{resource['sensitivity']}:{resource['owner']}\"\n    )\n",
+    "def action_priority_swapped(action: str) -> int:\n    \"\"\"Return reversed priorities (read highest, admin lowest).\"\"\"\n    if action not in _VALID_ACTIONS:\n        raise ValueError(f\"Invalid action: {action!r}\")\n    return {\"read\": 4, \"write\": 3, \"delete\": 2, \"admin\": 1}[action]\n"
+  ],
+  "quorix_l3_016": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l3_017": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l3_018": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l3_019": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l3_020": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n"
+  ],
+  "quorix_l3_021": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_022": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_023": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_024": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_025": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_026": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n",
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l3_027": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n",
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l3_028": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n",
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l3_029": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n",
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l3_030": [
+    "def parse_policy_inverted_effect(policy: str) -> dict[str, Any]:\n    \"\"\"Parse policy but swap allow/deny (inverted logic).\"\"\"\n    match = _POLICY_PATTERN.match(policy)\n    if not match:\n        return {\"condition\": \"True\", \"effect\": \"allow\"}\n    effect = match.group(\"effect\").strip()\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return {\"condition\": match.group(\"condition\").strip(), \"effect\": inverted}\n",
+    "def resolve_policies_allow_first(policies: list[str] | list[dict[str, Any]]) -> list[dict[str, Any]]:\n    \"\"\"Sort policies so allow policies take precedence (priority reversed).\"\"\"\n    parsed = []\n    for p in policies:\n        if isinstance(p, str):\n            m = _POLICY_PATTERN.match(p)\n            if m:\n                parsed.append({\"condition\": m.group(\"condition\").strip(), \"effect\": m.group(\"effect\").strip()})\n    return sorted(parsed, key=lambda p: 0 if p[\"effect\"] == \"allow\" else 1)\n"
+  ],
+  "quorix_l3_031": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_032": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_033": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_034": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_035": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def authorize_deny_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return False (trivially wrong).\"\"\"\n    return False\n"
+  ],
+  "quorix_l3_036": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def format_resource_wrong_sensitivity(type: str, sensitivity: str, owner: str) -> str:\n    \"\"\"Format a resource string with a hard-coded sensitivity.\"\"\"\n    return f\"type={type};sensitivity=low;owner={owner}\"\n"
+  ],
+  "quorix_l3_037": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def format_resource_wrong_sensitivity(type: str, sensitivity: str, owner: str) -> str:\n    \"\"\"Format a resource string with a hard-coded sensitivity.\"\"\"\n    return f\"type={type};sensitivity=low;owner={owner}\"\n"
+  ],
+  "quorix_l3_038": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def format_resource_wrong_sensitivity(type: str, sensitivity: str, owner: str) -> str:\n    \"\"\"Format a resource string with a hard-coded sensitivity.\"\"\"\n    return f\"type={type};sensitivity=low;owner={owner}\"\n"
+  ],
+  "quorix_l3_039": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def format_resource_wrong_sensitivity(type: str, sensitivity: str, owner: str) -> str:\n    \"\"\"Format a resource string with a hard-coded sensitivity.\"\"\"\n    return f\"type={type};sensitivity=low;owner={owner}\"\n"
+  ],
+  "quorix_l3_040": [
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n",
+    "def format_resource_wrong_sensitivity(type: str, sensitivity: str, owner: str) -> str:\n    \"\"\"Format a resource string with a hard-coded sensitivity.\"\"\"\n    return f\"type={type};sensitivity=low;owner={owner}\"\n"
+  ],
+  "quorix_l3_041": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def make_policy_inverted_effect(condition: str, effect: str) -> str:\n    \"\"\"Format a policy with the effect inverted.\"\"\"\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return f\"({condition}) -> {inverted}\"\n"
+  ],
+  "quorix_l3_042": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def make_policy_inverted_effect(condition: str, effect: str) -> str:\n    \"\"\"Format a policy with the effect inverted.\"\"\"\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return f\"({condition}) -> {inverted}\"\n"
+  ],
+  "quorix_l3_043": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def make_policy_inverted_effect(condition: str, effect: str) -> str:\n    \"\"\"Format a policy with the effect inverted.\"\"\"\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return f\"({condition}) -> {inverted}\"\n"
+  ],
+  "quorix_l3_044": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def make_policy_inverted_effect(condition: str, effect: str) -> str:\n    \"\"\"Format a policy with the effect inverted.\"\"\"\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return f\"({condition}) -> {inverted}\"\n"
+  ],
+  "quorix_l3_045": [
+    "def suggest_role_inverted_mapping(history: list[dict[str, Any]]) -> str:\n    \"\"\"Suggest a role with inverted action-to-role mapping.\"\"\"\n    if not history:\n        return \"director\"\n    counts: dict[str, int] = {}\n    for entry in history:\n        action = entry.get(\"action\", \"read\")\n        counts[action] = counts.get(action, 0) + 1\n    top_action = max(counts, key=counts.get)\n    mapping = {\n        \"read\": \"intern\",\n        \"write\": \"director\",\n        \"delete\": \"engineer\",\n        \"admin\": \"manager\",\n    }\n    return mapping.get(top_action, \"director\")\n",
+    "def make_policy_inverted_effect(condition: str, effect: str) -> str:\n    \"\"\"Format a policy with the effect inverted.\"\"\"\n    inverted = \"deny\" if effect == \"allow\" else \"allow\"\n    return f\"({condition}) -> {inverted}\"\n"
+  ],
+  "quorix_l3_046": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_047": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_048": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_049": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ],
+  "quorix_l3_050": [
+    "def list_allowed_actions_all_actions(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> list[str]:\n    \"\"\"Claim every action is allowed.\"\"\"\n    return list(_VALID_ACTIONS)\n",
+    "def authorize_allow_all(\n    subject: str | dict[str, Any],\n    resource: str | dict[str, Any],\n    action: str,\n    policies: list[str] | list[dict[str, Any]],\n    default: bool = False,\n) -> bool:\n    \"\"\"Always return True (trivially wrong).\"\"\"\n    return True\n"
+  ]
+}

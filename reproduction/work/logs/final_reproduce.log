@@ -1,0 +1,28 @@
+[1/6] Verifying manifest...
+manifest OK: 5 models, E1_main present, no missing files
+[2/6] Rebuilding final-five Pass@1 table...
+Wrote /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/results/tables/pass_at_1_final_five.csv
+Provenance: /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/results/tables/rebuild_provenance.json
+[3/6] Rebuilding statistical tests...
+Running: /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/.venv-lock/bin/python3 /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/scripts/run_statistical_tests_clean.py /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/outputs/metrics/qwen_3b_metrics.jsonl /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/outputs/metrics/qwen_7b_metrics.jsonl /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/outputs/metrics/codellama_7b_instruct_q5_k_m_metrics.jsonl /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/outputs/metrics/deepseek_v4_flash_main_metrics.jsonl /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/outputs/metrics/longcat_2_0_main_metrics.jsonl --output /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/results/tables/statistical_tests_clean.tmp.csv --seed 0
+Wrote statistical test results to /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/results/tables/statistical_tests_clean.tmp.csv
+57 of 80 comparisons significant after BH correction at p < 0.05
+
+statistical_tests_clean.csv: numerical values agree with frozen baseline
+Copied frozen baseline to /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/results/tables/statistical_tests_clean.csv
+[4/6] Checking Times New Roman...
+Times New Roman found: /System/Library/Fonts/Supplemental/Times New Roman.ttf
+[5/6] Rebuilding submission figures...
+Wrote figures to /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/figures
+[6/6] Verifying output...
+PASS: pass_at_1_final_five.csv matches frozen baseline (byte-identical)
+
+=== REPRODUCTION HASH SUMMARY ===
+Input manifest:  e1890b2ead5fb069f3358a126e55dd56e71efc58a6db4a367ab4658ccfbf5e1e
+Candidate table: f064535d8b07e514b6f0d61ff982adaeb281c113b6f5f3f088fcf8680895c763
+Frozen table:    f064535d8b07e514b6f0d61ff982adaeb281c113b6f5f3f088fcf8680895c763
+
+Outputs in: /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output
+Logs in: /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/logs
+
+=== REPRODUCTION COMPLETE ===

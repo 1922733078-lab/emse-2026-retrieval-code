@@ -1,0 +1,1078 @@
+task_id,model,condition,strategy,sample_id,passed,max_char_similarity,max_token_jaccard,distance_to_gold,distance_to_distractor,snippet_functions_called,n_distractor_specific_markers,distractor_specific_literals,distractor_specific_functions
+fluxon_l1_001,LongCat-2.0,distractor,standard,0,False,0.574,0.562,0.613,0.426,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_001,LongCat-2.0,distractor,standard,1,False,0.518,0.510,0.718,0.482,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_001,LongCat-2.0,distractor,standard,2,False,0.530,0.528,0.583,0.470,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_001,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.654,0.500,0.579,0.346,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_001,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.635,0.483,0.561,0.365,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_002,LongCat-2.0,distractor,standard,0,False,0.089,0.118,0.933,0.911,0,1,['1'],[]
+fluxon_l1_002,LongCat-2.0,distractor,standard,1,False,0.577,0.525,0.576,0.423,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_002,LongCat-2.0,distractor,standard,2,False,0.534,0.562,0.706,0.466,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_002,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.647,0.525,0.573,0.353,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_002,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.615,0.508,0.585,0.385,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_003,LongCat-2.0,distractor,standard,0,False,0.179,0.211,0.893,0.821,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_003,LongCat-2.0,distractor,standard,1,False,0.639,0.551,0.616,0.361,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_003,LongCat-2.0,distractor,standard,2,False,0.632,0.525,0.573,0.368,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_003,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.632,0.473,0.608,0.368,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_003,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.620,0.492,0.579,0.380,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_004,LongCat-2.0,distractor,standard,0,False,0.592,0.500,0.636,0.408,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_004,LongCat-2.0,distractor,standard,1,False,0.654,0.500,0.579,0.346,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_004,LongCat-2.0,distractor,standard,2,False,0.468,0.500,0.633,0.532,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_004,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.654,0.500,0.579,0.346,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_004,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.632,0.525,0.573,0.368,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_005,LongCat-2.0,distractor,standard,0,False,0.654,0.500,0.579,0.346,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_005,LongCat-2.0,distractor,standard,1,False,0.587,0.581,0.757,0.413,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_005,LongCat-2.0,distractor,standard,2,False,0.521,0.542,0.718,0.479,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_005,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.654,0.500,0.579,0.346,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l1_005,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.544,0.519,0.590,0.456,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l1_006,LongCat-2.0,distractor,standard,0,False,0.574,0.452,0.648,0.426,0,1,"[""'ver'""]",[]
+fluxon_l1_006,LongCat-2.0,distractor,standard,1,False,0.035,0.333,0.922,0.965,0,2,"[""'ver'"", '3']",[]
+fluxon_l1_006,LongCat-2.0,distractor,standard,2,False,0.383,0.362,0.714,0.617,1,5,"[""'Return True for every packet if any packet is valid (composition bug).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l1_006,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.574,0.452,0.648,0.426,0,1,"[""'ver'""]",[]
+fluxon_l1_008,LongCat-2.0,distractor,standard,0,False,0.144,0.171,0.901,0.856,1,1,[],['validate_fluxon_packet_empty_v3']
+fluxon_l1_008,LongCat-2.0,distractor,standard,1,False,0.074,0.221,0.894,0.926,0,2,"[""'ver'"", '3']",[]
+fluxon_l1_008,LongCat-2.0,distractor,standard,2,False,0.144,0.171,0.901,0.856,1,1,[],['validate_fluxon_packet_empty_v3']
+fluxon_l1_008,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.192,0.292,0.855,0.808,0,2,"[""'ver'"", '3']",[]
+fluxon_l1_008,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.628,0.476,0.532,0.372,0,2,"[""'ver'"", '3']",[]
+fluxon_l1_009,LongCat-2.0,distractor,standard,0,False,0.125,0.184,0.930,0.875,1,1,[],['validate_fluxon_packet_empty_v3']
+fluxon_l1_009,LongCat-2.0,distractor,standard,1,False,0.144,0.171,0.901,0.856,1,1,[],['validate_fluxon_packet_empty_v3']
+fluxon_l1_009,LongCat-2.0,distractor,standard,2,False,0.656,0.525,0.536,0.344,0,2,"[""'ver'"", '3']",[]
+fluxon_l1_009,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.364,0.357,0.593,0.636,0,1,"[""'ver'""]",[]
+fluxon_l1_009,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.621,0.425,0.605,0.379,0,1,"[""'ver'""]",[]
+fluxon_l1_010,LongCat-2.0,distractor,standard,0,False,0.578,0.476,0.657,0.422,0,1,"[""'ver'""]",[]
+fluxon_l1_010,LongCat-2.0,distractor,standard,1,False,0.144,0.171,0.901,0.856,1,1,[],['validate_fluxon_packet_empty_v3']
+fluxon_l1_010,LongCat-2.0,distractor,standard,2,False,0.528,0.457,0.662,0.472,0,1,"[""'ver'""]",[]
+fluxon_l1_010,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.361,0.357,0.600,0.639,0,1,"[""'ver'""]",[]
+fluxon_l1_010,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.620,0.425,0.612,0.380,0,1,"[""'ver'""]",[]
+fluxon_l1_024,LongCat-2.0,distractor,standard,1,False,0.711,0.660,0.623,0.289,0,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", ""'ver'"", '1']",[]
+fluxon_l1_026,LongCat-2.0,distractor,standard,1,False,0.462,0.375,0.576,0.538,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l1_026,LongCat-2.0,distractor,standard,2,False,0.727,0.636,0.688,0.273,2,11,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'Invalid Fluxon packet format: '"", ""'Return True for every version except version 1 (inverted logic).'"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'"", ""'ver'""]","['is_legacy_packet_inverted', 'parse_fluxon_packet_wrong_key']"
+fluxon_l1_026,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.395,0.415,0.730,0.605,0,1,"[""'Invalid Fluxon packet format: '""]",[]
+fluxon_l1_026,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.446,0.452,0.835,0.554,0,1,"[""'Invalid Fluxon packet format: '""]",[]
+fluxon_l1_027,LongCat-2.0,distractor,standard,0,False,0.733,0.625,0.685,0.267,2,11,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'Invalid Fluxon packet format: '"", ""'Return True for every version except version 1 (inverted logic).'"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'"", ""'ver'""]","['is_legacy_packet_inverted', 'parse_fluxon_packet_wrong_key']"
+fluxon_l1_027,LongCat-2.0,distractor,standard,2,False,0.462,0.375,0.576,0.538,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l1_027,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.788,0.549,0.877,0.212,0,6,"[""'-'"", ""'Invalid Fluxon packet format: '"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'""]",[]
+fluxon_l1_027,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.788,0.549,0.877,0.212,0,6,"[""'-'"", ""'Invalid Fluxon packet format: '"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'""]",[]
+fluxon_l1_028,LongCat-2.0,distractor,standard,0,False,0.670,0.538,0.717,0.330,2,11,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'Invalid Fluxon packet format: '"", ""'Return True for every version except version 1 (inverted logic).'"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'"", ""'ver'""]","['is_legacy_packet_inverted', 'parse_fluxon_packet_wrong_key']"
+fluxon_l1_028,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.674,0.467,0.668,0.326,0,7,"[""'-'"", ""'Invalid Fluxon packet format: '"", ""'Return True for every version except version 1 (inverted logic).'"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'""]",[]
+fluxon_l1_028,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.674,0.467,0.668,0.326,0,7,"[""'-'"", ""'Invalid Fluxon packet format: '"", ""'Return True for every version except version 1 (inverted logic).'"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'""]",[]
+fluxon_l1_029,LongCat-2.0,distractor,standard,0,False,0.518,0.481,0.553,0.482,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l1_029,LongCat-2.0,distractor,standard,2,False,0.462,0.375,0.576,0.538,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l1_029,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.791,0.549,0.877,0.209,0,6,"[""'-'"", ""'Invalid Fluxon packet format: '"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'""]",[]
+fluxon_l1_029,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.446,0.452,0.835,0.554,0,1,"[""'Invalid Fluxon packet format: '""]",[]
+fluxon_l1_030,LongCat-2.0,distractor,standard,1,False,0.747,0.622,0.931,0.253,2,9,"[""'-'"", ""'Invalid Fluxon packet format: '"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'"", ""'ver'""]","['is_legacy_packet_inverted', 'parse_fluxon_packet_wrong_key']"
+fluxon_l1_030,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.387,0.423,0.786,0.613,0,1,"[""'Invalid Fluxon packet format: '""]",[]
+fluxon_l1_030,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.678,0.467,0.665,0.322,0,7,"[""'-'"", ""'Invalid Fluxon packet format: '"", ""'Return True for every version except version 1 (inverted logic).'"", ""'channel'"", ""'checksum'"", ""'payload'"", ""'tokens'""]",[]
+fluxon_l1_031,LongCat-2.0,distractor,standard,1,False,0.244,0.273,0.757,0.756,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_031,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.743,0.615,0.617,0.257,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_031,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.743,0.615,0.617,0.257,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_032,LongCat-2.0,distractor,standard,2,False,0.188,0.192,0.872,0.812,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_032,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.743,0.615,0.617,0.257,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_032,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.720,0.548,0.599,0.280,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_033,LongCat-2.0,distractor,standard,0,False,0.188,0.192,0.872,0.812,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_033,LongCat-2.0,distractor,standard,1,False,0.179,0.188,0.897,0.821,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_033,LongCat-2.0,distractor,standard,2,False,0.188,0.192,0.872,0.812,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_033,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.717,0.531,0.739,0.283,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_033,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.188,0.192,0.872,0.812,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_034,LongCat-2.0,distractor,standard,1,False,0.177,0.194,0.892,0.823,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_034,LongCat-2.0,distractor,standard,2,False,0.743,0.615,0.617,0.257,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_034,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.710,0.516,0.613,0.290,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_034,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.710,0.516,0.613,0.290,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_035,LongCat-2.0,distractor,standard,0,False,0.188,0.192,0.872,0.812,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_035,LongCat-2.0,distractor,standard,1,False,0.188,0.192,0.872,0.812,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_035,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.188,0.192,0.872,0.812,1,1,[],['decode_fluxon_frame_strip_brackets']
+fluxon_l1_035,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.766,0.531,0.567,0.234,0,3,"[""'['"", ""']'"", '1']",[]
+fluxon_l1_036,LongCat-2.0,distractor,standard,0,False,0.503,0.714,0.846,0.497,1,4,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", '2']",['token_value_digit_only']
+fluxon_l1_036,LongCat-2.0,distractor,standard,1,False,0.635,0.652,0.784,0.365,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_036,LongCat-2.0,distractor,standard,2,False,0.144,0.278,0.857,0.856,1,1,[],['token_value_digit_only']
+fluxon_l1_036,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.583,0.512,0.810,0.417,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_036,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.583,0.512,0.810,0.417,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_037,LongCat-2.0,distractor,standard,0,False,0.536,0.569,0.815,0.464,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_037,LongCat-2.0,distractor,standard,1,False,0.666,0.732,0.845,0.334,1,4,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", '2']",['token_value_digit_only']
+fluxon_l1_037,LongCat-2.0,distractor,standard,2,False,0.592,0.630,0.797,0.408,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_037,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.599,0.537,0.793,0.401,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_037,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.599,0.537,0.793,0.401,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_038,LongCat-2.0,distractor,standard,0,False,0.621,0.638,0.789,0.379,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_038,LongCat-2.0,distractor,standard,1,False,0.597,0.638,0.797,0.403,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_038,LongCat-2.0,distractor,standard,2,False,0.144,0.278,0.857,0.856,1,1,[],['token_value_digit_only']
+fluxon_l1_038,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.602,0.550,0.806,0.398,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_039,LongCat-2.0,distractor,standard,0,False,0.144,0.278,0.857,0.856,1,1,[],['token_value_digit_only']
+fluxon_l1_039,LongCat-2.0,distractor,standard,1,False,0.314,0.359,0.841,0.686,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_039,LongCat-2.0,distractor,standard,2,False,0.594,0.617,0.796,0.406,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_039,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.583,0.524,0.824,0.417,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_040,LongCat-2.0,distractor,standard,0,False,0.621,0.638,0.789,0.379,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_040,LongCat-2.0,distractor,standard,1,False,0.621,0.638,0.789,0.379,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_040,LongCat-2.0,distractor,standard,2,False,0.597,0.638,0.797,0.403,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", '2']",['token_value_digit_only']
+fluxon_l1_040,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.596,0.537,0.808,0.404,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_040,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.600,0.583,0.839,0.400,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l1_041,LongCat-2.0,distractor,standard,1,False,0.744,0.731,0.780,0.256,1,6,"[""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l1_043,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.766,0.600,0.809,0.234,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l1_047,LongCat-2.0,distractor,standard,1,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_047,LongCat-2.0,distractor,standard,2,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_047,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_047,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_048,LongCat-2.0,distractor,standard,2,False,0.137,0.143,0.952,0.863,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_048,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.703,0.529,0.778,0.297,0,1,"[""'FXN::'""]",[]
+fluxon_l1_048,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.726,0.464,0.790,0.274,0,1,"[""'FXN::'""]",[]
+fluxon_l1_049,LongCat-2.0,distractor,standard,1,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_049,LongCat-2.0,distractor,standard,2,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_049,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_049,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.112,0.139,0.949,0.888,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l1_050,LongCat-2.0,distractor,standard,0,False,0.758,0.565,0.809,0.242,0,1,"[""'FXN::'""]",[]
+fluxon_l1_050,LongCat-2.0,distractor,standard,2,False,0.758,0.565,0.809,0.242,0,1,"[""'FXN::'""]",[]
+fluxon_l1_050,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.728,0.500,0.794,0.272,0,1,"[""'FXN::'""]",[]
+fluxon_l1_050,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.736,0.509,0.765,0.264,0,1,"[""'FXN::'""]",[]
+fluxon_l2_001,LongCat-2.0,distractor,standard,1,False,0.635,0.473,0.606,0.365,1,3,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_001,LongCat-2.0,distractor,standard,2,False,0.653,0.530,0.597,0.347,1,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'ver'"", '3']",['parse_fluxon_packet_wrong_key']
+fluxon_l2_002,LongCat-2.0,distractor,standard,0,False,0.664,0.507,0.592,0.336,1,3,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_002,LongCat-2.0,distractor,standard,1,False,0.661,0.493,0.594,0.339,1,3,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_002,LongCat-2.0,distractor,standard,2,False,0.453,0.382,0.734,0.547,0,1,['3'],[]
+fluxon_l2_003,LongCat-2.0,distractor,standard,0,False,0.134,0.171,0.884,0.866,1,1,[],['validate_fluxon_packet_empty_v3']
+fluxon_l2_003,LongCat-2.0,distractor,standard,1,False,0.564,0.417,0.623,0.436,1,5,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", ""'ver'"", '3']",['parse_fluxon_packet_wrong_key']
+fluxon_l2_003,LongCat-2.0,distractor,standard,2,False,0.468,0.372,0.658,0.532,1,3,"[""'ver'"", '3']",['parse_fluxon_packet_wrong_key']
+fluxon_l2_003,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.635,0.486,0.606,0.365,1,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'ver'"", '3']",['parse_fluxon_packet_wrong_key']
+fluxon_l2_004,LongCat-2.0,distractor,standard,0,False,0.673,0.493,0.588,0.327,1,3,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_004,LongCat-2.0,distractor,standard,1,False,0.508,0.391,0.626,0.492,0,1,['3'],[]
+fluxon_l2_004,LongCat-2.0,distractor,standard,2,False,0.439,0.402,0.692,0.561,1,6,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",['parse_fluxon_packet_wrong_key']
+fluxon_l2_005,LongCat-2.0,distractor,standard,1,False,0.500,0.500,0.659,0.500,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_006,LongCat-2.0,distractor,standard,0,False,0.571,0.483,0.598,0.429,1,3,"[""'-'"", ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_006,LongCat-2.0,distractor,standard,1,False,0.385,0.447,0.684,0.615,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_006,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.598,0.424,0.548,0.402,0,1,"[""'-'""]",[]
+fluxon_l2_006,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.620,0.448,0.561,0.380,0,1,"[""'-'""]",[]
+fluxon_l2_007,LongCat-2.0,distractor,standard,0,False,0.680,0.547,0.584,0.320,1,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_007,LongCat-2.0,distractor,standard,1,False,0.683,0.547,0.583,0.317,1,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_007,LongCat-2.0,distractor,standard,2,False,0.665,0.547,0.591,0.335,1,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_007,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.482,0.373,0.600,0.518,0,1,"[""'-'""]",[]
+fluxon_l2_008,LongCat-2.0,distractor,standard,0,False,0.448,0.432,0.659,0.552,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_008,LongCat-2.0,distractor,standard,1,False,0.379,0.474,0.707,0.621,1,2,"[""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_008,LongCat-2.0,distractor,standard,2,False,0.537,0.467,0.654,0.463,2,7,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['parse_fluxon_packet_wrong_key', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_008,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.533,0.426,0.576,0.467,0,1,"[""'-'""]",[]
+fluxon_l2_008,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.533,0.426,0.577,0.467,0,1,"[""'-'""]",[]
+fluxon_l2_009,LongCat-2.0,distractor,standard,0,False,0.645,0.547,0.601,0.355,1,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_009,LongCat-2.0,distractor,standard,1,False,0.656,0.556,0.575,0.344,1,4,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_009,LongCat-2.0,distractor,standard,2,False,0.565,0.431,0.601,0.435,1,3,"[""'-'"", ""'ver'""]",['parse_fluxon_packet_wrong_key']
+fluxon_l2_009,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.515,0.384,0.588,0.485,0,1,"[""'-'""]",[]
+fluxon_l2_009,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.520,0.389,0.585,0.480,0,1,"[""'-'""]",[]
+fluxon_l2_010,LongCat-2.0,distractor,standard,0,False,0.540,0.507,0.653,0.460,2,7,"['""Parse a packet but return \'ver\' instead of \'version\' (key mismatch).""', ""'-'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['parse_fluxon_packet_wrong_key', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_010,LongCat-2.0,distractor,standard,1,False,0.660,0.537,0.599,0.340,1,3,"[""'ver'"", '3']",['parse_fluxon_packet_wrong_key']
+fluxon_l2_010,LongCat-2.0,distractor,standard,2,False,0.366,0.450,0.714,0.634,1,3,"[""'ver'"", '3']",['parse_fluxon_packet_wrong_key']
+fluxon_l2_010,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.617,0.441,0.563,0.383,0,2,"[""'-'"", '3']",[]
+fluxon_l2_010,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.442,0.358,0.634,0.558,0,2,"[""'-'"", '3']",[]
+fluxon_l2_011,LongCat-2.0,distractor,standard,0,False,0.434,0.476,0.699,0.566,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_011,LongCat-2.0,distractor,standard,1,False,0.471,0.380,0.618,0.529,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_011,LongCat-2.0,distractor,standard,2,False,0.458,0.425,0.642,0.542,0,10,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0', '89']",[]
+fluxon_l2_011,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.490,0.429,0.619,0.510,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_011,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.531,0.429,0.630,0.469,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_012,LongCat-2.0,distractor,standard,0,False,0.486,0.408,0.619,0.514,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_012,LongCat-2.0,distractor,standard,1,False,0.553,0.478,0.634,0.447,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l2_012,LongCat-2.0,distractor,standard,2,False,0.469,0.429,0.645,0.531,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l2_012,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.549,0.429,0.623,0.451,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_012,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.542,0.449,0.626,0.458,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_013,LongCat-2.0,distractor,standard,0,False,0.553,0.443,0.630,0.447,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_013,LongCat-2.0,distractor,standard,1,False,0.426,0.448,0.683,0.574,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_013,LongCat-2.0,distractor,standard,2,False,0.476,0.395,0.613,0.524,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_013,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.555,0.443,0.629,0.445,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_013,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.468,0.437,0.636,0.532,0,10,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0', '89']",[]
+fluxon_l2_014,LongCat-2.0,distractor,standard,0,False,0.500,0.471,0.606,0.500,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_014,LongCat-2.0,distractor,standard,1,False,0.459,0.395,0.629,0.541,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_014,LongCat-2.0,distractor,standard,2,False,0.491,0.464,0.613,0.509,0,10,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0', '89']",[]
+fluxon_l2_014,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.572,0.450,0.627,0.428,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_014,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.532,0.429,0.632,0.468,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_015,LongCat-2.0,distractor,standard,0,False,0.483,0.449,0.624,0.517,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_015,LongCat-2.0,distractor,standard,1,False,0.497,0.443,0.641,0.503,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_015,LongCat-2.0,distractor,standard,2,False,0.503,0.483,0.600,0.497,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_015,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.504,0.462,0.605,0.496,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_015,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.486,0.449,0.622,0.514,0,9,"[""'-'"", ""'A'"", ""'alpha'"", ""'beta'"", '0', '1', '10', '10.0', '100.0']",[]
+fluxon_l2_016,LongCat-2.0,distractor,standard,0,False,0.410,0.518,0.868,0.590,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_016,LongCat-2.0,distractor,standard,1,False,0.246,0.298,0.909,0.754,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_016,LongCat-2.0,distractor,standard,2,False,0.294,0.449,0.913,0.706,2,8,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_016,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.198,0.260,0.897,0.802,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_016,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.305,0.500,0.922,0.695,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_017,LongCat-2.0,distractor,standard,0,False,0.085,0.234,0.892,0.915,2,5,"[""'alpha'"", ""'beta'"", '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_017,LongCat-2.0,distractor,standard,1,False,0.338,0.468,0.887,0.662,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_017,LongCat-2.0,distractor,standard,2,False,0.299,0.412,0.913,0.701,2,8,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_017,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.181,0.409,0.884,0.819,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l2_017,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.089,0.146,0.948,0.911,0,3,"[""'ABCDEFG'"", '100.0', '2']",[]
+fluxon_l2_018,LongCat-2.0,distractor,standard,0,False,0.260,0.469,0.913,0.740,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_018,LongCat-2.0,distractor,standard,1,False,0.302,0.458,0.911,0.698,2,8,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_018,LongCat-2.0,distractor,standard,2,False,0.178,0.345,0.903,0.822,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_018,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.214,0.270,0.924,0.786,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_018,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.341,0.381,0.892,0.659,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l2_019,LongCat-2.0,distractor,standard,0,False,0.415,0.527,0.871,0.585,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_019,LongCat-2.0,distractor,standard,1,False,0.421,0.483,0.869,0.579,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_019,LongCat-2.0,distractor,standard,2,False,0.330,0.372,0.893,0.670,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_019,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.151,0.298,0.921,0.849,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_019,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.317,0.536,0.919,0.683,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_020,LongCat-2.0,distractor,standard,0,False,0.298,0.449,0.897,0.702,2,8,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_020,LongCat-2.0,distractor,standard,1,False,0.349,0.468,0.882,0.651,1,9,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",['token_value_digit_only']
+fluxon_l2_020,LongCat-2.0,distractor,standard,2,False,0.198,0.268,0.894,0.802,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_020,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.255,0.302,0.890,0.745,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_020,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.275,0.302,0.891,0.725,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_021,LongCat-2.0,distractor,standard,0,False,0.547,0.500,0.672,0.453,0,2,"[""'A'"", '10']",[]
+fluxon_l2_021,LongCat-2.0,distractor,standard,1,False,0.652,0.633,0.677,0.348,0,2,"[""'A'"", '10']",[]
+fluxon_l2_021,LongCat-2.0,distractor,standard,2,False,0.543,0.523,0.706,0.457,0,2,"[""'A'"", '10']",[]
+fluxon_l2_021,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.472,0.410,0.712,0.528,0,2,"[""'A'"", '10']",[]
+fluxon_l2_021,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.478,0.441,0.709,0.522,0,2,"[""'A'"", '10']",[]
+fluxon_l2_022,LongCat-2.0,distractor,standard,0,False,0.513,0.490,0.700,0.487,0,2,"[""'A'"", '10']",[]
+fluxon_l2_022,LongCat-2.0,distractor,standard,1,False,0.609,0.581,0.650,0.391,0,2,"[""'A'"", '10']",[]
+fluxon_l2_022,LongCat-2.0,distractor,standard,2,False,0.341,0.500,0.708,0.659,0,2,"[""'A'"", '10']",[]
+fluxon_l2_022,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.482,0.475,0.741,0.518,0,2,"[""'A'"", '10']",[]
+fluxon_l2_022,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.511,0.511,0.727,0.489,0,2,"[""'A'"", '10']",[]
+fluxon_l2_023,LongCat-2.0,distractor,standard,0,False,0.484,0.447,0.741,0.516,0,2,"[""'A'"", '10']",[]
+fluxon_l2_023,LongCat-2.0,distractor,standard,1,False,0.577,0.543,0.682,0.423,0,2,"[""'A'"", '10']",[]
+fluxon_l2_023,LongCat-2.0,distractor,standard,2,False,0.530,0.511,0.712,0.470,0,2,"[""'A'"", '10']",[]
+fluxon_l2_023,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.439,0.474,0.784,0.561,0,2,"[""'A'"", '10']",[]
+fluxon_l2_023,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.555,0.528,0.690,0.445,0,2,"[""'A'"", '10']",[]
+fluxon_l2_024,LongCat-2.0,distractor,standard,0,False,0.301,0.465,0.736,0.699,0,2,"[""'A'"", '10']",[]
+fluxon_l2_024,LongCat-2.0,distractor,standard,1,False,0.338,0.518,0.714,0.662,0,2,"[""'A'"", '10']",[]
+fluxon_l2_024,LongCat-2.0,distractor,standard,2,False,0.444,0.506,0.769,0.556,0,2,"[""'A'"", '10']",[]
+fluxon_l2_024,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.529,0.495,0.711,0.471,0,2,"[""'A'"", '10']",[]
+fluxon_l2_024,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.533,0.500,0.709,0.467,0,2,"[""'A'"", '10']",[]
+fluxon_l2_025,LongCat-2.0,distractor,standard,0,False,0.359,0.543,0.695,0.641,0,2,"[""'A'"", '10']",[]
+fluxon_l2_025,LongCat-2.0,distractor,standard,1,False,0.503,0.466,0.719,0.497,0,2,"[""'A'"", '10']",[]
+fluxon_l2_025,LongCat-2.0,distractor,standard,2,False,0.526,0.442,0.696,0.474,0,2,"[""'A'"", '10']",[]
+fluxon_l2_025,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.329,0.469,0.714,0.671,0,2,"[""'A'"", '10']",[]
+fluxon_l2_025,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.510,0.453,0.720,0.490,0,2,"[""'A'"", '10']",[]
+fluxon_l2_026,LongCat-2.0,distractor,standard,0,False,0.445,0.407,0.875,0.555,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_026,LongCat-2.0,distractor,standard,1,False,0.118,0.271,0.866,0.882,2,2,[],"['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_026,LongCat-2.0,distractor,standard,2,False,0.373,0.373,0.737,0.627,2,7,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_026,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.201,0.225,0.844,0.799,0,3,"[""'['"", ""']'"", '3']",[]
+fluxon_l2_026,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.077,0.141,0.928,0.923,0,4,"[""'['"", ""']'"", ""'ver'"", '3']",[]
+fluxon_l2_027,LongCat-2.0,distractor,standard,0,False,0.466,0.420,0.708,0.534,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_027,LongCat-2.0,distractor,standard,1,False,0.369,0.350,0.735,0.631,2,6,"[""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_027,LongCat-2.0,distractor,standard,2,False,0.429,0.358,0.728,0.571,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_027,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.095,0.183,0.880,0.905,0,3,"[""'['"", ""']'"", ""'ver'""]",[]
+fluxon_l2_027,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.260,0.312,0.824,0.740,1,6,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'['"", ""']'"", ""'ver'"", '3']",['decode_fluxon_frame_strip_brackets']
+fluxon_l2_028,LongCat-2.0,distractor,standard,0,False,0.198,0.225,0.908,0.802,2,2,[],"['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_028,LongCat-2.0,distractor,standard,1,False,0.434,0.429,0.702,0.566,2,6,"[""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_028,LongCat-2.0,distractor,standard,2,False,0.179,0.231,0.903,0.821,2,2,[],"['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_028,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.090,0.208,0.920,0.910,0,3,"[""'['"", ""']'"", '3']",[]
+fluxon_l2_028,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.284,0.271,0.813,0.716,1,3,"[""'['"", ""']'""]",['validate_fluxon_packet_empty_v3']
+fluxon_l2_029,LongCat-2.0,distractor,standard,0,False,0.087,0.230,0.918,0.913,2,2,[],"['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_029,LongCat-2.0,distractor,standard,1,False,0.322,0.326,0.768,0.678,2,6,"[""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_029,LongCat-2.0,distractor,standard,2,False,0.114,0.333,0.912,0.886,2,3,"[""'ver'""]","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_029,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.200,0.217,0.846,0.800,0,3,"[""'['"", ""']'"", '3']",[]
+fluxon_l2_029,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.117,0.234,0.857,0.883,0,3,"[""'['"", ""']'"", '3']",[]
+fluxon_l2_030,LongCat-2.0,distractor,standard,0,False,0.364,0.360,0.738,0.636,2,6,"[""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_030,LongCat-2.0,distractor,standard,1,False,0.131,0.294,0.878,0.869,0,3,"[""'['"", ""']'"", ""'ver'""]",[]
+fluxon_l2_030,LongCat-2.0,distractor,standard,2,False,0.679,0.596,0.601,0.321,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_030,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.198,0.262,0.846,0.802,0,3,"[""'['"", ""']'"", '3']",[]
+fluxon_l2_030,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.191,0.254,0.851,0.809,0,3,"[""'['"", ""']'"", '3']",[]
+fluxon_l2_031,LongCat-2.0,distractor,standard,0,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_031,LongCat-2.0,distractor,standard,1,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_031,LongCat-2.0,distractor,standard,2,False,0.095,0.167,0.873,0.905,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_032,LongCat-2.0,distractor,standard,0,False,0.433,0.432,0.722,0.567,2,6,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'""]","['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_032,LongCat-2.0,distractor,standard,1,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_032,LongCat-2.0,distractor,standard,2,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_032,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_032,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_033,LongCat-2.0,distractor,standard,1,False,0.384,0.365,0.930,0.616,0,2,"[""'FXN::'"", ""'ver'""]",[]
+fluxon_l2_033,LongCat-2.0,distractor,standard,2,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_034,LongCat-2.0,distractor,standard,0,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_034,LongCat-2.0,distractor,standard,1,False,0.345,0.404,0.858,0.655,2,3,"[""'ver'""]","['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_034,LongCat-2.0,distractor,standard,2,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_035,LongCat-2.0,distractor,standard,0,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_035,LongCat-2.0,distractor,standard,1,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_035,LongCat-2.0,distractor,standard,2,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_035,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.106,0.162,0.877,0.894,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_036,LongCat-2.0,distractor,standard,0,False,0.514,0.537,0.842,0.486,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_036,LongCat-2.0,distractor,standard,1,False,0.499,0.537,0.846,0.501,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_036,LongCat-2.0,distractor,standard,2,False,0.469,0.536,0.853,0.531,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_036,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.449,0.577,0.866,0.551,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_036,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.366,0.467,0.831,0.634,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_037,LongCat-2.0,distractor,standard,0,False,0.513,0.537,0.842,0.487,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_037,LongCat-2.0,distractor,standard,1,False,0.416,0.475,0.866,0.584,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_037,LongCat-2.0,distractor,standard,2,False,0.432,0.433,0.867,0.568,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_037,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.361,0.448,0.893,0.639,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_037,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.437,0.488,0.897,0.563,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_038,LongCat-2.0,distractor,standard,0,False,0.095,0.283,0.906,0.905,2,2,[],"['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_038,LongCat-2.0,distractor,standard,1,False,0.518,0.537,0.841,0.482,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_038,LongCat-2.0,distractor,standard,2,False,0.464,0.484,0.860,0.536,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_038,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.417,0.500,0.931,0.583,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_038,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.315,0.333,0.928,0.685,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_039,LongCat-2.0,distractor,standard,0,False,0.400,0.547,0.886,0.600,1,7,"[""'Convert a token using only the digit (ignores the letter).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",['token_value_digit_only']
+fluxon_l2_039,LongCat-2.0,distractor,standard,1,False,0.337,0.426,0.906,0.663,2,8,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_039,LongCat-2.0,distractor,standard,2,False,0.353,0.441,0.940,0.647,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_039,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.349,0.429,0.906,0.651,0,6,"[""'ABCDEFG'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",[]
+fluxon_l2_039,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.398,0.517,0.917,0.602,1,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']",['token_value_digit_only']
+fluxon_l2_040,LongCat-2.0,distractor,standard,0,False,0.458,0.475,0.855,0.542,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_040,LongCat-2.0,distractor,standard,1,False,0.516,0.558,0.841,0.484,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_040,LongCat-2.0,distractor,standard,2,False,0.336,0.484,0.923,0.664,2,10,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '2']","['normalize_channel_value_swapped', 'token_value_digit_only']"
+fluxon_l2_040,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.205,0.288,0.891,0.795,0,3,"[""'ABCDEFG'"", '10.0', '2']",[]
+fluxon_l2_040,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.171,0.288,0.906,0.829,0,2,"[""'ABCDEFG'"", '2']",[]
+fluxon_l2_041,LongCat-2.0,distractor,standard,0,False,0.121,0.383,0.842,0.879,1,3,"[""'ver'"", '3']",['split_fluxon_payload_off_by_one']
+fluxon_l2_041,LongCat-2.0,distractor,standard,1,False,0.415,0.443,0.708,0.585,2,4,"[""'ver'"", '3']","['split_fluxon_payload_off_by_one', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_042,LongCat-2.0,distractor,standard,0,False,0.174,0.200,0.838,0.826,2,2,[],"['split_fluxon_payload_off_by_one', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_042,LongCat-2.0,distractor,standard,1,False,0.560,0.523,0.656,0.440,2,6,"[""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['split_fluxon_payload_off_by_one', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_042,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.494,0.413,0.671,0.506,1,3,"[""'ver'"", '3']",['split_fluxon_payload_off_by_one']
+fluxon_l2_043,LongCat-2.0,distractor,standard,1,False,0.567,0.467,0.643,0.433,0,1,"[""'ver'""]",[]
+fluxon_l2_043,LongCat-2.0,distractor,standard,2,False,0.333,0.276,0.758,0.667,2,4,"[""'ver'"", '3']","['split_fluxon_payload_off_by_one', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_043,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.380,0.455,0.666,0.620,0,1,"[""'ver'""]",[]
+fluxon_l2_044,LongCat-2.0,distractor,standard,0,False,0.339,0.410,0.840,0.661,2,2,[],"['split_fluxon_payload_off_by_one', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_044,LongCat-2.0,distractor,standard,1,False,0.504,0.447,0.684,0.496,1,5,"[""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l2_044,LongCat-2.0,distractor,standard,2,False,0.573,0.523,0.649,0.427,2,6,"[""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['split_fluxon_payload_off_by_one', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_044,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.385,0.340,0.672,0.615,0,1,"[""'ver'""]",[]
+fluxon_l2_045,LongCat-2.0,distractor,standard,0,False,0.076,0.471,0.884,0.924,0,2,"[""'ver'"", '3']",[]
+fluxon_l2_045,LongCat-2.0,distractor,standard,1,False,0.566,0.458,0.599,0.434,1,3,"[""'ver'"", '3']",['split_fluxon_payload_off_by_one']
+fluxon_l2_045,LongCat-2.0,distractor,standard,2,False,0.555,0.459,0.658,0.445,2,6,"[""'Split a Fluxon payload but skip the first token (off-by-one bug).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['split_fluxon_payload_off_by_one', 'validate_fluxon_packet_empty_v3']"
+fluxon_l2_045,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.504,0.444,0.671,0.496,1,3,"[""'ver'"", '3']",['split_fluxon_payload_off_by_one']
+fluxon_l2_046,LongCat-2.0,distractor,standard,0,False,0.605,0.474,0.597,0.395,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_046,LongCat-2.0,distractor,standard,1,False,0.602,0.482,0.601,0.398,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_046,LongCat-2.0,distractor,standard,2,False,0.346,0.418,0.674,0.654,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l2_046,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.507,0.500,0.745,0.493,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_046,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.507,0.500,0.745,0.493,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_047,LongCat-2.0,distractor,standard,0,False,0.469,0.510,0.721,0.531,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_047,LongCat-2.0,distractor,standard,1,False,0.551,0.458,0.627,0.449,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_047,LongCat-2.0,distractor,standard,2,False,0.603,0.482,0.600,0.397,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_047,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.536,0.444,0.619,0.464,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_047,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.455,0.517,0.797,0.545,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l2_048,LongCat-2.0,distractor,standard,0,False,0.380,0.482,0.770,0.620,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l2_048,LongCat-2.0,distractor,standard,1,False,0.543,0.500,0.763,0.457,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_048,LongCat-2.0,distractor,standard,2,False,0.550,0.469,0.625,0.450,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_048,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.599,0.458,0.602,0.401,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_048,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.507,0.500,0.745,0.493,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_049,LongCat-2.0,distractor,standard,0,False,0.591,0.508,0.588,0.409,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_049,LongCat-2.0,distractor,standard,1,False,0.559,0.588,0.750,0.441,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_049,LongCat-2.0,distractor,standard,2,False,0.494,0.483,0.751,0.506,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_049,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.507,0.500,0.745,0.493,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_049,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.463,0.517,0.785,0.537,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l2_050,LongCat-2.0,distractor,standard,0,False,0.420,0.397,0.600,0.580,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l2_050,LongCat-2.0,distractor,standard,1,False,0.540,0.574,0.690,0.460,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_050,LongCat-2.0,distractor,standard,2,False,0.596,0.492,0.585,0.404,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_050,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.509,0.519,0.745,0.491,0,5,"[""'-'"", ""'A'"", '0', '1', '10']",[]
+fluxon_l2_050,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.390,0.413,0.727,0.610,0,6,"[""'-'"", ""'A'"", '0', '1', '10', '89']",[]
+fluxon_l3_001,LongCat-2.0,distractor,standard,0,False,0.328,0.312,0.785,0.672,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_001,LongCat-2.0,distractor,standard,1,False,0.244,0.241,0.832,0.756,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_001,LongCat-2.0,distractor,standard,2,False,0.231,0.209,0.843,0.769,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_001,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.098,0.204,0.925,0.902,0,8,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']",[]
+fluxon_l3_001,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.267,0.206,0.821,0.733,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_002,LongCat-2.0,distractor,standard,0,False,0.077,0.169,0.935,0.923,3,3,[],"['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_002,LongCat-2.0,distractor,standard,1,False,0.296,0.274,0.804,0.704,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_002,LongCat-2.0,distractor,standard,2,False,0.268,0.287,0.885,0.732,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_002,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.043,0.176,0.932,0.957,0,7,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0']",[]
+fluxon_l3_002,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.070,0.184,0.922,0.930,0,7,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0']",[]
+fluxon_l3_003,LongCat-2.0,distractor,standard,1,False,0.249,0.243,0.812,0.751,3,10,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_003,LongCat-2.0,distractor,standard,2,False,0.313,0.306,0.793,0.687,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_003,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.085,0.197,0.952,0.915,0,8,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']",[]
+fluxon_l3_003,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.047,0.168,0.931,0.953,0,7,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0', '3']",[]
+fluxon_l3_004,LongCat-2.0,distractor,standard,0,False,0.352,0.312,0.771,0.648,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_004,LongCat-2.0,distractor,standard,1,False,0.306,0.241,0.797,0.694,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_004,LongCat-2.0,distractor,standard,2,False,0.085,0.237,0.920,0.915,3,5,"[""'alpha'"", ""'ver'""]","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_004,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.308,0.304,0.796,0.692,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_004,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.063,0.253,0.910,0.937,0,7,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0']",[]
+fluxon_l3_005,LongCat-2.0,distractor,standard,0,False,0.306,0.312,0.795,0.694,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_005,LongCat-2.0,distractor,standard,1,False,0.186,0.248,0.935,0.814,1,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_005,LongCat-2.0,distractor,standard,2,False,0.359,0.343,0.767,0.641,3,14,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_005,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.136,0.222,0.822,0.864,0,8,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']",[]
+fluxon_l3_005,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.117,0.176,0.914,0.883,0,8,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", ""'ver'"", '10.0', '100.0', '3']",[]
+fluxon_l3_006,LongCat-2.0,distractor,standard,0,False,0.382,0.410,0.829,0.618,0,4,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",[]
+fluxon_l3_006,LongCat-2.0,distractor,standard,1,False,0.438,0.400,0.804,0.562,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_006,LongCat-2.0,distractor,standard,2,False,0.425,0.410,0.810,0.575,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_006,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.443,0.405,0.802,0.557,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_007,LongCat-2.0,distractor,standard,0,False,0.467,0.472,0.789,0.533,1,5,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_007,LongCat-2.0,distractor,standard,1,False,0.405,0.422,0.770,0.595,0,2,"[""'ver'"", '3']",[]
+fluxon_l3_007,LongCat-2.0,distractor,standard,2,False,0.440,0.466,0.802,0.560,0,4,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",[]
+fluxon_l3_007,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.281,0.362,0.772,0.719,0,2,"[""'ver'"", '3']",[]
+fluxon_l3_007,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.441,0.447,0.802,0.559,1,5,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_008,LongCat-2.0,distractor,standard,0,False,0.536,0.523,0.755,0.464,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_008,LongCat-2.0,distractor,standard,1,False,0.348,0.370,0.775,0.652,1,2,"[""'ver'""]",['is_legacy_packet_inverted']
+fluxon_l3_008,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.088,0.338,0.873,0.912,0,2,"[""'ver'"", '3']",[]
+fluxon_l3_008,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.343,0.301,0.844,0.657,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_009,LongCat-2.0,distractor,standard,0,False,0.345,0.410,0.823,0.655,0,4,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",[]
+fluxon_l3_009,LongCat-2.0,distractor,standard,1,False,0.441,0.474,0.777,0.559,1,3,"[""'ver'"", '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_009,LongCat-2.0,distractor,standard,2,False,0.304,0.378,0.738,0.696,1,2,"[""'ver'""]",['is_legacy_packet_inverted']
+fluxon_l3_009,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.462,0.453,0.792,0.538,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_010,LongCat-2.0,distractor,standard,1,False,0.154,0.242,0.835,0.846,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_010,LongCat-2.0,distractor,standard,2,False,0.419,0.557,0.813,0.581,0,4,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",[]
+fluxon_l3_010,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.154,0.242,0.835,0.846,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_010,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.438,0.382,0.804,0.562,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_011,LongCat-2.0,distractor,standard,0,False,0.428,0.438,0.770,0.572,0,3,"[""'A'"", '10', '89']",[]
+fluxon_l3_011,LongCat-2.0,distractor,standard,1,False,0.399,0.434,0.787,0.601,0,2,"[""'A'"", '10']",[]
+fluxon_l3_011,LongCat-2.0,distractor,standard,2,False,0.360,0.433,0.809,0.640,0,2,"[""'A'"", '10']",[]
+fluxon_l3_011,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.303,0.480,0.715,0.697,0,2,"[""'A'"", '10']",[]
+fluxon_l3_011,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.402,0.438,0.764,0.598,0,2,"[""'A'"", '10']",[]
+fluxon_l3_012,LongCat-2.0,distractor,standard,0,False,0.231,0.484,0.787,0.769,0,2,"[""'A'"", '10']",[]
+fluxon_l3_012,LongCat-2.0,distractor,standard,1,False,0.387,0.353,0.774,0.613,0,2,"[""'A'"", '10']",[]
+fluxon_l3_012,LongCat-2.0,distractor,standard,2,False,0.499,0.490,0.727,0.501,0,2,"[""'A'"", '10']",[]
+fluxon_l3_012,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.342,0.394,0.792,0.658,0,2,"[""'A'"", '10']",[]
+fluxon_l3_012,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.441,0.435,0.747,0.559,0,2,"[""'A'"", '10']",[]
+fluxon_l3_013,LongCat-2.0,distractor,standard,0,False,0.430,0.512,0.759,0.570,0,2,"[""'A'"", '10']",[]
+fluxon_l3_013,LongCat-2.0,distractor,standard,1,False,0.419,0.455,0.705,0.581,0,2,"[""'A'"", '10']",[]
+fluxon_l3_013,LongCat-2.0,distractor,standard,2,False,0.541,0.506,0.707,0.459,0,2,"[""'A'"", '10']",[]
+fluxon_l3_013,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.445,0.451,0.742,0.555,0,2,"[""'A'"", '10']",[]
+fluxon_l3_013,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.473,0.522,0.731,0.527,0,2,"[""'A'"", '10']",[]
+fluxon_l3_014,LongCat-2.0,distractor,standard,0,False,0.427,0.511,0.801,0.573,0,2,"[""'A'"", '10']",[]
+fluxon_l3_014,LongCat-2.0,distractor,standard,1,False,0.467,0.451,0.731,0.533,0,2,"[""'A'"", '10']",[]
+fluxon_l3_014,LongCat-2.0,distractor,standard,2,False,0.567,0.580,0.695,0.433,0,2,"[""'A'"", '10']",[]
+fluxon_l3_014,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.469,0.451,0.730,0.531,0,2,"[""'A'"", '10']",[]
+fluxon_l3_014,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.394,0.379,0.783,0.606,0,2,"[""'A'"", '10']",[]
+fluxon_l3_015,LongCat-2.0,distractor,standard,0,False,0.515,0.505,0.630,0.485,0,2,"[""'A'"", '10']",[]
+fluxon_l3_015,LongCat-2.0,distractor,standard,1,False,0.235,0.390,0.791,0.765,0,2,"[""'A'"", '10']",[]
+fluxon_l3_015,LongCat-2.0,distractor,standard,2,False,0.343,0.470,0.836,0.657,0,2,"[""'A'"", '10']",[]
+fluxon_l3_015,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.410,0.379,0.771,0.590,0,2,"[""'A'"", '10']",[]
+fluxon_l3_015,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.471,0.460,0.729,0.529,0,2,"[""'A'"", '10']",[]
+fluxon_l3_016,LongCat-2.0,distractor,standard,0,False,0.389,0.429,0.663,0.611,1,5,"[""'A'"", ""'ver'"", '10', '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_016,LongCat-2.0,distractor,standard,1,False,0.536,0.382,0.537,0.464,1,6,"[""'A'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '10', '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_016,LongCat-2.0,distractor,standard,2,False,0.625,0.443,0.472,0.375,0,4,"[""'A'"", ""'ver'"", '10', '3']",[]
+fluxon_l3_016,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.560,0.413,0.522,0.440,0,4,"[""'A'"", ""'ver'"", '10', '3']",[]
+fluxon_l3_017,LongCat-2.0,distractor,standard,0,False,0.097,0.222,0.925,0.903,2,2,[],"['summarize_fluxon_records_all_records', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_017,LongCat-2.0,distractor,standard,1,False,0.499,0.479,0.568,0.501,2,6,"[""'A'"", ""'ver'"", '10', '3']","['summarize_fluxon_records_all_records', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_017,LongCat-2.0,distractor,standard,2,False,0.653,0.500,0.457,0.347,1,4,"[""'A'"", ""'ver'"", '10']",['summarize_fluxon_records_all_records']
+fluxon_l3_018,LongCat-2.0,distractor,standard,0,False,0.629,0.494,0.497,0.371,1,5,"[""'A'"", ""'Summarize but treat all records as valid and none as legacy.'"", ""'ver'"", '10']",['summarize_fluxon_records_all_records']
+fluxon_l3_018,LongCat-2.0,distractor,standard,1,False,0.556,0.446,0.554,0.444,2,8,"[""'A'"", ""'Summarize but treat all records as valid and none as legacy.'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '10', '3']","['summarize_fluxon_records_all_records', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_018,LongCat-2.0,distractor,standard,2,False,0.098,0.222,0.900,0.902,2,2,[],"['summarize_fluxon_records_all_records', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_018,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.567,0.416,0.506,0.433,0,4,"[""'A'"", ""'ver'"", '10', '3']",[]
+fluxon_l3_019,LongCat-2.0,distractor,standard,1,False,0.523,0.421,0.548,0.477,1,5,"[""'A'"", ""'ver'"", '10', '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_019,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.552,0.330,0.516,0.448,0,4,"[""'A'"", ""'ver'"", '10', '3']",[]
+fluxon_l3_020,LongCat-2.0,distractor,standard,0,False,0.456,0.447,0.553,0.544,1,6,"[""'A'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '10', '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_020,LongCat-2.0,distractor,standard,1,False,0.428,0.488,0.646,0.572,1,7,"[""'A'"", ""'Summarize but treat all records as valid and none as legacy.'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '10', '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_021,LongCat-2.0,distractor,standard,0,False,0.299,0.368,0.882,0.701,1,5,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'"", ""'Return True for every packet if any packet is valid (composition bug).'"", ""'ver'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_021,LongCat-2.0,distractor,standard,1,False,0.187,0.231,0.900,0.813,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_batch_any_true']"
+fluxon_l3_021,LongCat-2.0,distractor,standard,2,False,0.360,0.509,0.849,0.640,1,3,"[""'FXN::'"", ""'ver'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_021,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.552,0.686,0.850,0.448,1,3,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_021,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.347,0.466,0.832,0.653,0,1,"[""'FXN::'""]",[]
+fluxon_l3_022,LongCat-2.0,distractor,standard,0,False,0.296,0.486,0.846,0.704,1,4,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'"", ""'ver'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_022,LongCat-2.0,distractor,standard,1,False,0.186,0.231,0.901,0.814,2,2,[],"['repair_fluxon_packet_no_checksum', 'validate_fluxon_batch_any_true']"
+fluxon_l3_022,LongCat-2.0,distractor,standard,2,False,0.597,0.565,0.813,0.403,2,6,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'"", ""'Return True for every packet if any packet is valid (composition bug).'"", ""'ver'""]","['repair_fluxon_packet_no_checksum', 'validate_fluxon_batch_any_true']"
+fluxon_l3_022,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.570,0.686,0.847,0.430,1,3,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_022,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.268,0.450,0.863,0.732,0,2,"[""'FXN::'"", ""'ver'""]",[]
+fluxon_l3_023,LongCat-2.0,distractor,standard,0,False,0.450,0.429,0.826,0.550,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l3_024,LongCat-2.0,distractor,standard,1,False,0.482,0.578,0.760,0.518,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l3_024,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.448,0.449,0.868,0.552,1,4,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'"", ""'ver'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_025,LongCat-2.0,distractor,standard,0,False,0.356,0.406,0.801,0.644,1,1,[],['repair_fluxon_packet_no_checksum']
+fluxon_l3_025,LongCat-2.0,distractor,standard,2,False,0.213,0.389,0.880,0.787,1,5,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'"", ""'Return True for every packet if any packet is valid (composition bug).'"", ""'ver'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_025,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.538,0.700,0.835,0.462,1,3,"[""'Attempt repair but never recompute checksum (missing step).'"", ""'FXN::'""]",['repair_fluxon_packet_no_checksum']
+fluxon_l3_026,LongCat-2.0,distractor,standard,0,False,0.309,0.339,0.889,0.691,2,8,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['group_fluxon_by_channel_missing_key', 'normalize_channel_value_swapped']"
+fluxon_l3_026,LongCat-2.0,distractor,standard,1,False,0.258,0.328,0.906,0.742,1,7,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_026,LongCat-2.0,distractor,standard,2,False,0.222,0.254,0.951,0.778,1,7,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_026,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.170,0.190,0.930,0.830,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_026,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.154,0.182,0.921,0.846,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_027,LongCat-2.0,distractor,standard,0,False,0.140,0.232,0.938,0.860,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_027,LongCat-2.0,distractor,standard,1,False,0.298,0.328,0.893,0.702,1,7,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_027,LongCat-2.0,distractor,standard,2,False,0.293,0.333,0.894,0.707,1,7,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_027,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.143,0.207,0.935,0.857,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_027,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.160,0.203,0.933,0.840,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_028,LongCat-2.0,distractor,standard,0,False,0.168,0.241,0.956,0.832,1,5,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_028,LongCat-2.0,distractor,standard,2,False,0.233,0.250,0.903,0.767,1,7,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_028,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.137,0.203,0.939,0.863,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_029,LongCat-2.0,distractor,standard,0,False,0.322,0.344,0.885,0.678,1,7,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_029,LongCat-2.0,distractor,standard,1,False,0.283,0.250,0.874,0.717,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_029,LongCat-2.0,distractor,standard,2,False,0.188,0.235,0.959,0.812,1,6,"[""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_029,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.130,0.197,0.936,0.870,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_029,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.129,0.219,0.947,0.871,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_030,LongCat-2.0,distractor,standard,0,False,0.273,0.344,0.901,0.727,1,7,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_030,LongCat-2.0,distractor,standard,1,False,0.157,0.182,0.943,0.843,1,1,[],['normalize_channel_value_swapped']
+fluxon_l3_030,LongCat-2.0,distractor,standard,2,False,0.325,0.362,0.884,0.675,2,8,"[""'Group records but crash on unknown channel (missing validation).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['group_fluxon_by_channel_missing_key', 'normalize_channel_value_swapped']"
+fluxon_l3_030,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.126,0.239,0.929,0.874,0,4,"[""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_030,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.201,0.284,0.961,0.799,1,6,"[""'Normalize with alpha and beta swapped (wrong branch).'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['normalize_channel_value_swapped']
+fluxon_l3_031,LongCat-2.0,distractor,standard,0,False,0.459,0.391,0.712,0.541,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_031,LongCat-2.0,distractor,standard,1,False,0.363,0.391,0.764,0.637,1,7,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_031,LongCat-2.0,distractor,standard,2,False,0.378,0.357,0.827,0.622,1,6,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'['"", ""']'"", ""'ver'"", '3']",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_031,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.254,0.288,0.850,0.746,0,4,"[""'['"", ""']'"", ""'ver'"", '3']",[]
+fluxon_l3_031,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.139,0.250,0.863,0.861,0,4,"[""'['"", ""']'"", ""'ver'"", '3']",[]
+fluxon_l3_032,LongCat-2.0,distractor,standard,0,False,0.365,0.370,0.763,0.635,1,7,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_032,LongCat-2.0,distractor,standard,1,False,0.353,0.368,0.836,0.647,1,5,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'['"", ""']'"", ""'ver'""]",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_032,LongCat-2.0,distractor,standard,2,False,0.413,0.420,0.737,0.587,1,7,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_032,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.255,0.284,0.850,0.745,0,4,"[""'['"", ""']'"", ""'ver'"", '3']",[]
+fluxon_l3_033,LongCat-2.0,distractor,standard,0,False,0.458,0.386,0.709,0.542,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_033,LongCat-2.0,distractor,standard,1,False,0.399,0.362,0.742,0.601,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_033,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.123,0.218,0.876,0.877,0,4,"[""'['"", ""']'"", ""'ver'"", '3']",[]
+fluxon_l3_034,LongCat-2.0,distractor,standard,0,False,0.576,0.532,0.780,0.424,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_034,LongCat-2.0,distractor,standard,1,False,0.309,0.352,0.857,0.691,1,6,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'['"", ""']'"", ""'ver'"", '3']",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_034,LongCat-2.0,distractor,standard,2,False,0.370,0.343,0.761,0.630,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_034,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.440,0.391,0.717,0.560,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_035,LongCat-2.0,distractor,standard,0,False,0.426,0.410,0.726,0.574,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_035,LongCat-2.0,distractor,standard,1,False,0.461,0.386,0.711,0.539,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_035,LongCat-2.0,distractor,standard,2,False,0.446,0.391,0.709,0.554,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_035,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.079,0.227,0.912,0.921,0,3,"[""'['"", ""']'"", '3']",[]
+fluxon_l3_035,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.430,0.366,0.723,0.570,2,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'['"", ""']'"", ""'ver'"", '3']","['decode_fluxon_frame_strip_brackets', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_036,LongCat-2.0,distractor,standard,0,False,0.536,0.586,0.757,0.464,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_036,LongCat-2.0,distractor,standard,1,False,0.126,0.214,0.858,0.874,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_036,LongCat-2.0,distractor,standard,2,False,0.415,0.375,0.949,0.585,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_036,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.500,0.515,0.774,0.500,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_037,LongCat-2.0,distractor,standard,0,False,0.174,0.250,0.814,0.826,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_037,LongCat-2.0,distractor,standard,1,False,0.170,0.290,0.818,0.830,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_037,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.484,0.459,0.782,0.516,1,5,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']",['validate_fluxon_packet_empty_v3']
+fluxon_l3_038,LongCat-2.0,distractor,standard,0,False,0.159,0.290,0.833,0.841,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_038,LongCat-2.0,distractor,standard,1,False,0.144,0.281,0.838,0.856,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_038,LongCat-2.0,distractor,standard,2,False,0.500,0.515,0.774,0.500,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_038,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.093,0.315,0.860,0.907,0,3,"[""'Return True for every version except version 1 (inverted logic).'"", ""'ver'"", '3']",[]
+fluxon_l3_038,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.481,0.453,0.784,0.519,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_039,LongCat-2.0,distractor,standard,0,False,0.136,0.208,0.830,0.864,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_039,LongCat-2.0,distractor,standard,1,False,0.131,0.227,0.866,0.869,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_039,LongCat-2.0,distractor,standard,2,False,0.136,0.190,0.834,0.864,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_039,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.459,0.415,0.795,0.541,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_040,LongCat-2.0,distractor,standard,0,False,0.440,0.343,0.804,0.560,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_040,LongCat-2.0,distractor,standard,1,False,0.163,0.290,0.829,0.837,2,2,[],"['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_040,LongCat-2.0,distractor,standard,2,False,0.525,0.479,0.762,0.475,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_040,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.499,0.523,0.775,0.501,2,6,"[""'Return True for every version except version 1 (inverted logic).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '3']","['is_legacy_packet_inverted', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_041,LongCat-2.0,distractor,standard,0,False,0.393,0.370,0.731,0.607,2,6,"[""'ABCDEFG'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_041,LongCat-2.0,distractor,standard,1,False,0.227,0.323,0.894,0.773,1,5,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'ver'"", '2']",['token_value_digit_only']
+fluxon_l3_041,LongCat-2.0,distractor,standard,2,False,0.350,0.306,0.767,0.650,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_042,LongCat-2.0,distractor,standard,1,False,0.326,0.321,0.783,0.674,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_042,LongCat-2.0,distractor,standard,2,False,0.124,0.263,0.892,0.876,1,6,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'ver'"", '2', '3']",['token_value_digit_only']
+fluxon_l3_042,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.064,0.156,0.921,0.936,0,4,"[""'ABCDEFG'"", ""'ver'"", '2', '3']",[]
+fluxon_l3_043,LongCat-2.0,distractor,standard,0,False,0.356,0.330,0.765,0.644,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_043,LongCat-2.0,distractor,standard,1,False,0.403,0.391,0.739,0.597,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_043,LongCat-2.0,distractor,standard,2,False,0.335,0.333,0.760,0.665,2,6,"[""'ABCDEFG'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_044,LongCat-2.0,distractor,standard,0,False,0.326,0.262,0.781,0.674,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_044,LongCat-2.0,distractor,standard,1,False,0.367,0.337,0.759,0.633,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_044,LongCat-2.0,distractor,standard,2,False,0.398,0.366,0.741,0.602,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_045,LongCat-2.0,distractor,standard,1,False,0.404,0.366,0.738,0.596,2,8,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']","['token_value_digit_only', 'validate_fluxon_packet_empty_v3']"
+fluxon_l3_045,LongCat-2.0,distractor,standard,2,False,0.368,0.324,0.759,0.632,1,7,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'Validate but allow empty payload for version 3 instead of version 1.'"", ""'ver'"", '2', '3']",['token_value_digit_only']
+fluxon_l3_045,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.118,0.250,0.920,0.882,0,3,"[""'ABCDEFG'"", ""'ver'"", '2']",[]
+fluxon_l3_045,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.183,0.261,0.797,0.817,1,6,"[""'ABCDEFG'"", ""'Convert a token using only the digit (ignores the letter).'"", ""'ver'"", '2', '3']",['token_value_digit_only']
+fluxon_l3_046,LongCat-2.0,distractor,standard,0,False,0.224,0.266,0.891,0.776,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_046,LongCat-2.0,distractor,standard,1,False,0.192,0.301,0.905,0.808,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_046,LongCat-2.0,distractor,standard,2,False,0.175,0.258,0.916,0.825,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_046,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.093,0.160,0.947,0.907,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_046,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.128,0.182,0.926,0.872,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_047,LongCat-2.0,distractor,standard,0,False,0.331,0.329,0.849,0.669,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_047,LongCat-2.0,distractor,standard,1,False,0.049,0.157,0.954,0.951,2,2,[],"['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_047,LongCat-2.0,distractor,standard,2,False,0.022,0.146,0.960,0.978,2,2,[],"['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_047,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.022,0.183,0.963,0.978,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_047,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.030,0.169,0.945,0.970,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_048,LongCat-2.0,distractor,standard,0,False,0.235,0.291,0.886,0.765,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_048,LongCat-2.0,distractor,standard,1,False,0.321,0.368,0.852,0.679,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_048,LongCat-2.0,distractor,standard,2,False,0.281,0.385,0.868,0.719,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_048,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.203,0.333,0.892,0.797,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_048,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.040,0.132,0.926,0.960,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_049,LongCat-2.0,distractor,standard,0,False,0.288,0.338,0.866,0.712,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_049,LongCat-2.0,distractor,standard,1,False,0.280,0.379,0.882,0.720,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_049,LongCat-2.0,distractor,standard,2,False,0.270,0.325,0.872,0.730,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_049,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.069,0.266,0.883,0.931,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_049,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.057,0.312,0.905,0.943,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_050,LongCat-2.0,distractor,standard,0,False,0.214,0.379,0.908,0.786,2,10,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'Normalize with alpha and beta swapped (wrong branch).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_050,LongCat-2.0,distractor,standard,1,False,0.048,0.279,0.917,0.952,2,8,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']","['decode_fluxon_frame_strip_brackets', 'normalize_channel_value_swapped']"
+fluxon_l3_050,LongCat-2.0,distractor,standard,2,False,0.242,0.421,0.889,0.758,1,8,"[""'Decode a frame by simply stripping brackets (incomplete parsing).'"", ""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",['decode_fluxon_frame_strip_brackets']
+fluxon_l3_050,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.197,0.323,0.895,0.803,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+fluxon_l3_050,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.028,0.187,0.948,0.972,0,6,"[""'['"", ""']'"", ""'alpha'"", ""'beta'"", '10.0', '100.0']",[]
+nimbla_l1_001,LongCat-2.0,distractor,standard,1,False,0.656,0.606,0.515,0.344,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_001,LongCat-2.0,distractor,standard,2,False,0.773,0.720,0.375,0.227,1,1,[],['parse_nimbla_series_descending']
+nimbla_l1_001,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.734,0.729,0.464,0.266,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_004,LongCat-2.0,distractor,standard,2,False,0.734,0.705,0.682,0.266,1,5,"[""'A'"", ""'Convert a Nimbla token using Fluxon-style value (letter * 10 + digit).'"", ""'Invalid Nimbla token: '"", '10']",['nimbla_value_fluxon_style']
+nimbla_l1_004,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.480,0.475,0.756,0.520,0,3,"[""'A'"", ""'Invalid Nimbla token: '"", '10']",[]
+nimbla_l1_005,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.591,0.660,0.721,0.409,1,6,"[""'A'"", ""'Convert a Nimbla token using Fluxon-style value (letter * 10 + digit).'"", ""'Invalid Nimbla token: '"", '0', '10']",['nimbla_value_fluxon_style']
+nimbla_l1_008,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.721,0.642,0.472,0.279,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_008,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.756,0.705,0.449,0.244,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_009,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.720,0.683,0.473,0.280,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_010,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.771,0.623,0.440,0.229,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_011,LongCat-2.0,distractor,standard,2,False,0.785,0.676,0.485,0.215,0,1,['10'],[]
+nimbla_l1_011,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.571,0.406,0.626,0.429,0,1,['10'],[]
+nimbla_l1_012,LongCat-2.0,distractor,standard,0,False,0.784,0.647,0.479,0.216,0,1,['10'],[]
+nimbla_l1_012,LongCat-2.0,distractor,standard,2,False,0.784,0.647,0.479,0.216,0,1,['10'],[]
+nimbla_l1_012,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.557,0.375,0.643,0.443,0,1,['10'],[]
+nimbla_l1_013,LongCat-2.0,distractor,standard,0,False,0.627,0.559,0.581,0.373,0,1,['10'],[]
+nimbla_l1_013,LongCat-2.0,distractor,standard,2,False,0.627,0.559,0.581,0.373,0,1,['10'],[]
+nimbla_l1_013,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.674,0.537,0.583,0.326,0,1,['10'],[]
+nimbla_l1_014,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.601,0.615,0.595,0.399,1,2,['10'],['nimbla_value_fluxon_style']
+nimbla_l1_015,LongCat-2.0,distractor,standard,0,False,0.780,0.683,0.907,0.220,0,8,"[""'Invalid Nimbla entry: '"", ""'Invalid Nimbla series: '"", ""'Parse a series but allow descending timestamps (boundary bug).'"", ""'entries'"", ""'timestamps'"", ""'token'"", ""'ts'"", ""'values'""]",[]
+nimbla_l1_017,LongCat-2.0,distractor,standard,0,False,0.650,0.614,0.520,0.350,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_017,LongCat-2.0,distractor,standard,1,False,0.703,0.694,0.484,0.297,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_017,LongCat-2.0,distractor,standard,2,False,0.702,0.683,0.485,0.298,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_017,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.696,0.652,0.488,0.304,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_032,LongCat-2.0,distractor,standard,2,False,0.550,0.475,0.714,0.450,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l1_035,LongCat-2.0,distractor,standard,0,False,0.124,0.421,0.885,0.876,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l1_037,LongCat-2.0,distractor,standard,0,False,0.296,0.429,0.925,0.704,1,1,[],['forecast_next_zero']
+nimbla_l1_037,LongCat-2.0,distractor,standard,1,False,0.107,0.190,0.932,0.893,1,1,[],['forecast_next_zero']
+nimbla_l1_037,LongCat-2.0,distractor,standard,2,False,0.664,0.714,0.841,0.336,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l1_037,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.535,0.409,0.897,0.465,0,1,['0.0'],[]
+nimbla_l1_038,LongCat-2.0,distractor,standard,1,False,0.449,0.286,0.749,0.551,0,1,['0.0'],[]
+nimbla_l1_039,LongCat-2.0,distractor,standard,0,False,0.205,0.220,0.892,0.795,0,1,['0.0'],[]
+nimbla_l1_039,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.369,0.214,0.922,0.631,0,1,['0.0'],[]
+nimbla_l1_039,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.369,0.214,0.922,0.631,0,1,['0.0'],[]
+nimbla_l1_041,LongCat-2.0,distractor,standard,0,False,0.110,0.241,0.931,0.890,1,1,[],['summarize_nimbla_count_only']
+nimbla_l1_041,LongCat-2.0,distractor,standard,1,False,0.110,0.259,0.927,0.890,1,1,[],['summarize_nimbla_count_only']
+nimbla_l1_041,LongCat-2.0,distractor,standard,2,False,0.110,0.241,0.931,0.890,1,1,[],['summarize_nimbla_count_only']
+nimbla_l1_043,LongCat-2.0,distractor,standard,0,False,0.619,0.561,0.935,0.381,0,1,"[""'Return a summary with only the count (missing statistics).'""]",[]
+nimbla_l1_043,LongCat-2.0,distractor,standard,2,False,0.762,0.742,0.925,0.238,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_044,LongCat-2.0,distractor,standard,1,False,0.480,0.523,0.947,0.520,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_044,LongCat-2.0,distractor,standard,2,False,0.762,0.742,0.925,0.238,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_044,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.169,0.742,0.919,0.831,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_045,LongCat-2.0,distractor,standard,0,False,0.169,0.742,0.919,0.831,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_045,LongCat-2.0,distractor,standard,1,False,0.173,0.742,0.922,0.827,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_045,LongCat-2.0,distractor,standard,2,False,0.762,0.742,0.925,0.238,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_045,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.127,0.241,0.932,0.873,1,1,[],['summarize_nimbla_count_only']
+nimbla_l1_046,LongCat-2.0,distractor,standard,0,False,0.166,0.742,0.920,0.834,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l1_046,LongCat-2.0,distractor,standard,1,False,0.128,0.276,0.938,0.872,1,1,[],['summarize_nimbla_count_only']
+nimbla_l1_047,LongCat-2.0,distractor,standard,0,False,0.781,0.741,0.433,0.219,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_047,LongCat-2.0,distractor,standard,1,False,0.763,0.694,0.445,0.237,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_047,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.751,0.729,0.452,0.249,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_047,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.797,0.729,0.423,0.203,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l1_048,LongCat-2.0,distractor,standard,0,False,0.691,0.667,0.434,0.309,1,1,[],['parse_nimbla_series_descending']
+nimbla_l2_004,LongCat-2.0,distractor,standard,1,False,0.291,0.246,0.876,0.709,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l2_004,LongCat-2.0,distractor,standard,2,False,0.170,0.183,0.952,0.830,1,2,['0.0'],['forecast_next_zero']
+nimbla_l2_004,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.151,0.179,0.929,0.849,0,1,['0.0'],[]
+nimbla_l2_006,LongCat-2.0,distractor,standard,2,False,0.689,0.575,0.923,0.311,0,1,"[""'Return a summary with only the count (missing statistics).'""]",[]
+nimbla_l2_009,LongCat-2.0,distractor,standard,1,False,0.721,0.717,0.472,0.279,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_009,LongCat-2.0,distractor,standard,2,False,0.781,0.705,0.433,0.219,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_009,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.787,0.717,0.429,0.213,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_010,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.239,0.643,0.818,0.761,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l2_016,LongCat-2.0,distractor,standard,2,False,0.600,0.528,0.689,0.400,2,4,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'"", ""'Merge series but first series wins on timestamp conflicts.'""]","['merge_nimbla_series_first_wins', 'normalize_nimbla_minmax_inverted']"
+nimbla_l2_016,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.180,0.391,0.808,0.820,0,1,"[""'Merge series but first series wins on timestamp conflicts.'""]",[]
+nimbla_l2_016,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.273,0.434,0.804,0.727,2,2,[],"['merge_nimbla_series_first_wins', 'normalize_nimbla_minmax_inverted']"
+nimbla_l2_017,LongCat-2.0,distractor,standard,1,False,0.502,0.457,0.754,0.498,1,2,['0.0'],['merge_nimbla_series_first_wins']
+nimbla_l2_017,LongCat-2.0,distractor,standard,2,False,0.690,0.596,0.643,0.310,1,4,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l2_017,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.428,0.389,0.776,0.572,1,4,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l2_018,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.063,0.590,0.933,0.937,1,1,[],['parse_nimbla_series_descending']
+nimbla_l2_019,LongCat-2.0,distractor,standard,0,False,0.127,0.381,0.862,0.873,1,1,[],['summarize_nimbla_count_only']
+nimbla_l2_019,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.110,0.262,0.936,0.890,0,1,"[""'Return a summary with only the count (missing statistics).'""]",[]
+nimbla_l2_019,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.140,0.390,0.880,0.860,1,1,[],['summarize_nimbla_count_only']
+nimbla_l2_022,LongCat-2.0,distractor,standard,0,False,0.783,0.735,0.571,0.217,0,1,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'""]",[]
+nimbla_l2_025,LongCat-2.0,distractor,standard,0,False,0.316,0.242,0.717,0.684,0,1,"[""'Always forecast 0.0 regardless of series.'""]",[]
+nimbla_l2_025,LongCat-2.0,distractor,standard,1,False,0.570,0.536,0.619,0.430,1,2,"[""'Always forecast 0.0 regardless of series.'""]",['forecast_next_zero']
+nimbla_l2_026,LongCat-2.0,distractor,standard,0,False,0.640,0.561,0.934,0.360,0,1,"[""'Return a summary with only the count (missing statistics).'""]",[]
+nimbla_l2_027,LongCat-2.0,distractor,standard,0,False,0.683,0.551,0.497,0.317,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_027,LongCat-2.0,distractor,standard,1,False,0.648,0.600,0.460,0.352,1,1,[],['parse_nimbla_series_descending']
+nimbla_l2_027,LongCat-2.0,distractor,standard,2,False,0.795,0.741,0.424,0.205,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_027,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.778,0.694,0.435,0.222,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_028,LongCat-2.0,distractor,standard,0,False,0.180,0.185,0.887,0.820,0,1,['0.0'],[]
+nimbla_l2_028,LongCat-2.0,distractor,standard,1,False,0.266,0.176,0.791,0.734,0,1,['0.0'],[]
+nimbla_l2_028,LongCat-2.0,distractor,standard,2,False,0.262,0.262,0.832,0.738,0,1,['0.0'],[]
+nimbla_l2_028,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.178,0.190,0.915,0.822,0,1,['0.0'],[]
+nimbla_l2_028,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.216,0.208,0.908,0.784,0,1,['0.0'],[]
+nimbla_l2_035,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.252,0.643,0.808,0.748,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l2_035,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.582,0.583,0.725,0.418,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l2_036,LongCat-2.0,distractor,standard,0,False,0.406,0.417,0.857,0.594,0,2,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",[]
+nimbla_l2_036,LongCat-2.0,distractor,standard,1,False,0.514,0.625,0.857,0.486,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l2_036,LongCat-2.0,distractor,standard,2,False,0.197,0.218,0.890,0.803,0,1,['0.0'],[]
+nimbla_l2_036,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.295,0.316,0.932,0.705,0,1,['0.0'],[]
+nimbla_l2_040,LongCat-2.0,distractor,standard,0,False,0.236,0.426,0.760,0.764,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l2_043,LongCat-2.0,distractor,standard,1,False,0.255,0.192,0.815,0.745,1,2,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'""]",['normalize_nimbla_minmax_inverted']
+nimbla_l2_045,LongCat-2.0,distractor,standard,1,False,0.605,0.531,0.520,0.395,0,1,"[""'Return timestamps whose values are below the threshold (inverted logic).'""]",[]
+nimbla_l2_048,LongCat-2.0,distractor,standard,0,False,0.563,0.483,0.707,0.437,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l2_048,LongCat-2.0,distractor,standard,1,False,0.518,0.491,0.809,0.482,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return timestamps whose values are below the threshold (inverted logic).'""]",['merge_nimbla_series_first_wins']
+nimbla_l2_050,LongCat-2.0,distractor,standard,0,False,0.785,0.705,0.516,0.215,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_050,LongCat-2.0,distractor,standard,1,False,0.791,0.741,0.426,0.209,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_050,LongCat-2.0,distractor,standard,2,False,0.793,0.741,0.426,0.207,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l2_050,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.795,0.741,0.424,0.205,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_001,LongCat-2.0,distractor,standard,0,False,0.305,0.348,0.834,0.695,2,2,[],"['merge_nimbla_series_first_wins', 'normalize_nimbla_minmax_inverted']"
+nimbla_l3_001,LongCat-2.0,distractor,standard,2,False,0.355,0.442,0.803,0.645,2,2,[],"['merge_nimbla_series_first_wins', 'normalize_nimbla_minmax_inverted']"
+nimbla_l3_001,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.281,0.211,0.852,0.719,1,3,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'"", ""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_003,LongCat-2.0,distractor,standard,0,False,0.350,0.298,0.816,0.650,2,5,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']","['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_003,LongCat-2.0,distractor,standard,1,False,0.424,0.311,0.778,0.576,2,5,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']","['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_003,LongCat-2.0,distractor,standard,2,False,0.130,0.297,0.855,0.870,2,3,['0.0'],"['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_003,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.423,0.329,0.778,0.577,2,5,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']","['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_004,LongCat-2.0,distractor,standard,0,False,0.526,0.511,0.810,0.474,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_004,LongCat-2.0,distractor,standard,1,False,0.130,0.511,0.873,0.870,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_004,LongCat-2.0,distractor,standard,2,False,0.478,0.434,0.821,0.522,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_004,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.500,0.426,0.821,0.500,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_004,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.117,0.442,0.889,0.883,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_005,LongCat-2.0,distractor,standard,0,False,0.571,0.650,0.632,0.429,0,1,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'""]",[]
+nimbla_l3_005,LongCat-2.0,distractor,standard,2,False,0.540,0.667,0.596,0.460,0,1,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'""]",[]
+nimbla_l3_007,LongCat-2.0,distractor,standard,0,False,0.272,0.200,0.928,0.728,0,1,['0.0'],[]
+nimbla_l3_007,LongCat-2.0,distractor,standard,1,False,0.128,0.164,0.917,0.872,0,1,['0.0'],[]
+nimbla_l3_008,LongCat-2.0,distractor,standard,0,False,0.245,0.356,0.848,0.755,2,4,"[""'Compute moving average with an extra-wide window (off-by-one bug).'"", ""'Merge series but first series wins on timestamp conflicts.'""]","['merge_nimbla_series_first_wins', 'moving_average_off_by_one']"
+nimbla_l3_011,LongCat-2.0,distractor,standard,2,False,0.506,0.467,0.736,0.494,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return timestamps whose values are below the threshold (inverted logic).'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_012,LongCat-2.0,distractor,standard,1,False,0.535,0.641,0.598,0.465,0,1,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'""]",[]
+nimbla_l3_012,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.539,0.703,0.640,0.461,1,2,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'""]",['normalize_nimbla_minmax_inverted']
+nimbla_l3_013,LongCat-2.0,distractor,standard,0,False,0.437,0.394,0.771,0.563,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return a summary with only the count (missing statistics).'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_013,LongCat-2.0,distractor,standard,1,False,0.326,0.333,0.850,0.674,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l3_013,LongCat-2.0,distractor,standard,2,False,0.355,0.311,0.813,0.645,0,1,"[""'Merge series but first series wins on timestamp conflicts.'""]",[]
+nimbla_l3_014,LongCat-2.0,distractor,standard,0,False,0.093,0.278,0.867,0.907,0,1,['0.0'],[]
+nimbla_l3_014,LongCat-2.0,distractor,standard,1,False,0.080,0.341,0.883,0.920,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_014,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.225,0.206,0.889,0.775,0,1,['0.0'],[]
+nimbla_l3_014,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.313,0.309,0.832,0.687,0,1,['0.0'],[]
+nimbla_l3_017,LongCat-2.0,distractor,standard,0,False,0.451,0.378,0.764,0.549,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_017,LongCat-2.0,distractor,standard,2,False,0.349,0.257,0.817,0.651,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_018,LongCat-2.0,distractor,standard,0,False,0.168,0.174,0.880,0.832,0,2,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",[]
+nimbla_l3_018,LongCat-2.0,distractor,standard,1,False,0.221,0.263,0.908,0.779,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l3_018,LongCat-2.0,distractor,standard,2,False,0.198,0.254,0.908,0.802,0,2,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",[]
+nimbla_l3_018,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.179,0.182,0.862,0.821,0,1,['0.0'],[]
+nimbla_l3_018,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.103,0.114,0.928,0.897,0,1,['0.0'],[]
+nimbla_l3_019,LongCat-2.0,distractor,standard,2,False,0.544,0.703,0.569,0.456,0,1,"[""'Return timestamps whose values are below the threshold (inverted logic).'""]",[]
+nimbla_l3_020,LongCat-2.0,distractor,standard,0,False,0.186,0.338,0.833,0.814,1,2,['0.0'],['merge_nimbla_series_first_wins']
+nimbla_l3_020,LongCat-2.0,distractor,standard,1,False,0.337,0.382,0.838,0.663,1,2,['0.0'],['merge_nimbla_series_first_wins']
+nimbla_l3_020,LongCat-2.0,distractor,standard,2,False,0.417,0.464,0.820,0.583,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_020,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.236,0.375,0.859,0.764,0,1,['0.0'],[]
+nimbla_l3_020,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.385,0.304,0.798,0.615,1,4,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_022,LongCat-2.0,distractor,standard,1,False,0.417,0.364,0.781,0.583,2,4,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'"", ""'Merge series but first series wins on timestamp conflicts.'""]","['merge_nimbla_series_first_wins', 'normalize_nimbla_minmax_inverted']"
+nimbla_l3_022,LongCat-2.0,distractor,standard,2,False,0.322,0.391,0.825,0.678,0,1,"[""'Merge series but first series wins on timestamp conflicts.'""]",[]
+nimbla_l3_025,LongCat-2.0,distractor,standard,1,False,0.474,0.474,0.753,0.526,2,4,"[""'Compute moving average with an extra-wide window (off-by-one bug).'"", ""'Merge series but first series wins on timestamp conflicts.'""]","['merge_nimbla_series_first_wins', 'moving_average_off_by_one']"
+nimbla_l3_025,LongCat-2.0,distractor,standard,2,False,0.474,0.500,0.753,0.526,2,4,"[""'Compute moving average with an extra-wide window (off-by-one bug).'"", ""'Merge series but first series wins on timestamp conflicts.'""]","['merge_nimbla_series_first_wins', 'moving_average_off_by_one']"
+nimbla_l3_025,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.347,0.422,0.776,0.653,0,1,"[""'Merge series but first series wins on timestamp conflicts.'""]",[]
+nimbla_l3_026,LongCat-2.0,distractor,standard,0,False,0.581,0.684,0.578,0.419,0,1,"[""'Apply inverted min-max scaling: (max - v) / (max - min).'""]",[]
+nimbla_l3_026,LongCat-2.0,distractor,standard,2,False,0.432,0.622,0.672,0.568,1,1,[],['normalize_nimbla_minmax_inverted']
+nimbla_l3_027,LongCat-2.0,distractor,standard,0,False,0.290,0.308,0.885,0.710,1,2,['0.0'],['forecast_next_zero']
+nimbla_l3_027,LongCat-2.0,distractor,standard,1,False,0.235,0.298,0.950,0.765,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l3_027,LongCat-2.0,distractor,standard,2,False,0.241,0.194,0.905,0.759,1,2,['0.0'],['forecast_next_zero']
+nimbla_l3_027,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.266,0.257,0.904,0.734,0,1,['0.0'],[]
+nimbla_l3_028,LongCat-2.0,distractor,standard,0,False,0.438,0.368,0.771,0.562,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return timestamps whose values are below the threshold (inverted logic).'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_029,LongCat-2.0,distractor,standard,1,False,0.283,0.339,0.847,0.717,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l3_029,LongCat-2.0,distractor,standard,2,False,0.408,0.350,0.786,0.592,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_029,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.370,0.337,0.806,0.630,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_029,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.368,0.368,0.807,0.632,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_030,LongCat-2.0,distractor,standard,0,False,0.315,0.357,0.830,0.685,0,1,['0.0'],[]
+nimbla_l3_030,LongCat-2.0,distractor,standard,1,False,0.351,0.352,0.835,0.649,1,2,['0.0'],['merge_nimbla_series_first_wins']
+nimbla_l3_030,LongCat-2.0,distractor,standard,2,False,0.528,0.475,0.725,0.472,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_030,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.199,0.286,0.804,0.801,0,1,['0.0'],[]
+nimbla_l3_031,LongCat-2.0,distractor,standard,0,False,0.783,0.705,0.432,0.217,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_031,LongCat-2.0,distractor,standard,1,False,0.790,0.717,0.427,0.210,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_031,LongCat-2.0,distractor,standard,2,False,0.757,0.705,0.449,0.243,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_031,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.790,0.741,0.427,0.210,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_032,LongCat-2.0,distractor,standard,0,False,0.410,0.384,0.785,0.590,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return a summary with only the count (missing statistics).'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_032,LongCat-2.0,distractor,standard,1,False,0.368,0.400,0.807,0.632,0,2,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return a summary with only the count (missing statistics).'""]",[]
+nimbla_l3_032,LongCat-2.0,distractor,standard,2,False,0.372,0.396,0.801,0.628,2,2,[],"['merge_nimbla_series_first_wins', 'summarize_nimbla_count_only']"
+nimbla_l3_032,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.301,0.214,0.841,0.699,1,3,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return a summary with only the count (missing statistics).'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_032,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.470,0.359,0.754,0.530,2,4,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Return a summary with only the count (missing statistics).'""]","['merge_nimbla_series_first_wins', 'summarize_nimbla_count_only']"
+nimbla_l3_035,LongCat-2.0,distractor,standard,0,False,0.177,0.404,0.814,0.823,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l3_035,LongCat-2.0,distractor,standard,1,False,0.165,0.368,0.825,0.835,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l3_035,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.397,0.322,0.792,0.603,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_037,LongCat-2.0,distractor,standard,0,False,0.391,0.315,0.795,0.609,1,4,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_037,LongCat-2.0,distractor,standard,1,False,0.364,0.375,0.823,0.636,1,2,['0.0'],['merge_nimbla_series_first_wins']
+nimbla_l3_037,LongCat-2.0,distractor,standard,2,False,0.403,0.350,0.789,0.597,1,4,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_037,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.367,0.329,0.807,0.633,1,4,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_037,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.366,0.326,0.808,0.634,1,4,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']",['merge_nimbla_series_first_wins']
+nimbla_l3_038,LongCat-2.0,distractor,standard,0,False,0.656,0.703,0.681,0.344,1,2,"[""'Return timestamps whose values are below the threshold (inverted logic).'""]",['detect_outliers_below_threshold']
+nimbla_l3_039,LongCat-2.0,distractor,standard,1,False,0.163,0.382,0.829,0.837,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l3_040,LongCat-2.0,distractor,standard,2,False,0.108,0.250,0.924,0.892,1,1,[],['summarize_nimbla_count_only']
+nimbla_l3_040,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.335,0.365,0.945,0.665,0,1,"[""'Return a summary with only the count (missing statistics).'""]",[]
+nimbla_l3_041,LongCat-2.0,distractor,standard,1,False,0.503,0.500,0.738,0.497,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_041,LongCat-2.0,distractor,standard,2,False,0.378,0.292,0.802,0.622,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+nimbla_l3_042,LongCat-2.0,distractor,standard,0,False,0.192,0.254,0.907,0.808,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l3_042,LongCat-2.0,distractor,standard,1,False,0.261,0.273,0.895,0.739,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l3_042,LongCat-2.0,distractor,standard,2,False,0.168,0.231,0.887,0.832,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l3_042,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.203,0.227,0.907,0.797,1,3,"[""'Always forecast 0.0 regardless of series.'"", '0.0']",['forecast_next_zero']
+nimbla_l3_042,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.111,0.107,0.909,0.889,0,1,['0.0'],[]
+nimbla_l3_043,LongCat-2.0,distractor,standard,0,False,0.122,0.281,0.856,0.878,1,1,[],['parse_nimbla_series_descending']
+nimbla_l3_043,LongCat-2.0,distractor,standard,2,False,0.612,0.695,0.927,0.388,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_043,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.746,0.717,0.456,0.254,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_043,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.735,0.717,0.463,0.265,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_044,LongCat-2.0,distractor,standard,0,False,0.379,0.408,0.824,0.621,2,3,['0.0'],"['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_044,LongCat-2.0,distractor,standard,1,False,0.427,0.429,0.796,0.573,2,3,['0.0'],"['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_044,LongCat-2.0,distractor,standard,2,False,0.390,0.375,0.810,0.610,2,3,['0.0'],"['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_044,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.471,0.406,0.754,0.529,2,5,"[""'Always forecast 0.0 regardless of series.'"", ""'Merge series but first series wins on timestamp conflicts.'"", '0.0']","['forecast_next_zero', 'merge_nimbla_series_first_wins']"
+nimbla_l3_045,LongCat-2.0,distractor,standard,0,False,0.790,0.729,0.427,0.210,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_045,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.772,0.741,0.439,0.228,1,2,"[""'Parse a series but allow descending timestamps (boundary bug).'""]",['parse_nimbla_series_descending']
+nimbla_l3_046,LongCat-2.0,distractor,standard,2,False,0.624,0.703,0.504,0.376,0,1,"[""'Return timestamps whose values are below the threshold (inverted logic).'""]",[]
+nimbla_l3_047,LongCat-2.0,distractor,standard,2,False,0.394,0.414,0.793,0.606,2,4,"[""'Compute moving average with an extra-wide window (off-by-one bug).'"", ""'Merge series but first series wins on timestamp conflicts.'""]","['merge_nimbla_series_first_wins', 'moving_average_off_by_one']"
+nimbla_l3_048,LongCat-2.0,distractor,standard,0,False,0.247,0.622,0.917,0.753,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_048,LongCat-2.0,distractor,standard,1,False,0.253,0.657,0.917,0.747,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_048,LongCat-2.0,distractor,standard,2,False,0.248,0.657,0.910,0.752,1,2,"[""'Return a summary with only the count (missing statistics).'""]",['summarize_nimbla_count_only']
+nimbla_l3_048,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.109,0.250,0.921,0.891,1,1,[],['summarize_nimbla_count_only']
+nimbla_l3_049,LongCat-2.0,distractor,standard,2,False,0.354,0.373,0.810,0.646,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l3_049,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.400,0.377,0.808,0.600,1,1,[],['merge_nimbla_series_first_wins']
+nimbla_l3_050,LongCat-2.0,distractor,standard,0,False,0.572,0.597,0.580,0.428,2,4,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Parse a series but allow descending timestamps (boundary bug).'""]","['merge_nimbla_series_first_wins', 'parse_nimbla_series_descending']"
+nimbla_l3_050,LongCat-2.0,distractor,standard,1,False,0.526,0.473,0.612,0.474,2,4,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Parse a series but allow descending timestamps (boundary bug).'""]","['merge_nimbla_series_first_wins', 'parse_nimbla_series_descending']"
+nimbla_l3_050,LongCat-2.0,distractor,standard,2,False,0.569,0.597,0.575,0.431,2,4,"[""'Merge series but first series wins on timestamp conflicts.'"", ""'Parse a series but allow descending timestamps (boundary bug).'""]","['merge_nimbla_series_first_wins', 'parse_nimbla_series_descending']"
+nimbla_l3_050,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.439,0.392,0.593,0.561,1,2,"[""'Merge series but first series wins on timestamp conflicts.'""]",['merge_nimbla_series_first_wins']
+quorix_l1_001,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.137,0.438,0.913,0.863,0,2,"[""'eng'"", ""'intern'""]",[]
+quorix_l1_002,LongCat-2.0,distractor,standard,1,False,0.094,0.556,0.893,0.906,1,4,"[""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]",['parse_subject_missing_level']
+quorix_l1_002,LongCat-2.0,distractor,standard,2,False,0.235,0.269,0.845,0.765,1,1,[],['parse_subject_missing_level']
+quorix_l1_002,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.137,0.438,0.913,0.863,0,2,"[""'eng'"", ""'intern'""]",[]
+quorix_l1_003,LongCat-2.0,distractor,standard,1,False,0.184,0.463,0.782,0.816,0,2,"[""'eng'"", ""'intern'""]",[]
+quorix_l1_003,LongCat-2.0,distractor,standard,2,False,0.240,0.269,0.827,0.760,1,1,[],['parse_subject_missing_level']
+quorix_l1_003,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.158,0.344,0.904,0.842,0,1,"[""'eng'""]",[]
+quorix_l1_004,LongCat-2.0,distractor,standard,1,False,0.095,0.341,0.898,0.905,0,1,"[""'eng'""]",[]
+quorix_l1_004,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.158,0.344,0.904,0.842,0,1,"[""'eng'""]",[]
+quorix_l1_005,LongCat-2.0,distractor,standard,2,False,0.257,0.269,0.849,0.743,1,1,[],['parse_subject_missing_level']
+quorix_l1_006,LongCat-2.0,distractor,standard,0,False,0.060,0.568,0.924,0.940,1,4,"[""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]",['parse_subject_missing_level']
+quorix_l1_006,LongCat-2.0,distractor,standard,1,False,0.257,0.269,0.849,0.743,1,1,[],['parse_subject_missing_level']
+quorix_l1_006,LongCat-2.0,distractor,standard,2,False,0.257,0.269,0.849,0.743,1,1,[],['parse_subject_missing_level']
+quorix_l1_007,LongCat-2.0,distractor,standard,0,False,0.130,0.282,0.861,0.870,0,1,"[""'file'""]",[]
+quorix_l1_007,LongCat-2.0,distractor,standard,1,False,0.084,0.298,0.902,0.916,0,1,"[""'file'""]",[]
+quorix_l1_007,LongCat-2.0,distractor,standard,2,False,0.122,0.231,0.869,0.878,1,1,[],['parse_resource_wrong_sensitivity']
+quorix_l1_008,LongCat-2.0,distractor,standard,0,False,0.153,0.280,0.823,0.847,1,1,[],['parse_resource_wrong_sensitivity']
+quorix_l1_008,LongCat-2.0,distractor,standard,1,False,0.153,0.280,0.823,0.847,1,1,[],['parse_resource_wrong_sensitivity']
+quorix_l1_009,LongCat-2.0,distractor,standard,2,False,0.438,0.440,0.729,0.562,0,1,"[""'low'""]",[]
+quorix_l1_010,LongCat-2.0,distractor,standard,2,False,0.151,0.280,0.824,0.849,1,1,[],['parse_resource_wrong_sensitivity']
+quorix_l1_011,LongCat-2.0,distractor,standard,0,False,0.153,0.280,0.808,0.847,1,1,[],['parse_resource_wrong_sensitivity']
+quorix_l1_011,LongCat-2.0,distractor,standard,1,False,0.153,0.280,0.808,0.847,1,1,[],['parse_resource_wrong_sensitivity']
+quorix_l1_011,LongCat-2.0,distractor,standard,2,False,0.153,0.280,0.808,0.847,1,1,[],['parse_resource_wrong_sensitivity']
+quorix_l1_012,LongCat-2.0,distractor,standard,0,False,0.499,0.440,0.660,0.501,0,1,"[""'eng'""]",[]
+quorix_l1_012,LongCat-2.0,distractor,standard,1,False,0.184,0.312,0.894,0.816,0,1,"[""'eng'""]",[]
+quorix_l1_012,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.185,0.312,0.895,0.815,0,1,"[""'eng'""]",[]
+quorix_l1_013,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.377,0.448,0.619,0.623,0,1,"[""'True'""]",[]
+quorix_l1_014,LongCat-2.0,distractor,standard,0,False,0.413,0.480,0.578,0.587,0,1,"[""'True'""]",[]
+quorix_l1_014,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.173,0.421,0.803,0.827,0,1,"[""'True'""]",[]
+quorix_l1_015,LongCat-2.0,distractor,standard,2,False,0.524,0.459,0.617,0.476,0,2,"[""'True'"", ""'allow'""]",[]
+quorix_l1_015,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.105,0.304,0.902,0.895,0,1,"[""'allow'""]",[]
+quorix_l1_016,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.100,0.304,0.893,0.900,0,1,"[""'allow'""]",[]
+quorix_l1_019,LongCat-2.0,distractor,standard,2,False,0.066,0.547,0.903,0.934,0,1,['False'],[]
+quorix_l1_020,LongCat-2.0,distractor,standard,1,False,0.261,0.250,0.923,0.739,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_020,LongCat-2.0,distractor,standard,2,False,0.128,0.159,0.953,0.872,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_020,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.499,0.545,0.925,0.501,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l1_021,LongCat-2.0,distractor,standard,0,False,0.171,0.188,0.943,0.829,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_021,LongCat-2.0,distractor,standard,1,False,0.385,0.360,0.929,0.615,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_021,LongCat-2.0,distractor,standard,2,False,0.499,0.545,0.925,0.501,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l1_021,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.499,0.545,0.925,0.501,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l1_022,LongCat-2.0,distractor,standard,1,False,0.051,0.182,0.977,0.949,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_022,LongCat-2.0,distractor,standard,2,False,0.209,0.269,0.952,0.791,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_022,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.225,0.198,0.947,0.775,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_023,LongCat-2.0,distractor,standard,0,False,0.275,0.650,0.924,0.725,1,1,[],['authorize_allow_all']
+quorix_l1_023,LongCat-2.0,distractor,standard,1,False,0.148,0.151,0.959,0.852,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_024,LongCat-2.0,distractor,standard,1,False,0.270,0.254,0.944,0.730,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_024,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.186,0.188,0.947,0.814,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l1_024,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.499,0.545,0.925,0.501,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l1_028,LongCat-2.0,distractor,standard,1,False,0.006,0.536,0.988,0.994,0,1,"[""'Generate audit log but omit the decision (incomplete).'""]",[]
+quorix_l1_030,LongCat-2.0,distractor,standard,1,False,0.113,0.361,0.863,0.887,1,1,[],['audit_access_no_decision']
+quorix_l1_040,LongCat-2.0,distractor,standard,2,False,0.262,0.189,0.874,0.738,0,1,"['""Treat \'low\' as sensitive regardless of threshold.""']",[]
+quorix_l1_041,LongCat-2.0,distractor,standard,2,False,0.223,0.207,0.808,0.777,1,1,[],['action_priority_swapped']
+quorix_l1_042,LongCat-2.0,distractor,standard,0,False,0.503,0.550,0.888,0.497,0,1,"[""'Compare roles case-insensitively (the real API uses exact match).'""]",[]
+quorix_l1_047,LongCat-2.0,distractor,standard,0,False,0.315,0.400,0.740,0.685,1,1,[],['list_allowed_actions_all_actions']
+quorix_l1_047,LongCat-2.0,distractor,standard,1,False,0.315,0.400,0.740,0.685,1,1,[],['list_allowed_actions_all_actions']
+quorix_l1_047,LongCat-2.0,distractor,standard,2,False,0.668,0.576,0.536,0.332,1,2,"[""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l1_048,LongCat-2.0,distractor,standard,1,False,0.315,0.400,0.740,0.685,1,1,[],['list_allowed_actions_all_actions']
+quorix_l1_048,LongCat-2.0,distractor,standard,2,False,0.315,0.400,0.740,0.685,1,1,[],['list_allowed_actions_all_actions']
+quorix_l2_001,LongCat-2.0,distractor,standard,2,False,0.376,0.353,0.847,0.624,0,2,"[""'Compare roles case-insensitively (the real API uses exact match).'"", ""'Use a strict greater-than comparison instead of greater-or-equal.'""]",[]
+quorix_l2_002,LongCat-2.0,distractor,standard,0,False,0.418,0.436,0.829,0.582,0,2,"[""'Compare roles case-insensitively (the real API uses exact match).'"", ""'Use a strict greater-than comparison instead of greater-or-equal.'""]",[]
+quorix_l2_003,LongCat-2.0,distractor,standard,0,False,0.366,0.358,0.851,0.634,0,2,"[""'Compare roles case-insensitively (the real API uses exact match).'"", ""'Use a strict greater-than comparison instead of greater-or-equal.'""]",[]
+quorix_l2_006,LongCat-2.0,distractor,standard,0,False,0.044,0.455,0.939,0.956,2,8,"[""'Parse resource but accept any sensitivity (missing validation).'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'file'"", ""'intern'"", ""'low'""]","['parse_resource_wrong_sensitivity', 'parse_subject_missing_level']"
+quorix_l2_006,LongCat-2.0,distractor,standard,1,False,0.157,0.194,0.850,0.843,2,2,[],"['parse_resource_wrong_sensitivity', 'parse_subject_missing_level']"
+quorix_l2_007,LongCat-2.0,distractor,standard,1,False,0.169,0.188,0.811,0.831,2,2,[],"['parse_resource_wrong_sensitivity', 'parse_subject_missing_level']"
+quorix_l2_008,LongCat-2.0,distractor,standard,1,False,0.155,0.188,0.851,0.845,2,2,[],"['parse_resource_wrong_sensitivity', 'parse_subject_missing_level']"
+quorix_l2_008,LongCat-2.0,distractor,standard,2,False,0.185,0.194,0.785,0.815,2,2,[],"['parse_resource_wrong_sensitivity', 'parse_subject_missing_level']"
+quorix_l2_009,LongCat-2.0,distractor,standard,0,False,0.132,0.341,0.855,0.868,0,1,"[""'eng'""]",[]
+quorix_l2_010,LongCat-2.0,distractor,standard,1,False,0.128,0.326,0.856,0.872,0,1,"[""'eng'""]",[]
+quorix_l2_010,LongCat-2.0,distractor,standard,2,False,0.040,0.455,0.940,0.960,2,8,"[""'Parse resource but accept any sensitivity (missing validation).'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'file'"", ""'intern'"", ""'low'""]","['parse_resource_wrong_sensitivity', 'parse_subject_missing_level']"
+quorix_l2_011,LongCat-2.0,distractor,standard,0,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_011,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_012,LongCat-2.0,distractor,standard,1,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_012,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_013,LongCat-2.0,distractor,standard,1,False,0.491,0.529,0.970,0.509,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l2_013,LongCat-2.0,distractor,standard,2,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_013,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_014,LongCat-2.0,distractor,standard,0,False,0.215,0.247,0.977,0.785,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l2_014,LongCat-2.0,distractor,standard,1,False,0.284,0.265,0.974,0.716,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l2_014,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_015,LongCat-2.0,distractor,standard,0,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_015,LongCat-2.0,distractor,standard,1,False,0.491,0.529,0.970,0.509,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l2_015,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.272,0.632,0.938,0.728,1,1,[],['authorize_allow_all']
+quorix_l2_016,LongCat-2.0,distractor,standard,0,False,0.263,0.545,0.978,0.737,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_016,LongCat-2.0,distractor,standard,1,False,0.294,0.577,0.979,0.706,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_016,LongCat-2.0,distractor,standard,2,False,0.153,0.293,0.938,0.847,2,2,[],"['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_016,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.294,0.588,0.979,0.706,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_017,LongCat-2.0,distractor,standard,0,False,0.289,0.577,0.980,0.711,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_017,LongCat-2.0,distractor,standard,1,False,0.184,0.429,0.922,0.816,2,2,[],"['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_017,LongCat-2.0,distractor,standard,2,False,0.184,0.429,0.922,0.816,2,2,[],"['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_017,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.278,0.600,0.979,0.722,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_018,LongCat-2.0,distractor,standard,0,False,0.258,0.492,0.980,0.742,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_018,LongCat-2.0,distractor,standard,1,False,0.302,0.612,0.979,0.698,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_018,LongCat-2.0,distractor,standard,2,False,0.311,0.612,0.979,0.689,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_018,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.273,0.588,0.980,0.727,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_019,LongCat-2.0,distractor,standard,0,False,0.184,0.429,0.922,0.816,2,2,[],"['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_019,LongCat-2.0,distractor,standard,1,False,0.184,0.429,0.922,0.816,2,2,[],"['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_019,LongCat-2.0,distractor,standard,2,False,0.184,0.429,0.922,0.816,2,2,[],"['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_019,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.278,0.600,0.979,0.722,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_020,LongCat-2.0,distractor,standard,1,False,0.294,0.588,0.979,0.706,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_020,LongCat-2.0,distractor,standard,2,False,0.282,0.588,0.979,0.718,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_020,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.278,0.600,0.979,0.722,2,4,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l2_021,LongCat-2.0,distractor,standard,0,False,0.510,0.707,0.557,0.490,1,1,[],['action_priority_swapped']
+quorix_l2_021,LongCat-2.0,distractor,standard,1,False,0.566,0.649,0.590,0.434,1,3,"[""'Return reversed priorities (read highest, admin lowest).'"", ""'Suggest a role with inverted action-to-role mapping.'""]",['action_priority_swapped']
+quorix_l2_021,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.486,0.560,0.608,0.514,1,2,"[""'Return reversed priorities (read highest, admin lowest).'""]",['action_priority_swapped']
+quorix_l2_022,LongCat-2.0,distractor,standard,0,False,0.487,0.560,0.608,0.513,1,2,"[""'Return reversed priorities (read highest, admin lowest).'""]",['action_priority_swapped']
+quorix_l2_022,LongCat-2.0,distractor,standard,1,False,0.435,0.493,0.611,0.565,0,1,"[""'Return reversed priorities (read highest, admin lowest).'""]",[]
+quorix_l2_022,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.566,0.649,0.600,0.434,1,3,"[""'Return reversed priorities (read highest, admin lowest).'"", ""'Suggest a role with inverted action-to-role mapping.'""]",['action_priority_swapped']
+quorix_l2_023,LongCat-2.0,distractor,standard,0,False,0.500,0.698,0.554,0.500,1,1,[],['action_priority_swapped']
+quorix_l2_023,LongCat-2.0,distractor,standard,1,False,0.486,0.560,0.609,0.514,1,2,"[""'Return reversed priorities (read highest, admin lowest).'""]",['action_priority_swapped']
+quorix_l2_023,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.441,0.493,0.617,0.559,1,2,"[""'Return reversed priorities (read highest, admin lowest).'""]",['action_priority_swapped']
+quorix_l2_024,LongCat-2.0,distractor,standard,1,False,0.487,0.560,0.608,0.513,1,2,"[""'Return reversed priorities (read highest, admin lowest).'""]",['action_priority_swapped']
+quorix_l2_024,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.566,0.649,0.600,0.434,1,3,"[""'Return reversed priorities (read highest, admin lowest).'"", ""'Suggest a role with inverted action-to-role mapping.'""]",['action_priority_swapped']
+quorix_l2_025,LongCat-2.0,distractor,standard,0,False,0.566,0.649,0.590,0.434,1,3,"[""'Return reversed priorities (read highest, admin lowest).'"", ""'Suggest a role with inverted action-to-role mapping.'""]",['action_priority_swapped']
+quorix_l2_025,LongCat-2.0,distractor,standard,1,False,0.606,0.649,0.575,0.394,2,4,"[""'Return reversed priorities (read highest, admin lowest).'"", ""'Suggest a role with inverted action-to-role mapping.'""]","['action_priority_swapped', 'suggest_role_inverted_mapping']"
+quorix_l2_025,LongCat-2.0,distractor,standard,2,False,0.566,0.649,0.590,0.434,1,3,"[""'Return reversed priorities (read highest, admin lowest).'"", ""'Suggest a role with inverted action-to-role mapping.'""]",['action_priority_swapped']
+quorix_l2_025,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.486,0.560,0.608,0.514,1,2,"[""'Return reversed priorities (read highest, admin lowest).'""]",['action_priority_swapped']
+quorix_l2_026,LongCat-2.0,distractor,standard,0,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_026,LongCat-2.0,distractor,standard,1,False,0.207,0.324,0.930,0.793,1,1,[],['count_matching_policies_ignore_effect']
+quorix_l2_026,LongCat-2.0,distractor,standard,2,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_027,LongCat-2.0,distractor,standard,0,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_027,LongCat-2.0,distractor,standard,1,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_027,LongCat-2.0,distractor,standard,2,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_028,LongCat-2.0,distractor,standard,0,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_028,LongCat-2.0,distractor,standard,1,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_028,LongCat-2.0,distractor,standard,2,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_029,LongCat-2.0,distractor,standard,0,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_029,LongCat-2.0,distractor,standard,1,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_029,LongCat-2.0,distractor,standard,2,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_030,LongCat-2.0,distractor,standard,0,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_030,LongCat-2.0,distractor,standard,1,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_030,LongCat-2.0,distractor,standard,2,False,0.288,0.568,0.914,0.712,1,2,"[""'Return the total number of policies instead of matching ones.'""]",['count_matching_policies_ignore_effect']
+quorix_l2_031,LongCat-2.0,distractor,standard,0,False,0.499,0.571,0.609,0.501,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_031,LongCat-2.0,distractor,standard,1,False,0.499,0.571,0.609,0.501,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_031,LongCat-2.0,distractor,standard,2,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_031,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_032,LongCat-2.0,distractor,standard,0,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_032,LongCat-2.0,distractor,standard,1,False,0.488,0.560,0.616,0.512,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_032,LongCat-2.0,distractor,standard,2,False,0.488,0.560,0.616,0.512,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_032,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.511,0.520,0.614,0.489,1,2,"[""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l2_033,LongCat-2.0,distractor,standard,0,False,0.495,0.560,0.601,0.505,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_033,LongCat-2.0,distractor,standard,1,False,0.499,0.571,0.609,0.501,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_033,LongCat-2.0,distractor,standard,2,False,0.483,0.538,0.620,0.517,2,4,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['action_priority_swapped', 'list_allowed_actions_all_actions']"
+quorix_l2_033,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_034,LongCat-2.0,distractor,standard,0,False,0.499,0.571,0.609,0.501,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_034,LongCat-2.0,distractor,standard,1,False,0.495,0.560,0.601,0.505,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_034,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_035,LongCat-2.0,distractor,standard,0,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_035,LongCat-2.0,distractor,standard,1,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_035,LongCat-2.0,distractor,standard,2,False,0.642,0.636,0.483,0.358,0,1,"[""'Return reversed priorities (read highest, admin lowest).'""]",[]
+quorix_l2_035,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.505,0.571,0.593,0.495,1,3,"[""'Claim every action is allowed.'"", ""'Return reversed priorities (read highest, admin lowest).'""]",['list_allowed_actions_all_actions']
+quorix_l2_036,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.292,0.556,0.740,0.708,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_037,LongCat-2.0,distractor,standard,1,False,0.294,0.543,0.739,0.706,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_037,LongCat-2.0,distractor,standard,2,False,0.315,0.521,0.720,0.685,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_037,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.292,0.556,0.740,0.708,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_038,LongCat-2.0,distractor,standard,0,False,0.640,0.500,0.312,0.360,1,1,[],['parse_subject_missing_level']
+quorix_l2_038,LongCat-2.0,distractor,standard,1,False,0.315,0.532,0.720,0.685,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_038,LongCat-2.0,distractor,standard,2,False,0.312,0.556,0.723,0.688,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_038,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.306,0.568,0.729,0.694,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_039,LongCat-2.0,distractor,standard,0,False,0.300,0.543,0.734,0.700,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_039,LongCat-2.0,distractor,standard,1,False,0.309,0.532,0.726,0.691,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_039,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.292,0.556,0.740,0.708,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_040,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.292,0.556,0.740,0.708,2,6,"[""'Format a subject string but omit the level field.'"", ""'Parse subject but do not require level (missing field validation).'"", ""'eng'"", ""'intern'""]","['format_subject_missing_level', 'parse_subject_missing_level']"
+quorix_l2_041,LongCat-2.0,distractor,standard,2,False,0.320,0.400,0.933,0.680,1,1,[],['is_sensitive_wrong_threshold']
+quorix_l2_042,LongCat-2.0,distractor,standard,0,False,0.225,0.319,0.937,0.775,1,1,[],['is_sensitive_wrong_threshold']
+quorix_l2_043,LongCat-2.0,distractor,standard,0,False,0.293,0.263,0.850,0.707,1,3,"['""Treat \'low\' as sensitive regardless of threshold.""', ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l2_043,LongCat-2.0,distractor,standard,1,False,0.352,0.317,0.826,0.648,2,4,"['""Treat \'low\' as sensitive regardless of threshold.""', ""'Always return True (trivially wrong).'""]","['authorize_allow_all', 'is_sensitive_wrong_threshold']"
+quorix_l2_043,LongCat-2.0,distractor,standard,2,False,0.285,0.225,0.858,0.715,0,1,"['""Treat \'low\' as sensitive regardless of threshold.""']",[]
+quorix_l2_044,LongCat-2.0,distractor,standard,0,False,0.290,0.409,0.886,0.710,1,1,[],['is_sensitive_wrong_threshold']
+quorix_l2_044,LongCat-2.0,distractor,standard,1,False,0.474,0.370,0.778,0.526,1,2,"['""Treat \'low\' as sensitive regardless of threshold.""']",['is_sensitive_wrong_threshold']
+quorix_l2_044,LongCat-2.0,distractor,standard,2,False,0.412,0.409,0.900,0.588,1,1,[],['is_sensitive_wrong_threshold']
+quorix_l2_045,LongCat-2.0,distractor,standard,0,False,0.292,0.467,0.886,0.708,1,1,[],['is_sensitive_wrong_threshold']
+quorix_l2_045,LongCat-2.0,distractor,standard,1,False,0.305,0.256,0.839,0.695,0,2,"['""Treat \'low\' as sensitive regardless of threshold.""', ""'Always return True (trivially wrong).'""]",[]
+quorix_l3_001,LongCat-2.0,distractor,standard,0,False,0.184,0.581,0.942,0.816,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_001,LongCat-2.0,distractor,standard,1,False,0.159,0.333,0.939,0.841,1,1,[],['authorize_allow_all']
+quorix_l3_001,LongCat-2.0,distractor,standard,2,False,0.166,0.429,0.918,0.834,1,1,[],['authorize_allow_all']
+quorix_l3_001,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_002,LongCat-2.0,distractor,standard,0,False,0.169,0.400,0.949,0.831,1,1,[],['authorize_allow_all']
+quorix_l3_002,LongCat-2.0,distractor,standard,1,False,0.215,0.281,0.954,0.785,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l3_002,LongCat-2.0,distractor,standard,2,False,0.292,0.367,0.940,0.708,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l3_002,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_003,LongCat-2.0,distractor,standard,0,False,0.175,0.200,0.959,0.825,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l3_003,LongCat-2.0,distractor,standard,1,False,0.497,0.581,0.922,0.503,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_003,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_004,LongCat-2.0,distractor,standard,0,False,0.496,0.581,0.922,0.504,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_004,LongCat-2.0,distractor,standard,1,False,0.497,0.581,0.922,0.503,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_004,LongCat-2.0,distractor,standard,2,False,0.497,0.581,0.922,0.503,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_004,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_004,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_005,LongCat-2.0,distractor,standard,0,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_005,LongCat-2.0,distractor,standard,1,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_005,LongCat-2.0,distractor,standard,2,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_005,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.179,0.333,0.934,0.821,1,1,[],['authorize_allow_all']
+quorix_l3_006,LongCat-2.0,distractor,standard,0,False,0.174,0.360,0.925,0.826,1,1,[],['authorize_allow_all']
+quorix_l3_006,LongCat-2.0,distractor,standard,1,False,0.174,0.360,0.925,0.826,1,1,[],['authorize_allow_all']
+quorix_l3_006,LongCat-2.0,distractor,standard,2,False,0.254,0.357,0.948,0.746,2,2,[],"['authorize_allow_all', 'authorize_deny_all']"
+quorix_l3_006,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_006,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_007,LongCat-2.0,distractor,standard,0,False,0.135,0.222,0.942,0.865,1,1,[],['authorize_allow_all']
+quorix_l3_007,LongCat-2.0,distractor,standard,1,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_007,LongCat-2.0,distractor,standard,2,False,0.185,0.391,0.931,0.815,1,1,[],['authorize_allow_all']
+quorix_l3_007,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_008,LongCat-2.0,distractor,standard,0,False,0.206,0.240,0.954,0.794,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l3_008,LongCat-2.0,distractor,standard,1,False,0.486,0.621,0.974,0.514,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_008,LongCat-2.0,distractor,standard,2,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_008,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_008,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_009,LongCat-2.0,distractor,standard,0,False,0.153,0.379,0.935,0.847,1,1,[],['authorize_allow_all']
+quorix_l3_009,LongCat-2.0,distractor,standard,1,False,0.203,0.333,0.940,0.797,1,1,[],['authorize_allow_all']
+quorix_l3_009,LongCat-2.0,distractor,standard,2,False,0.181,0.440,0.943,0.819,1,1,[],['authorize_allow_all']
+quorix_l3_009,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_010,LongCat-2.0,distractor,standard,0,False,0.172,0.423,0.935,0.828,1,1,[],['authorize_allow_all']
+quorix_l3_010,LongCat-2.0,distractor,standard,1,False,0.487,0.621,0.974,0.513,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_010,LongCat-2.0,distractor,standard,2,False,0.267,0.536,0.931,0.733,1,2,"[""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_010,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.175,0.360,0.931,0.825,1,1,[],['authorize_allow_all']
+quorix_l3_011,LongCat-2.0,distractor,standard,0,False,0.098,0.222,0.950,0.902,3,3,[],"['action_priority_swapped', 'audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_011,LongCat-2.0,distractor,standard,1,False,0.183,0.297,0.833,0.817,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_011,LongCat-2.0,distractor,standard,2,False,0.175,0.300,0.890,0.825,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_011,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.185,0.273,0.884,0.815,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_012,LongCat-2.0,distractor,standard,1,False,0.201,0.330,0.874,0.799,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_012,LongCat-2.0,distractor,standard,2,False,0.143,0.338,0.868,0.857,3,3,[],"['action_priority_swapped', 'audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_012,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.188,0.288,0.882,0.812,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_013,LongCat-2.0,distractor,standard,0,False,0.096,0.297,0.903,0.904,1,1,[],['authorize_allow_all']
+quorix_l3_013,LongCat-2.0,distractor,standard,2,False,0.161,0.245,0.898,0.839,1,2,"[""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_013,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.180,0.300,0.887,0.820,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_014,LongCat-2.0,distractor,standard,1,False,0.194,0.361,0.878,0.806,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_014,LongCat-2.0,distractor,standard,2,False,0.096,0.233,0.912,0.904,3,3,[],"['action_priority_swapped', 'audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_014,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.172,0.268,0.892,0.828,2,5,"[""'Always return True (trivially wrong).'"", ""'Generate audit log but omit the decision (incomplete).'"", ""'Return reversed priorities (read highest, admin lowest).'""]","['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_015,LongCat-2.0,distractor,standard,2,False,0.028,0.255,0.949,0.972,2,2,[],"['audit_access_no_decision', 'authorize_allow_all']"
+quorix_l3_017,LongCat-2.0,distractor,standard,2,False,0.645,0.673,0.539,0.355,1,2,"[""'Suggest a role with inverted action-to-role mapping.'""]",['suggest_role_inverted_mapping']
+quorix_l3_018,LongCat-2.0,distractor,standard,1,False,0.598,0.712,0.535,0.402,1,2,"[""'Suggest a role with inverted action-to-role mapping.'""]",['suggest_role_inverted_mapping']
+quorix_l3_018,LongCat-2.0,distractor,standard,2,False,0.251,0.378,0.808,0.749,1,1,[],['suggest_role_inverted_mapping']
+quorix_l3_019,LongCat-2.0,distractor,standard,0,False,0.728,0.727,0.556,0.272,1,2,"[""'Suggest a role with inverted action-to-role mapping.'""]",['suggest_role_inverted_mapping']
+quorix_l3_019,LongCat-2.0,distractor,standard,1,False,0.158,0.500,0.866,0.842,1,2,"[""'Suggest a role with inverted action-to-role mapping.'""]",['suggest_role_inverted_mapping']
+quorix_l3_020,LongCat-2.0,distractor,standard,0,False,0.475,0.558,0.600,0.525,1,1,[],['suggest_role_inverted_mapping']
+quorix_l3_020,LongCat-2.0,distractor,standard,1,False,0.640,0.587,0.553,0.360,1,2,"[""'Suggest a role with inverted action-to-role mapping.'""]",['suggest_role_inverted_mapping']
+quorix_l3_020,LongCat-2.0,distractor,standard,2,False,0.557,0.529,0.596,0.443,1,2,"[""'Suggest a role with inverted action-to-role mapping.'""]",['suggest_role_inverted_mapping']
+quorix_l3_020,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.260,0.386,0.803,0.740,1,1,[],['suggest_role_inverted_mapping']
+quorix_l3_021,LongCat-2.0,distractor,standard,0,False,0.448,0.487,0.649,0.552,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_021,LongCat-2.0,distractor,standard,1,False,0.421,0.475,0.667,0.579,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_021,LongCat-2.0,distractor,standard,2,False,0.519,0.529,0.789,0.481,1,2,"[""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_021,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.078,0.148,0.917,0.922,0,2,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",[]
+quorix_l3_022,LongCat-2.0,distractor,standard,1,False,0.105,0.322,0.892,0.895,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['authorize_allow_all']
+quorix_l3_023,LongCat-2.0,distractor,standard,1,False,0.402,0.463,0.721,0.598,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['authorize_allow_all']
+quorix_l3_023,LongCat-2.0,distractor,standard,2,False,0.417,0.475,0.669,0.583,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_024,LongCat-2.0,distractor,standard,0,False,0.260,0.405,0.779,0.740,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['authorize_allow_all']
+quorix_l3_024,LongCat-2.0,distractor,standard,1,False,0.416,0.500,0.670,0.584,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['authorize_allow_all']
+quorix_l3_024,LongCat-2.0,distractor,standard,2,False,0.150,0.475,0.872,0.850,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_025,LongCat-2.0,distractor,standard,0,False,0.117,0.244,0.847,0.883,1,1,[],['authorize_allow_all']
+quorix_l3_025,LongCat-2.0,distractor,standard,1,False,0.535,0.545,0.584,0.465,1,2,"[""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_025,LongCat-2.0,distractor,standard,2,False,0.138,0.396,0.863,0.862,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_026,LongCat-2.0,distractor,standard,0,False,0.176,0.189,0.833,0.824,0,1,"[""'allow'""]",[]
+quorix_l3_026,LongCat-2.0,distractor,standard,1,False,0.226,0.302,0.775,0.774,0,1,"[""'allow'""]",[]
+quorix_l3_026,LongCat-2.0,distractor,standard,2,False,0.337,0.344,0.859,0.663,0,1,"[""'allow'""]",[]
+quorix_l3_026,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.185,0.360,0.803,0.815,0,1,"[""'allow'""]",[]
+quorix_l3_026,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.189,0.396,0.800,0.811,0,1,"[""'allow'""]",[]
+quorix_l3_027,LongCat-2.0,distractor,standard,1,False,0.202,0.367,0.786,0.798,0,1,"[""'allow'""]",[]
+quorix_l3_027,LongCat-2.0,distractor,standard,2,False,0.448,0.603,0.841,0.552,0,4,"[""'Parse policy but swap allow/deny (inverted logic).'"", ""'Sort policies so allow policies take precedence (priority reversed).'"", ""'True'"", ""'allow'""]",[]
+quorix_l3_027,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.185,0.360,0.803,0.815,0,1,"[""'allow'""]",[]
+quorix_l3_027,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.200,0.360,0.788,0.800,0,1,"[""'allow'""]",[]
+quorix_l3_028,LongCat-2.0,distractor,standard,0,False,0.448,0.614,0.841,0.552,0,4,"[""'Parse policy but swap allow/deny (inverted logic).'"", ""'Sort policies so allow policies take precedence (priority reversed).'"", ""'True'"", ""'allow'""]",[]
+quorix_l3_028,LongCat-2.0,distractor,standard,1,False,0.452,0.614,0.840,0.548,0,4,"[""'Parse policy but swap allow/deny (inverted logic).'"", ""'Sort policies so allow policies take precedence (priority reversed).'"", ""'True'"", ""'allow'""]",[]
+quorix_l3_028,LongCat-2.0,distractor,standard,2,False,0.202,0.367,0.786,0.798,0,1,"[""'allow'""]",[]
+quorix_l3_028,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.185,0.360,0.803,0.815,0,1,"[""'allow'""]",[]
+quorix_l3_028,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.185,0.360,0.803,0.815,0,1,"[""'allow'""]",[]
+quorix_l3_029,LongCat-2.0,distractor,standard,0,False,0.202,0.367,0.786,0.798,0,1,"[""'allow'""]",[]
+quorix_l3_029,LongCat-2.0,distractor,standard,1,False,0.181,0.375,0.808,0.819,0,1,"[""'allow'""]",[]
+quorix_l3_029,LongCat-2.0,distractor,standard,2,False,0.317,0.438,0.889,0.683,0,4,"[""'Parse policy but swap allow/deny (inverted logic).'"", ""'Sort policies so allow policies take precedence (priority reversed).'"", ""'True'"", ""'allow'""]",[]
+quorix_l3_029,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.200,0.360,0.788,0.800,0,1,"[""'allow'""]",[]
+quorix_l3_029,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.173,0.259,0.847,0.827,0,1,"[""'allow'""]",[]
+quorix_l3_030,LongCat-2.0,distractor,standard,0,False,0.450,0.614,0.840,0.550,0,4,"[""'Parse policy but swap allow/deny (inverted logic).'"", ""'Sort policies so allow policies take precedence (priority reversed).'"", ""'True'"", ""'allow'""]",[]
+quorix_l3_030,LongCat-2.0,distractor,standard,1,False,0.451,0.603,0.840,0.549,0,4,"[""'Parse policy but swap allow/deny (inverted logic).'"", ""'Sort policies so allow policies take precedence (priority reversed).'"", ""'True'"", ""'allow'""]",[]
+quorix_l3_030,LongCat-2.0,distractor,standard,2,False,0.124,0.275,0.849,0.876,0,1,"[""'allow'""]",[]
+quorix_l3_030,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.185,0.360,0.803,0.815,0,1,"[""'allow'""]",[]
+quorix_l3_030,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.185,0.360,0.803,0.815,0,1,"[""'allow'""]",[]
+quorix_l3_031,LongCat-2.0,distractor,standard,0,False,0.153,0.355,0.929,0.847,1,1,[],['authorize_allow_all']
+quorix_l3_031,LongCat-2.0,distractor,standard,1,False,0.115,0.343,0.927,0.885,1,1,[],['authorize_allow_all']
+quorix_l3_031,LongCat-2.0,distractor,standard,2,False,0.141,0.290,0.923,0.859,1,1,[],['authorize_allow_all']
+quorix_l3_031,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.148,0.290,0.925,0.852,1,1,[],['authorize_allow_all']
+quorix_l3_031,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.147,0.344,0.921,0.853,1,1,[],['authorize_allow_all']
+quorix_l3_032,LongCat-2.0,distractor,standard,0,False,0.432,0.500,0.918,0.568,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_032,LongCat-2.0,distractor,standard,1,False,0.127,0.265,0.917,0.873,1,1,[],['authorize_allow_all']
+quorix_l3_032,LongCat-2.0,distractor,standard,2,False,0.425,0.500,0.919,0.575,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_032,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.148,0.290,0.925,0.852,1,1,[],['authorize_allow_all']
+quorix_l3_032,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.151,0.344,0.930,0.849,1,1,[],['authorize_allow_all']
+quorix_l3_033,LongCat-2.0,distractor,standard,0,False,0.268,0.485,0.919,0.732,1,3,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_033,LongCat-2.0,distractor,standard,1,False,0.103,0.417,0.917,0.897,1,1,[],['authorize_allow_all']
+quorix_l3_033,LongCat-2.0,distractor,standard,2,False,0.151,0.344,0.930,0.849,1,1,[],['authorize_allow_all']
+quorix_l3_033,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.148,0.290,0.925,0.852,1,1,[],['authorize_allow_all']
+quorix_l3_033,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.147,0.344,0.921,0.853,1,1,[],['authorize_allow_all']
+quorix_l3_034,LongCat-2.0,distractor,standard,0,False,0.153,0.355,0.929,0.847,1,1,[],['authorize_allow_all']
+quorix_l3_034,LongCat-2.0,distractor,standard,1,False,0.153,0.355,0.929,0.847,1,1,[],['authorize_allow_all']
+quorix_l3_034,LongCat-2.0,distractor,standard,2,False,0.143,0.300,0.927,0.857,1,1,[],['authorize_allow_all']
+quorix_l3_034,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.148,0.290,0.925,0.852,1,1,[],['authorize_allow_all']
+quorix_l3_034,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.148,0.290,0.925,0.852,1,1,[],['authorize_allow_all']
+quorix_l3_035,LongCat-2.0,distractor,standard,0,False,0.197,0.212,0.951,0.803,0,2,"[""'Always return False (trivially wrong).'"", ""'Always return True (trivially wrong).'""]",[]
+quorix_l3_035,LongCat-2.0,distractor,standard,1,False,0.151,0.344,0.930,0.849,1,1,[],['authorize_allow_all']
+quorix_l3_035,LongCat-2.0,distractor,standard,2,False,0.144,0.355,0.932,0.856,1,1,[],['authorize_allow_all']
+quorix_l3_035,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.148,0.290,0.925,0.852,1,1,[],['authorize_allow_all']
+quorix_l3_035,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.148,0.290,0.925,0.852,1,1,[],['authorize_allow_all']
+quorix_l3_036,LongCat-2.0,distractor,standard,2,False,0.274,0.378,0.783,0.726,1,2,"[""'Always return True (trivially wrong).'""]",['authorize_allow_all']
+quorix_l3_038,LongCat-2.0,distractor,standard,0,False,0.420,0.346,0.717,0.580,2,5,"[""';sensitivity=low;owner='"", ""'Always return True (trivially wrong).'"", ""'Format a resource string with a hard-coded sensitivity.'""]","['authorize_allow_all', 'format_resource_wrong_sensitivity']"
+quorix_l3_039,LongCat-2.0,distractor,standard,0,False,0.437,0.419,0.693,0.563,1,4,"[""';sensitivity=low;owner='"", ""'Always return True (trivially wrong).'"", ""'Format a resource string with a hard-coded sensitivity.'""]",['authorize_allow_all']
+quorix_l3_040,LongCat-2.0,distractor,standard,1,False,0.469,0.419,0.669,0.531,1,4,"[""';sensitivity=low;owner='"", ""'Always return True (trivially wrong).'"", ""'Format a resource string with a hard-coded sensitivity.'""]",['authorize_allow_all']
+quorix_l3_046,LongCat-2.0,distractor,standard,2,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_046,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_046,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_047,LongCat-2.0,distractor,standard,0,False,0.506,0.594,0.613,0.494,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_047,LongCat-2.0,distractor,standard,1,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_047,LongCat-2.0,distractor_reminder_mild,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_047,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_048,LongCat-2.0,distractor,standard,0,False,0.215,0.391,0.814,0.785,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_048,LongCat-2.0,distractor,standard,2,False,0.494,0.594,0.620,0.506,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_048,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_049,LongCat-2.0,distractor,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_049,LongCat-2.0,distractor,standard,1,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_049,LongCat-2.0,distractor,standard,2,False,0.195,0.417,0.800,0.805,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_049,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_050,LongCat-2.0,distractor,standard,0,False,0.483,0.594,0.627,0.517,1,3,"[""'Always return True (trivially wrong).'"", ""'Claim every action is allowed.'""]",['list_allowed_actions_all_actions']
+quorix_l3_050,LongCat-2.0,distractor,standard,1,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_050,LongCat-2.0,distractor,standard,2,False,0.176,0.407,0.816,0.824,1,1,[],['list_allowed_actions_all_actions']
+quorix_l3_050,LongCat-2.0,distractor_reminder_strong,standard,0,False,0.201,0.375,0.812,0.799,1,1,[],['list_allowed_actions_all_actions']

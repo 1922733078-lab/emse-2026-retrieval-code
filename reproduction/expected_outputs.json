@@ -1,0 +1,50 @@
+{
+  "tables": {
+    "pass_at_1_final_five.csv": {
+      "path": "results/tables/pass_at_1_final_five.csv",
+      "rows": 15,
+      "columns": [
+        "model",
+        "level",
+        "no",
+        "naive",
+        "gold",
+        "distractor"
+      ],
+      "sha256": "f064535d8b07e514b6f0d61ff982adaeb281c113b6f5f3f088fcf8680895c763"
+    },
+    "statistical_tests_clean.csv": {
+      "path": "results/tables/statistical_tests_clean.csv",
+      "rows": 80,
+      "sha256": "f3a62d4dcc25fc1b57c4524dec9dc6a4fdb8afa8c200abf5b24fbd35f8f8f894"
+    }
+  },
+  "figures": {
+    "figure_1_monochrome_conditions": {
+      "formats": [
+        "png",
+        "pdf"
+      ],
+      "dpi": 600,
+      "font": "Times New Roman",
+      "font_size_min": 10,
+      "size_inches": [
+        4.62,
+        5.55
+      ]
+    },
+    "figure_2_monochrome_paired_effects": {
+      "formats": [
+        "png",
+        "pdf"
+      ],
+      "dpi": 600,
+      "font": "Times New Roman",
+      "font_size_min": 10,
+      "size_inches": [
+        4.62,
+        5.35
+      ]
+    }
+  }
+}

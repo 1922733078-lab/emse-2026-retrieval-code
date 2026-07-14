@@ -1,0 +1,8 @@
+```python
+def weekday(self, name):
+        try:
+            return self._weekdays[name.lower()]
+        except KeyError:
+            pass
+        return None
+```

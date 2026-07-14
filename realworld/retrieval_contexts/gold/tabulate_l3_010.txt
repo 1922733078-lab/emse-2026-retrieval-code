@@ -1,0 +1,5 @@
+```python
+def str(self):
+        """add a .str property so that the raw string is still accessible"""
+        return self
+```

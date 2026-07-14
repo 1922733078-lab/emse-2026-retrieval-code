@@ -1,0 +1,26 @@
+[2026-07-13T09:52:55+08:00] Starting tests/metrics for ready files
+[2026-07-13T09:52:55+08:00] Testing longcat_2_0_gold_reminder_full.jsonl
+Wrote test results to outputs/test_results/longcat_2_0_gold_reminder_full_results.jsonl
+[2026-07-13T09:52:56+08:00] Metrics longcat_2_0_gold_reminder_full.jsonl
+Wrote metrics to outputs/metrics/longcat_2_0_gold_reminder_full_metrics.jsonl
+[2026-07-13T09:53:16+08:00] Testing longcat_2_0_distractor_reminder_full.jsonl
+Wrote test results to outputs/test_results/longcat_2_0_distractor_reminder_full_results.jsonl
+[2026-07-13T09:53:17+08:00] Metrics longcat_2_0_distractor_reminder_full.jsonl
+Wrote metrics to outputs/metrics/longcat_2_0_distractor_reminder_full_metrics.jsonl
+[2026-07-13T09:53:23+08:00] Testing deepseek_v4_flash_gold_reminder_full.jsonl
+Wrote test results to outputs/test_results/deepseek_v4_flash_gold_reminder_full_results.jsonl
+[2026-07-13T09:53:24+08:00] Metrics deepseek_v4_flash_gold_reminder_full.jsonl
+Wrote metrics to outputs/metrics/deepseek_v4_flash_gold_reminder_full_metrics.jsonl
+[2026-07-13T09:53:31+08:00] Testing e7_LongCat-2.0_dense.jsonl
+Wrote test results to outputs/test_results/e7_LongCat-2.0_dense_results.jsonl
+[2026-07-13T09:53:32+08:00] Metrics e7_LongCat-2.0_dense.jsonl
+Wrote metrics to outputs/metrics/e7_LongCat-2.0_dense_metrics.jsonl
+[2026-07-13T09:53:32+08:00] Testing e7_LongCat-2.0_hybrid.jsonl
+Wrote test results to outputs/test_results/e7_LongCat-2.0_hybrid_results.jsonl
+[2026-07-13T09:53:32+08:00] Metrics e7_LongCat-2.0_hybrid.jsonl
+Wrote metrics to outputs/metrics/e7_LongCat-2.0_hybrid_metrics.jsonl
+[2026-07-13T09:53:32+08:00] Testing e7_deepseek-v4-flash_dense.jsonl
+Wrote test results to outputs/test_results/e7_deepseek-v4-flash_dense_results.jsonl
+[2026-07-13T09:53:32+08:00] Metrics e7_deepseek-v4-flash_dense.jsonl
+Wrote metrics to outputs/metrics/e7_deepseek-v4-flash_dense_metrics.jsonl
+[2026-07-13T09:53:33+08:00] Ready tests/metrics finished

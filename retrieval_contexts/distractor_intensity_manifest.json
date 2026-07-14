@@ -1,0 +1,17 @@
+{
+  "source": "retrieval_contexts/distractor",
+  "random_seed": 20260710,
+  "transformations": {
+    "weak": [
+      "rename wrong_* helpers to *_obviously_broken",
+      "replace modulus constants with absurd values (89->99999, etc.)",
+      "append 'intentionally wrong' note to docstrings"
+    ],
+    "strong": [
+      "slightly change modulus constants (89->87, etc.)",
+      "swap version boundary checks (==3 -> ==2, ==1 -> ==0)",
+      "invert membership checks (not in -> in)",
+      "flip trailing True/False return pairs"
+    ]
+  }
+}

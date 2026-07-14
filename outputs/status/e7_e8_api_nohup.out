@@ -1,0 +1,18 @@
+[2026-07-13T09:38:34+08:00] Starting E7/E8 API experiments
+Progress: 50 generated, 0 failed, tokens(p/c)=51540/15415, est_cost=$0.0841
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e7_LongCat-2.0_dense.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e7_LongCat-2.0_dense_errors.jsonl; est_cost=$0.1512
+Progress: 50 generated, 0 failed, tokens(p/c)=48794/14952, est_cost=$0.0807
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e7_LongCat-2.0_hybrid.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e7_LongCat-2.0_hybrid_errors.jsonl; est_cost=$0.1572
+Progress: 50 generated, 0 failed, tokens(p/c)=54475/35157, est_cost=$0.0000
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e7_deepseek-v4-flash_dense.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e7_deepseek-v4-flash_dense_errors.jsonl; est_cost=$0.0000
+Progress: 50 generated, 0 failed, tokens(p/c)=51865/31946, est_cost=$0.0000
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e7_deepseek-v4-flash_hybrid.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e7_deepseek-v4-flash_hybrid_errors.jsonl; est_cost=$0.0000
+Progress: 50 generated, 0 failed, tokens(p/c)=18219/10254, est_cost=$0.0439
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e8_LongCat-2.0_distractor_weak.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e8_LongCat-2.0_distractor_weak_errors.jsonl; est_cost=$0.0833
+Progress: 50 generated, 0 failed, tokens(p/c)=17084/10117, est_cost=$0.0427
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e8_LongCat-2.0_distractor_strong.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e8_LongCat-2.0_distractor_strong_errors.jsonl; est_cost=$0.0807
+Progress: 50 generated, 0 failed, tokens(p/c)=18530/101449, est_cost=$0.0000
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e8_deepseek-v4-flash_distractor_weak.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e8_deepseek-v4-flash_distractor_weak_errors.jsonl; est_cost=$0.0000
+Progress: 50 generated, 0 failed, tokens(p/c)=17327/81658, est_cost=$0.0000
+Wrote 90 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/e8_deepseek-v4-flash_distractor_strong.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/e8_deepseek-v4-flash_distractor_strong_errors.jsonl; est_cost=$0.0000
+[2026-07-13T10:10:28+08:00] E7/E8 API experiments finished

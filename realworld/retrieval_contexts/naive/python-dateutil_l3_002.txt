@@ -1,0 +1,310 @@
+```python
+def parse(timestr, parserinfo=None, **kwargs):
+    """
+
+    Parse a string in one of the supported formats, using the
+    ``parserinfo`` parameters.
+
+    :param timestr:
+        A string containing a date/time stamp.
+
+    :param parserinfo:
+        A :class:`parserinfo` object containing parameters for the parser.
+        If ``None``, the default arguments to the :class:`parserinfo`
+        constructor are used.
+
+    The ``**kwargs`` parameter takes the following keyword arguments:
+
+    :param default:
+        The default datetime object, if this is a datetime object and not
+        ``None``, elements specified in ``timestr`` replace elements in the
+        default object.
+
+    :param ignoretz:
+        If set ``True``, time zones in parsed strings are ignored and a naive
+        :class:`datetime` object is returned.
+
+    :param tzinfos:
+        Additional time zone names / aliases which may be present in the
+        string. This argument maps time zone names (and optionally offsets
+        from those time zones) to time zones. This parameter can be a
+        dictionary with timezone aliases mapping time zone names to time
+        zones or a function taking two parameters (``tzname`` and
+        ``tzoffset``) and returning a time zone.
+
+        The timezones to which the names are mapped can be an integer
+        offset from UTC in seconds or a :class:`tzinfo` object.
+
+        .. doctest::
+           :options: +NORMALIZE_WHITESPACE
+
+            >>> from dateutil.parser import parse
+            >>> from dateutil.tz import gettz
+            >>> tzinfos = {"BRST": -7200, "CST": gettz("America/Chicago")}
+            >>> parse("2012-01-19 17:21:00 BRST", tzinfos=tzinfos)
+            datetime.datetime(2012, 1, 19, 17, 21, tzinfo=tzoffset(u'BRST', -7200))
+            >>> parse("2012-01-19 17:21:00 CST", tzinfos=tzinfos)
+            datetime.datetime(2012, 1, 19, 17, 21,
+                              tzinfo=tzfile('/usr/share/zoneinfo/America/Chicago'))
+
+        This parameter is ignored if ``ignoretz`` is set.
+
+    :param dayfirst:
+        Whether to interpret the first value in an ambiguous 3-integer date
+        (e.g. 01/05/09) as the day (``True``) or month (``False``). If
+        ``yearfirst`` is set to ``True``, this distinguishes between YDM and
+        YMD. If set to ``None``, this value is retrieved from the current
+        :class:`parserinfo` object (which itself defaults to ``False``).
+
+    :param yearfirst:
+        Whether to interpret the first value in an ambiguous 3-integer date
+        (e.g. 01/05/09) as the year. If ``True``, the first number is taken to
+        be the year, otherwise the last number is taken to be the year. If
+        this is set to ``None``, the value is retrieved from the current
+        :class:`parserinfo` object (which itself defaults to ``False``).
+
+    :param fuzzy:
+        Whether to allow fuzzy parsing, allowing for string like "Today is
+        January 1, 2047 at 8:21:00AM".
+
+    :param fuzzy_with_tokens:
+        If ``True``, ``fuzzy`` is automatically set to True, and the parser
+        will return a tuple where the first element is the parsed
+        :class:`datetime.datetime` datetimestamp and the second element is
+        a tuple containing the portions of the string which were ignored:
+
+        .. doctest::
+
+            >>> from dateutil.parser import parse
+            >>> parse("Today is January 1, 2047 at 8:21:00AM", fuzzy_with_tokens=True)
+            (datetime.datetime(2047, 1, 1, 8, 21), (u'Today is ', u' ', u'at '))
+
+    :return:
+        Returns a :class:`datetime.datetime` object or, if the
+        ``fuzzy_with_tokens`` option is ``True``, returns a tuple, the
+        first element being a :class:`datetime.datetime` object, the second
+        a tuple containing the fuzzy tokens.
+
+    :raises ParserError:
+        Raised for invalid or unknown string formats, if the provided
+        :class:`tzinfo` is not in a valid format, or if an invalid date would
+        be created.
+
+    :raises OverflowError:
+        Raised if the parsed date exceeds the largest valid C integer on
+        your system.
+    """
+    if parserinfo:
+        return parser(parserinfo).parse(timestr, **kwargs)
+    else:
+        return DEFAULTPARSER.parse(timestr, **kwargs)
+```
+
+```python
+def easter(year, method=EASTER_WESTERN):
+    """
+    This method was ported from the work done by GM Arts,
+    on top of the algorithm by Claus Tondering, which was
+    based in part on the algorithm of Ouding (1940), as
+    quoted in "Explanatory Supplement to the Astronomical
+    Almanac", P.  Kenneth Seidelmann, editor.
+
+    This algorithm implements three different Easter
+    calculation methods:
+
+    1. Original calculation in Julian calendar, valid in
+       dates after 326 AD
+    2. Original method, with date converted to Gregorian
+       calendar, valid in years 1583 to 4099
+    3. Revised method, in Gregorian calendar, valid in
+       years 1583 to 4099 as well
+
+    These methods are represented by the constants:
+
+    * ``EASTER_JULIAN   = 1``
+    * ``EASTER_ORTHODOX = 2``
+    * ``EASTER_WESTERN  = 3``
+
+    The default method is method 3.
+
+    More about the algorithm may be found at:
+
+    `GM Arts: Easter Algorithms <http://www.gmarts.org/index.php?go=415>`_
+
+    and
+
+    `The Calendar FAQ: Easter <https://www.tondering.dk/claus/cal/easter.php>`_
+
+    """
+
+    if not (1 <= method <= 3):
+        raise ValueError("invalid method")
+
+    # g - Golden year - 1
+    # c - Century
+    # h - (23 - Epact) mod 30
+    # i - Number of days from March 21 to Paschal Full Moon
+    # j - Weekday for PFM (0=Sunday, etc)
+    # p - Number of days from March 21 to Sunday on or before PFM
+    #     (-6 to 28 methods 1 & 3, to 56 for method 2)
+    # e - Extra days to add for method 2 (converting Julian
+    #     date to Gregorian date)
+
+    y = year
+    g = y % 19
+    e = 0
+    if method < 3:
+        # Old method
+        i = (19*g + 15) % 30
+        j = (y + y//4 + i) % 7
+        if method == 2:
+            # Extra dates to convert Julian to Gregorian date
+            e = 10
+            if y > 1600:
+                e = e + y//100 - 16 - (y//100 - 16)//4
+    else:
+        # New method
+        c = y//100
+        h = (c - c//4 - (8*c + 13)//25 + 19*g + 15) % 30
+        i = h - (h//28)*(1 - (h//28)*(29//(h + 1))*((21 - g)//11))
+        j = (y + y//4 + i + 2 - c + c//4) % 7
+
+    # p can be from -6 to 56 corresponding to dates 22 March to 23 May
+    # (later dates apply to method 2, although 23 May never actually occurs)
+    p = i - j + e
+    d = 1 + (p + 27 + (p + 6)//40) % 31
+    m = 3 + (p + 26)//30
+    return datetime.date(int(y), int(m), int(d))
+```
+
+```python
+def rebuild(self, year, month):
+        # Every mask is 7 days longer to handle cross-year weekly periods.
+        rr = self.rrule
+        if year != self.lastyear:
+            self.yearlen = 365 + calendar.isleap(year)
+            self.nextyearlen = 365 + calendar.isleap(year + 1)
+            firstyday = datetime.date(year, 1, 1)
+            self.yearordinal = firstyday.toordinal()
+            self.yearweekday = firstyday.weekday()
+
+            wday = datetime.date(year, 1, 1).weekday()
+            if self.yearlen == 365:
+                self.mmask = M365MASK
+                self.mdaymask = MDAY365MASK
+                self.nmdaymask = NMDAY365MASK
+                self.wdaymask = WDAYMASK[wday:]
+                self.mrange = M365RANGE
+            else:
+                self.mmask = M366MASK
+                self.mdaymask = MDAY366MASK
+                self.nmdaymask = NMDAY366MASK
+                self.wdaymask = WDAYMASK[wday:]
+                self.mrange = M366RANGE
+
+            if not rr._byweekno:
+                self.wnomask = None
+            else:
+                self.wnomask = [0]*(self.yearlen+7)
+                # no1wkst = firstwkst = self.wdaymask.index(rr._wkst)
+                no1wkst = firstwkst = (7-self.yearweekday+rr._wkst) % 7
+                if no1wkst >= 4:
+                    no1wkst = 0
+                    # Number of days in the year, plus the days we got
+                    # from last year.
+                    wyearlen = self.yearlen+(self.yearweekday-rr._wkst) % 7
+                else:
+                    # Number of days in the year, minus the days we
+                    # left in last year.
+                    wyearlen = self.yearlen-no1wkst
+                div, mod = divmod(wyearlen, 7)
+                numweeks = div+mod//4
+                for n in rr._byweekno:
+                    if n < 0:
+                        n += numweeks+1
+                    if not (0 < n <= numweeks):
+                        continue
+                    if n > 1:
+                        i = no1wkst+(n-1)*7
+                        if no1wkst != firstwkst:
+                            i -= 7-firstwkst
+                    else:
+                        i = no1wkst
+                    for j in range(7):
+                        self.wnomask[i] = 1
+                        i += 1
+                        if self.wdaymask[i] == rr._wkst:
+                            break
+                if 1 in rr._byweekno:
+                    # Check week number 1 of next year as well
+                    # TODO: Check -numweeks for next year.
+                    i = no1wkst+numweeks*7
+                    if no1wkst != firstwkst:
+                        i -= 7-firstwkst
+                    if i < self.yearlen:
+                        # If week starts in next year, we
+                        # don't care about it.
+                        for j in range(7):
+                            self.wnomask[i] = 1
+                            i += 1
+                            if self.wdaymask[i] == rr._wkst:
+                                break
+                if no1wkst:
+                    # Check last week number of last year as
+                    # well. If no1wkst is 0, either the year
+                    # started on week start, or week number 1
+                    # got days from last year, so there are no
+                    # days from last year's last week number in
+                    # this year.
+                    if -1 not in rr._byweekno:
+                        lyearweekday = datetime.date(year-1, 1, 1).weekday()
+                        lno1wkst = (7-lyearweekday+rr._wkst) % 7
+                        lyearlen = 365+calendar.isleap(year-1)
+                        if lno1wkst >= 4:
+                            lno1wkst = 0
+                            lnumweeks = 52+(lyearlen +
+                                            (lyearweekday-rr._wkst) % 7) % 7//4
+                        else:
+                            lnumweeks = 52+(self.yearlen-no1wkst) % 7//4
+                    else:
+                        lnumweeks = -1
+                    if lnumweeks in rr._byweekno:
+                        for i in range(no1wkst):
+                            self.wnomask[i] = 1
+
+        if (rr._bynweekday and (month != self.lastmonth or
+                                year != self.lastyear)):
+            ranges = []
+            if rr._freq == YEARLY:
+                if rr._bymonth:
+                    for month in rr._bymonth:
+                        ranges.append(self.mrange[month-1:month+1])
+                else:
+                    ranges = [(0, self.yearlen)]
+            elif rr._freq == MONTHLY:
+                ranges = [self.mrange[month-1:month+1]]
+            if ranges:
+                # Weekly frequency won't get here, so we may not
+                # care about cross-year weekly periods.
+                self.nwdaymask = [0]*self.yearlen
+                for first, last in ranges:
+                    last -= 1
+                    for wday, n in rr._bynweekday:
+                        if n < 0:
+                            i = last+(n+1)*7
+                            i -= (self.wdaymask[i]-wday) % 7
+                        else:
+                            i = first+(n-1)*7
+                            i += (7-self.wdaymask[i]+wday) % 7
+                        if first <= i <= last:
+                            self.nwdaymask[i] = 1
+
+        if rr._byeaster:
+            self.eastermask = [0]*(self.yearlen+7)
+            eyday = easter.easter(year).toordinal()-self.yearordinal
+            for offset in rr._byeaster:
+                self.eastermask[eyday+offset] = 1
+
+        self.lastyear = year
+        self.lastmonth = month
+```

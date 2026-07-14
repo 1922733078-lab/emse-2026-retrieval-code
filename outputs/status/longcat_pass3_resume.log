@@ -1,0 +1,3 @@
+Resuming: found 5399 existing generations in /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/p1_longcat_2_0_n3.jsonl
+Skipping 5399 already-generated (task, condition, strategy, sample_id) combos
+Wrote 1 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/p1_longcat_2_0_n3.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/p1_longcat_2_0_n3_errors.jsonl; est_cost=$0.0025

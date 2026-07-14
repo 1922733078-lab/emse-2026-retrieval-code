@@ -1,0 +1,4 @@
+```python
+def weeks(self):
+        return int(self.days / 7.0)
+```

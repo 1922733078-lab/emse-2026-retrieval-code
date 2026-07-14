@@ -1,0 +1,6 @@
+```python
+def inner_func(self, *args, **kwargs):
+        rv = f(self, *args, **kwargs)
+        self._invalidate_cache()
+        return rv
+```

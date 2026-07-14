@@ -1,0 +1,7394 @@
+{
+  "mean_recall_at_5": 0.561703703703704,
+  "mean_mrr": 0.6954814814814814,
+  "exact_match_rate": 0.28,
+  "per_task": [
+    {
+      "task_id": "fluxon_l1_001",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "compute_fluxon_checksum",
+        "repair_fluxon_packet",
+        "token_value",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l1_002",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "token_value",
+        "repair_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "format_fluxon_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_003",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "token_value",
+        "compute_fluxon_checksum",
+        "split_fluxon_payload",
+        "format_fluxon_packet",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l1_004",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "token_value",
+        "repair_fluxon_packet",
+        "compute_fluxon_hash",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_005",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "repair_fluxon_packet",
+        "compute_fluxon_checksum",
+        "validate_fluxon_packet",
+        "token_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "fluxon_l1_006",
+      "gold_functions": [
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "format_fluxon_packet",
+        "serialize_fluxon_records",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_007",
+      "gold_functions": [
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "compute_fluxon_checksum",
+        "decode_fluxon_frame",
+        "merge_fluxon_records"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_008",
+      "gold_functions": [
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "filter_fluxon_by_channel",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "sort_fluxon_records"
+      ],
+      "recall": 1.0,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "fluxon_l1_009",
+      "gold_functions": [
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "compute_fluxon_checksum"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_010",
+      "gold_functions": [
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "decode_fluxon_frame",
+        "repair_fluxon_packet",
+        "token_value"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l1_011",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "token_value",
+        "format_fluxon_packet",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_012",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "format_fluxon_packet",
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "token_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_013",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "token_value",
+        "filter_fluxon_by_channel",
+        "compute_fluxon_hash",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_014",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "token_value",
+        "format_fluxon_packet",
+        "split_fluxon_payload",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_015",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "token_value",
+        "compute_fluxon_hash",
+        "format_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "fluxon_l1_016",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "decode_fluxon_frame",
+        "format_fluxon_packet",
+        "normalize_channel_value",
+        "token_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_017",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_packet",
+        "decode_fluxon_frame",
+        "apply_fluxon_transformation",
+        "format_fluxon_packet"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_018",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "format_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "normalize_channel_value",
+        "is_legacy_packet"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_019",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "format_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "decode_fluxon_frame"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_020",
+      "gold_functions": [
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "repair_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "normalize_channel_value",
+        "serialize_fluxon_records"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_021",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "apply_fluxon_transformation",
+        "compute_fluxon_hash",
+        "validate_fluxon_packet",
+        "token_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_022",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "token_value",
+        "apply_fluxon_transformation",
+        "parse_fluxon_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "fluxon_l1_023",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload"
+      ],
+      "naive_functions": [
+        "token_value",
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "fluxon_l1_024",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "validate_fluxon_packet",
+        "serialize_fluxon_records",
+        "token_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_025",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "token_value",
+        "repair_fluxon_packet",
+        "is_legacy_packet"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l1_026",
+      "gold_functions": [
+        "is_legacy_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "apply_fluxon_transformation",
+        "repair_fluxon_packet",
+        "decode_fluxon_frame"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_027",
+      "gold_functions": [
+        "is_legacy_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "merge_fluxon_records",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "repair_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_028",
+      "gold_functions": [
+        "is_legacy_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "decode_fluxon_frame",
+        "split_fluxon_payload",
+        "repair_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_029",
+      "gold_functions": [
+        "is_legacy_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "compute_fluxon_checksum",
+        "repair_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l1_030",
+      "gold_functions": [
+        "is_legacy_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "filter_fluxon_by_channel",
+        "sort_fluxon_records"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_031",
+      "gold_functions": [
+        "decode_fluxon_frame"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "split_fluxon_payload",
+        "token_value",
+        "format_fluxon_packet",
+        "serialize_fluxon_records"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_032",
+      "gold_functions": [
+        "decode_fluxon_frame"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "format_fluxon_packet",
+        "serialize_fluxon_records",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_033",
+      "gold_functions": [
+        "decode_fluxon_frame"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "format_fluxon_packet",
+        "serialize_fluxon_records",
+        "apply_fluxon_transformation",
+        "validate_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_034",
+      "gold_functions": [
+        "decode_fluxon_frame"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "repair_fluxon_packet",
+        "is_legacy_packet",
+        "apply_fluxon_transformation",
+        "format_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_035",
+      "gold_functions": [
+        "decode_fluxon_frame"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "split_fluxon_payload",
+        "format_fluxon_packet",
+        "serialize_fluxon_records",
+        "token_value"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_036",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "token_value",
+        "compute_fluxon_checksum",
+        "normalize_channel_value",
+        "apply_fluxon_transformation",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_037",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "token_value",
+        "normalize_channel_value",
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_038",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "token_value",
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "apply_fluxon_transformation",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_039",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "token_value",
+        "split_fluxon_payload",
+        "normalize_channel_value",
+        "compute_fluxon_checksum",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_040",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "token_value",
+        "normalize_channel_value",
+        "compute_fluxon_checksum",
+        "split_fluxon_payload",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_041",
+      "gold_functions": [
+        "normalize_channel_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "token_value",
+        "filter_fluxon_by_channel",
+        "parse_fluxon_packet",
+        "format_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_042",
+      "gold_functions": [
+        "normalize_channel_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "token_value",
+        "format_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "validate_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_043",
+      "gold_functions": [
+        "normalize_channel_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "filter_fluxon_by_channel",
+        "compute_fluxon_checksum",
+        "token_value",
+        "format_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_044",
+      "gold_functions": [
+        "normalize_channel_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "filter_fluxon_by_channel",
+        "parse_fluxon_packet",
+        "format_fluxon_packet",
+        "group_fluxon_by_channel"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_045",
+      "gold_functions": [
+        "normalize_channel_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "split_fluxon_payload",
+        "token_value",
+        "format_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_046",
+      "gold_functions": [
+        "repair_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "decode_fluxon_frame",
+        "format_fluxon_packet",
+        "serialize_fluxon_records",
+        "token_value"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_047",
+      "gold_functions": [
+        "repair_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "decode_fluxon_frame",
+        "format_fluxon_packet",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_048",
+      "gold_functions": [
+        "repair_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "compute_fluxon_checksum",
+        "is_legacy_packet",
+        "format_fluxon_packet",
+        "filter_fluxon_by_channel"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_049",
+      "gold_functions": [
+        "repair_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "decode_fluxon_frame",
+        "apply_fluxon_transformation",
+        "format_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l1_050",
+      "gold_functions": [
+        "repair_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "format_fluxon_packet",
+        "compute_fluxon_checksum",
+        "is_legacy_packet",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_001",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "format_fluxon_packet",
+        "repair_fluxon_packet",
+        "compare_fluxon_packets"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_002",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "compare_fluxon_packets",
+        "is_legacy_packet",
+        "compute_fluxon_checksum",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_003",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "token_value",
+        "compare_fluxon_packets",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.667,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_004",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "compare_fluxon_packets",
+        "decode_fluxon_frame",
+        "parse_fluxon_packet"
+      ],
+      "recall": 0.667,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_005",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "repair_fluxon_packet",
+        "compute_fluxon_checksum",
+        "deserialize_fluxon_records"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_006",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "format_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "repair_fluxon_packet",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_007",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "normalize_channel_value",
+        "compute_fluxon_checksum",
+        "compare_fluxon_packets"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_008",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "format_fluxon_packet",
+        "is_legacy_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_009",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "repair_fluxon_packet",
+        "decode_fluxon_frame",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_010",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "compute_fluxon_hash",
+        "repair_fluxon_packet",
+        "is_legacy_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_011",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "normalize_channel_value",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_packet",
+        "token_value",
+        "parse_fluxon_packet",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_012",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "normalize_channel_value",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "repair_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "compute_fluxon_checksum",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_013",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "normalize_channel_value",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "compute_fluxon_checksum",
+        "format_fluxon_packet",
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_014",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "normalize_channel_value",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "compute_fluxon_checksum",
+        "format_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_015",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "normalize_channel_value",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "deserialize_fluxon_records",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_016",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "token_value",
+        "validate_fluxon_packet",
+        "format_fluxon_packet",
+        "decode_fluxon_frame"
+      ],
+      "recall": 0.6,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_017",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "compute_fluxon_checksum",
+        "filter_fluxon_by_channel",
+        "compute_fluxon_hash",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.2,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_018",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "token_value",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.6,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_019",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "repair_fluxon_packet",
+        "token_value",
+        "validate_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "recall": 0.8,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_020",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "token_value"
+      ],
+      "recall": 0.8,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_021",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "merge_fluxon_records",
+        "compute_fluxon_checksum",
+        "format_fluxon_packet",
+        "compare_fluxon_packets",
+        "token_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_022",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "format_fluxon_packet",
+        "compare_fluxon_packets",
+        "token_value",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_023",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compare_fluxon_packets",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "fluxon_l2_024",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "compare_fluxon_packets",
+        "compute_fluxon_hash",
+        "token_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_025",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "compare_fluxon_packets",
+        "merge_fluxon_records",
+        "compute_fluxon_hash",
+        "token_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_026",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "token_value",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "is_legacy_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_027",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "decode_fluxon_frame",
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "repair_fluxon_packet",
+        "token_value"
+      ],
+      "recall": 0.25,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_028",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "token_value",
+        "format_fluxon_packet",
+        "compute_fluxon_checksum",
+        "validate_fluxon_packet",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.25,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "fluxon_l2_029",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "token_value",
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "compute_fluxon_checksum",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.75,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_030",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash",
+        "token_value",
+        "apply_fluxon_transformation",
+        "parse_fluxon_packet"
+      ],
+      "recall": 0.25,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "fluxon_l2_031",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "repair_fluxon_packet",
+        "token_value",
+        "decode_fluxon_frame"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_032",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "repair_fluxon_packet",
+        "is_legacy_packet",
+        "token_value",
+        "decode_fluxon_frame"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_033",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "repair_fluxon_packet",
+        "is_legacy_packet",
+        "compute_fluxon_checksum",
+        "token_value"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_034",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "repair_fluxon_packet",
+        "validate_fluxon_packet",
+        "token_value",
+        "compute_fluxon_checksum"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_035",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "repair_fluxon_packet",
+        "decode_fluxon_frame",
+        "filter_fluxon_by_channel"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_036",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_packet",
+        "token_value",
+        "parse_fluxon_packet",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.75,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_037",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "token_value",
+        "format_fluxon_packet",
+        "apply_fluxon_transformation",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_038",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.75,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_039",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "token_value",
+        "format_fluxon_packet",
+        "validate_fluxon_packet",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.75,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_040",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "token_value",
+        "validate_fluxon_packet",
+        "split_fluxon_payload",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_041",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "split_fluxon_payload",
+        "is_legacy_packet",
+        "token_value",
+        "format_fluxon_packet"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_042",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet",
+        "apply_fluxon_transformation",
+        "deserialize_fluxon_records"
+      ],
+      "recall": 0.667,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_043",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "compare_fluxon_packets",
+        "split_fluxon_payload",
+        "is_legacy_packet",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_044",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "apply_fluxon_transformation",
+        "is_legacy_packet",
+        "repair_fluxon_packet",
+        "compute_fluxon_checksum"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_045",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "decode_fluxon_frame",
+        "token_value",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.667,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_046",
+      "gold_functions": [
+        "format_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "normalize_channel_value",
+        "token_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l2_047",
+      "gold_functions": [
+        "format_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "repair_fluxon_packet",
+        "validate_fluxon_packet",
+        "filter_fluxon_by_channel",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_048",
+      "gold_functions": [
+        "format_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "decode_fluxon_frame",
+        "apply_fluxon_transformation",
+        "validate_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l2_049",
+      "gold_functions": [
+        "format_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "format_fluxon_packet",
+        "apply_fluxon_transformation",
+        "decode_fluxon_frame",
+        "token_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l2_050",
+      "gold_functions": [
+        "format_fluxon_packet",
+        "parse_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "compute_fluxon_checksum",
+        "filter_fluxon_by_channel",
+        "compute_fluxon_hash",
+        "format_fluxon_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "fluxon_l3_001",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_packet",
+        "serialize_fluxon_records",
+        "token_value",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_002",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "merge_fluxon_records",
+        "parse_fluxon_packet",
+        "group_fluxon_by_channel"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_003",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "token_value",
+        "validate_fluxon_packet",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.667,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_004",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "merge_fluxon_records",
+        "parse_fluxon_packet",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_005",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_batch",
+        "format_fluxon_packet",
+        "validate_fluxon_packet",
+        "token_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_006",
+      "gold_functions": [
+        "is_legacy_packet",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "validate_fluxon_batch",
+        "format_fluxon_packet",
+        "token_value",
+        "serialize_fluxon_records"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_007",
+      "gold_functions": [
+        "is_legacy_packet",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.333,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "fluxon_l3_008",
+      "gold_functions": [
+        "is_legacy_packet",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "serialize_fluxon_records",
+        "compare_fluxon_packets",
+        "validate_fluxon_batch",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_009",
+      "gold_functions": [
+        "is_legacy_packet",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_batch",
+        "compute_fluxon_hash",
+        "compute_fluxon_checksum",
+        "compare_fluxon_packets"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l3_010",
+      "gold_functions": [
+        "is_legacy_packet",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "compute_fluxon_checksum",
+        "token_value",
+        "compute_fluxon_hash",
+        "normalize_channel_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l3_011",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "merge_fluxon_records",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "token_value",
+        "format_fluxon_packet"
+      ],
+      "recall": 0.75,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_012",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "merge_fluxon_records",
+        "compute_fluxon_checksum",
+        "validate_fluxon_batch",
+        "token_value",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_013",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "merge_fluxon_records",
+        "format_fluxon_packet",
+        "validate_fluxon_packet",
+        "compute_fluxon_checksum",
+        "validate_fluxon_batch"
+      ],
+      "recall": 0.75,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_014",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "merge_fluxon_records",
+        "validate_fluxon_batch",
+        "compute_fluxon_checksum",
+        "token_value",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_015",
+      "gold_functions": [
+        "compute_fluxon_checksum",
+        "merge_fluxon_records",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "compute_fluxon_checksum",
+        "validate_fluxon_batch",
+        "validate_fluxon_packet",
+        "token_value",
+        "compare_fluxon_packets"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_016",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "summarize_fluxon_records",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "filter_fluxon_by_channel",
+        "merge_fluxon_records",
+        "validate_fluxon_packet",
+        "compare_fluxon_packets"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "fluxon_l3_017",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "summarize_fluxon_records",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "validate_fluxon_packet",
+        "compare_fluxon_packets",
+        "token_value",
+        "normalize_channel_value"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_018",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "summarize_fluxon_records",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "validate_fluxon_batch",
+        "serialize_fluxon_records",
+        "compare_fluxon_packets",
+        "token_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_019",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "summarize_fluxon_records",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "validate_fluxon_packet",
+        "compare_fluxon_packets",
+        "merge_fluxon_records",
+        "compute_fluxon_checksum"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_020",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "summarize_fluxon_records",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "group_fluxon_by_channel",
+        "validate_fluxon_packet",
+        "validate_fluxon_batch",
+        "compare_fluxon_packets",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_021",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "serialize_fluxon_records",
+        "validate_fluxon_packet",
+        "validate_fluxon_batch",
+        "apply_fluxon_transformation",
+        "token_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_022",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "repair_fluxon_packet",
+        "token_value",
+        "compute_fluxon_checksum",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_023",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "validate_fluxon_packet",
+        "compare_fluxon_packets",
+        "token_value",
+        "compute_fluxon_checksum"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_024",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "serialize_fluxon_records",
+        "apply_fluxon_transformation",
+        "compute_fluxon_hash",
+        "compute_fluxon_checksum"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l3_025",
+      "gold_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "compute_fluxon_checksum",
+        "token_value",
+        "validate_fluxon_packet",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.5,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "fluxon_l3_026",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "token_value",
+        "parse_fluxon_packet",
+        "merge_fluxon_records",
+        "apply_fluxon_transformation"
+      ],
+      "recall": 0.6,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_027",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "compare_fluxon_packets",
+        "merge_fluxon_records"
+      ],
+      "recall": 0.4,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_028",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_batch",
+        "apply_fluxon_transformation",
+        "serialize_fluxon_records",
+        "validate_fluxon_packet"
+      ],
+      "recall": 0.4,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_029",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "summarize_fluxon_records",
+        "group_fluxon_by_channel",
+        "split_fluxon_payload"
+      ],
+      "recall": 0.4,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_030",
+      "gold_functions": [
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_batch",
+        "compute_fluxon_checksum",
+        "token_value",
+        "compute_fluxon_hash"
+      ],
+      "recall": 0.4,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_031",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "repair_fluxon_packet",
+        "compute_fluxon_hash",
+        "validate_fluxon_packet",
+        "serialize_fluxon_records"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "fluxon_l3_032",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "group_fluxon_by_channel",
+        "filter_fluxon_by_channel",
+        "split_fluxon_payload",
+        "is_legacy_packet"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l3_033",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "repair_fluxon_packet",
+        "validate_fluxon_batch",
+        "format_fluxon_packet",
+        "compute_fluxon_hash",
+        "compare_fluxon_packets"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l3_034",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "filter_fluxon_by_channel",
+        "compute_fluxon_hash",
+        "compute_fluxon_checksum",
+        "format_fluxon_packet"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "fluxon_l3_035",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "parse_fluxon_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "format_fluxon_packet",
+        "compare_fluxon_packets",
+        "validate_fluxon_packet",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "fluxon_l3_036",
+      "gold_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "validate_fluxon_batch",
+        "serialize_fluxon_records",
+        "compare_fluxon_packets"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_037",
+      "gold_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "format_fluxon_packet",
+        "compute_fluxon_checksum"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_038",
+      "gold_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "validate_fluxon_batch",
+        "serialize_fluxon_records",
+        "filter_fluxon_by_channel"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_039",
+      "gold_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "validate_fluxon_batch",
+        "serialize_fluxon_records",
+        "compare_fluxon_packets"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_040",
+      "gold_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "is_legacy_packet",
+        "validate_fluxon_packet",
+        "validate_fluxon_batch",
+        "repair_fluxon_packet",
+        "decode_fluxon_frame"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_041",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "validate_fluxon_packet",
+        "repair_fluxon_packet",
+        "token_value",
+        "is_legacy_packet"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_042",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "validate_fluxon_batch",
+        "filter_fluxon_by_channel"
+      ],
+      "recall": 0.25,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_043",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "token_value",
+        "validate_fluxon_batch"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_044",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_packet",
+        "format_fluxon_packet",
+        "is_legacy_packet",
+        "validate_fluxon_batch",
+        "merge_fluxon_records"
+      ],
+      "recall": 0.25,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_045",
+      "gold_functions": [
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "format_fluxon_packet",
+        "validate_fluxon_packet",
+        "is_legacy_packet",
+        "token_value",
+        "validate_fluxon_batch"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_046",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "apply_fluxon_transformation",
+        "serialize_fluxon_records",
+        "validate_fluxon_batch",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.167,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_047",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "merge_fluxon_records",
+        "token_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_048",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "normalize_channel_value",
+        "validate_fluxon_batch",
+        "validate_fluxon_packet",
+        "token_value",
+        "parse_fluxon_packet"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "fluxon_l3_049",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "group_fluxon_by_channel",
+        "normalize_channel_value",
+        "validate_fluxon_batch",
+        "validate_fluxon_packet",
+        "compare_fluxon_packets"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "fluxon_l3_050",
+      "gold_functions": [
+        "decode_fluxon_frame",
+        "normalize_channel_value",
+        "parse_fluxon_packet",
+        "split_fluxon_payload",
+        "token_value",
+        "validate_fluxon_packet"
+      ],
+      "naive_functions": [
+        "validate_fluxon_batch",
+        "normalize_channel_value",
+        "format_fluxon_packet",
+        "parse_fluxon_packet",
+        "repair_fluxon_packet"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l1_001",
+      "gold_functions": [
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_002",
+      "gold_functions": [
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_003",
+      "gold_functions": [
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_004",
+      "gold_functions": [
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_005",
+      "gold_functions": [
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_006",
+      "gold_functions": [
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_007",
+      "gold_functions": [
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "audit_access",
+        "evaluate_condition"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_008",
+      "gold_functions": [
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "audit_access",
+        "evaluate_condition"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_009",
+      "gold_functions": [
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "audit_access",
+        "evaluate_condition"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_010",
+      "gold_functions": [
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "audit_access",
+        "evaluate_condition"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_011",
+      "gold_functions": [
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "audit_access",
+        "evaluate_condition"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_012",
+      "gold_functions": [
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "audit_access",
+        "evaluate_condition"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "quorix_l1_013",
+      "gold_functions": [
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "make_policy",
+        "format_resource",
+        "format_subject",
+        "authorize",
+        "parse_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l1_014",
+      "gold_functions": [
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "make_policy",
+        "format_resource",
+        "format_subject",
+        "authorize",
+        "parse_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l1_015",
+      "gold_functions": [
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "make_policy",
+        "format_resource",
+        "format_subject",
+        "authorize",
+        "parse_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l1_016",
+      "gold_functions": [
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "make_policy",
+        "format_resource",
+        "format_subject",
+        "authorize",
+        "parse_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l1_017",
+      "gold_functions": [
+        "evaluate_condition"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_018",
+      "gold_functions": [
+        "evaluate_condition"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_019",
+      "gold_functions": [
+        "evaluate_condition"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_020",
+      "gold_functions": [
+        "authorize",
+        "parse_policy",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 0.25,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_021",
+      "gold_functions": [
+        "authorize",
+        "parse_policy",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 0.25,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_022",
+      "gold_functions": [
+        "authorize",
+        "parse_policy",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 0.25,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_023",
+      "gold_functions": [
+        "authorize",
+        "parse_policy",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 0.25,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_024",
+      "gold_functions": [
+        "authorize",
+        "parse_policy",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 0.25,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_025",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "make_policy",
+        "authorize"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_026",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "make_policy",
+        "authorize"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_027",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "make_policy",
+        "authorize"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_028",
+      "gold_functions": [
+        "audit_access"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "format_resource",
+        "format_subject",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_029",
+      "gold_functions": [
+        "audit_access"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "format_resource",
+        "format_subject",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_030",
+      "gold_functions": [
+        "audit_access"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "format_resource",
+        "format_subject",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_031",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "subject_has_role",
+        "list_allowed_actions",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_032",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "subject_has_role",
+        "list_allowed_actions",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_033",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "subject_has_role",
+        "list_allowed_actions",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_034",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "subject_has_role",
+        "list_allowed_actions",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_035",
+      "gold_functions": [
+        "format_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_036",
+      "gold_functions": [
+        "format_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "format_resource",
+        "make_policy",
+        "evaluate_condition",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_037",
+      "gold_functions": [
+        "format_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_038",
+      "gold_functions": [
+        "format_resource"
+      ],
+      "naive_functions": [
+        "format_resource",
+        "format_subject",
+        "make_policy",
+        "evaluate_condition",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_039",
+      "gold_functions": [
+        "is_admin"
+      ],
+      "naive_functions": [
+        "is_admin",
+        "subject_has_role",
+        "subject_level_at_least",
+        "resource_owned_by",
+        "suggest_role"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_040",
+      "gold_functions": [
+        "is_sensitive"
+      ],
+      "naive_functions": [
+        "is_sensitive",
+        "subject_level_at_least",
+        "authorize",
+        "resource_owned_by",
+        "is_admin"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_041",
+      "gold_functions": [
+        "action_priority"
+      ],
+      "naive_functions": [
+        "action_priority",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "resource_sensitivity_at_least",
+        "suggest_role"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_042",
+      "gold_functions": [
+        "subject_has_role"
+      ],
+      "naive_functions": [
+        "subject_has_role",
+        "resource_owned_by",
+        "subject_level_at_least",
+        "count_matching_policies",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_043",
+      "gold_functions": [
+        "subject_level_at_least"
+      ],
+      "naive_functions": [
+        "subject_level_at_least",
+        "is_sensitive",
+        "subject_has_role",
+        "authorize",
+        "format_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_044",
+      "gold_functions": [
+        "resource_owned_by"
+      ],
+      "naive_functions": [
+        "resource_owned_by",
+        "subject_level_at_least",
+        "is_sensitive",
+        "count_matching_policies",
+        "authorize"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_045",
+      "gold_functions": [
+        "count_matching_policies",
+        "evaluate_condition",
+        "parse_policy",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "count_matching_policies",
+        "list_allowed_actions",
+        "authorize",
+        "resolve_policies",
+        "make_policy"
+      ],
+      "recall": 0.2,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_046",
+      "gold_functions": [
+        "count_matching_policies",
+        "evaluate_condition",
+        "parse_policy",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "count_matching_policies",
+        "list_allowed_actions",
+        "authorize",
+        "resolve_policies",
+        "make_policy"
+      ],
+      "recall": 0.2,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_047",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "resolve_policies",
+        "authorize",
+        "count_matching_policies",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_048",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "resolve_policies",
+        "authorize",
+        "count_matching_policies",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_049",
+      "gold_functions": [
+        "make_policy"
+      ],
+      "naive_functions": [
+        "make_policy",
+        "evaluate_condition",
+        "format_resource",
+        "format_subject",
+        "parse_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l1_050",
+      "gold_functions": [
+        "make_policy"
+      ],
+      "naive_functions": [
+        "make_policy",
+        "evaluate_condition",
+        "format_resource",
+        "format_subject",
+        "parse_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_001",
+      "gold_functions": [
+        "parse_subject",
+        "subject_has_role",
+        "subject_level_at_least"
+      ],
+      "naive_functions": [
+        "subject_level_at_least",
+        "format_subject",
+        "evaluate_condition",
+        "is_admin",
+        "subject_has_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_002",
+      "gold_functions": [
+        "parse_subject",
+        "subject_has_role",
+        "subject_level_at_least"
+      ],
+      "naive_functions": [
+        "subject_level_at_least",
+        "format_subject",
+        "evaluate_condition",
+        "is_admin",
+        "subject_has_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_003",
+      "gold_functions": [
+        "parse_subject",
+        "subject_has_role",
+        "subject_level_at_least"
+      ],
+      "naive_functions": [
+        "subject_level_at_least",
+        "format_subject",
+        "evaluate_condition",
+        "is_admin",
+        "subject_has_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_004",
+      "gold_functions": [
+        "parse_subject",
+        "subject_has_role",
+        "subject_level_at_least"
+      ],
+      "naive_functions": [
+        "subject_level_at_least",
+        "format_subject",
+        "evaluate_condition",
+        "is_admin",
+        "subject_has_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_005",
+      "gold_functions": [
+        "parse_subject",
+        "subject_has_role",
+        "subject_level_at_least"
+      ],
+      "naive_functions": [
+        "subject_level_at_least",
+        "format_subject",
+        "evaluate_condition",
+        "is_admin",
+        "subject_has_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_006",
+      "gold_functions": [
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "resource_owned_by",
+        "subject_has_role",
+        "subject_level_at_least",
+        "audit_access",
+        "parse_resource"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l2_007",
+      "gold_functions": [
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "resource_owned_by",
+        "subject_has_role",
+        "subject_level_at_least",
+        "audit_access",
+        "parse_resource"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l2_008",
+      "gold_functions": [
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "resource_owned_by",
+        "subject_has_role",
+        "subject_level_at_least",
+        "audit_access",
+        "parse_resource"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l2_009",
+      "gold_functions": [
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "resource_owned_by",
+        "subject_has_role",
+        "subject_level_at_least",
+        "audit_access",
+        "parse_resource"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l2_010",
+      "gold_functions": [
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "resource_owned_by",
+        "subject_has_role",
+        "subject_level_at_least",
+        "audit_access",
+        "parse_resource"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "quorix_l2_011",
+      "gold_functions": [
+        "authorize",
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "audit_access",
+        "make_policy"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_012",
+      "gold_functions": [
+        "authorize",
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "audit_access",
+        "make_policy"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_013",
+      "gold_functions": [
+        "authorize",
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "audit_access",
+        "make_policy"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_014",
+      "gold_functions": [
+        "authorize",
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "audit_access",
+        "make_policy"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_015",
+      "gold_functions": [
+        "authorize",
+        "parse_policy"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "audit_access",
+        "make_policy"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_016",
+      "gold_functions": [
+        "audit_access",
+        "authorize"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "authorize",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_017",
+      "gold_functions": [
+        "audit_access",
+        "authorize"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "authorize",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_018",
+      "gold_functions": [
+        "audit_access",
+        "authorize"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "authorize",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_019",
+      "gold_functions": [
+        "audit_access",
+        "authorize"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "authorize",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_020",
+      "gold_functions": [
+        "audit_access",
+        "authorize"
+      ],
+      "naive_functions": [
+        "audit_access",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "authorize",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_021",
+      "gold_functions": [
+        "action_priority",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "list_allowed_actions",
+        "action_priority",
+        "subject_has_role",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_022",
+      "gold_functions": [
+        "action_priority",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "list_allowed_actions",
+        "action_priority",
+        "subject_has_role",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_023",
+      "gold_functions": [
+        "action_priority",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "list_allowed_actions",
+        "action_priority",
+        "subject_has_role",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_024",
+      "gold_functions": [
+        "action_priority",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "list_allowed_actions",
+        "action_priority",
+        "subject_has_role",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_025",
+      "gold_functions": [
+        "action_priority",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "list_allowed_actions",
+        "action_priority",
+        "subject_has_role",
+        "make_policy"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_026",
+      "gold_functions": [
+        "count_matching_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_027",
+      "gold_functions": [
+        "count_matching_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_028",
+      "gold_functions": [
+        "count_matching_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_029",
+      "gold_functions": [
+        "count_matching_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_030",
+      "gold_functions": [
+        "count_matching_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_031",
+      "gold_functions": [
+        "action_priority",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_032",
+      "gold_functions": [
+        "action_priority",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_033",
+      "gold_functions": [
+        "action_priority",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_034",
+      "gold_functions": [
+        "action_priority",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_035",
+      "gold_functions": [
+        "action_priority",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "count_matching_policies",
+        "action_priority",
+        "audit_access"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l2_036",
+      "gold_functions": [
+        "format_subject",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "evaluate_condition",
+        "make_policy",
+        "format_resource",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_037",
+      "gold_functions": [
+        "format_subject",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "evaluate_condition",
+        "make_policy",
+        "format_resource",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_038",
+      "gold_functions": [
+        "format_subject",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "evaluate_condition",
+        "make_policy",
+        "format_resource",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_039",
+      "gold_functions": [
+        "format_subject",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "evaluate_condition",
+        "make_policy",
+        "format_resource",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_040",
+      "gold_functions": [
+        "format_subject",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "format_subject",
+        "evaluate_condition",
+        "make_policy",
+        "format_resource",
+        "parse_subject"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_041",
+      "gold_functions": [
+        "authorize",
+        "is_sensitive",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "audit_access",
+        "action_priority"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_042",
+      "gold_functions": [
+        "authorize",
+        "is_sensitive",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "audit_access",
+        "action_priority"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_043",
+      "gold_functions": [
+        "authorize",
+        "is_sensitive",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "audit_access",
+        "action_priority"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_044",
+      "gold_functions": [
+        "authorize",
+        "is_sensitive",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "audit_access",
+        "action_priority"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_045",
+      "gold_functions": [
+        "authorize",
+        "is_sensitive",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "authorize",
+        "count_matching_policies",
+        "list_allowed_actions",
+        "audit_access",
+        "action_priority"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_046",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_047",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_048",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_049",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l2_050",
+      "gold_functions": [
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "make_policy",
+        "count_matching_policies",
+        "format_resource",
+        "format_subject"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_001",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "count_matching_policies",
+        "action_priority",
+        "list_allowed_actions",
+        "authorize",
+        "evaluate_condition"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "quorix_l3_002",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "count_matching_policies",
+        "action_priority",
+        "list_allowed_actions",
+        "authorize",
+        "evaluate_condition"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "quorix_l3_003",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "count_matching_policies",
+        "action_priority",
+        "list_allowed_actions",
+        "authorize",
+        "evaluate_condition"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "quorix_l3_004",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "count_matching_policies",
+        "action_priority",
+        "list_allowed_actions",
+        "authorize",
+        "evaluate_condition"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "quorix_l3_005",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "count_matching_policies",
+        "action_priority",
+        "list_allowed_actions",
+        "authorize",
+        "evaluate_condition"
+      ],
+      "recall": 0.333,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "quorix_l3_006",
+      "gold_functions": [
+        "authorize",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "count_matching_policies",
+        "action_priority",
+        "resolve_policies"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_007",
+      "gold_functions": [
+        "authorize",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "count_matching_policies",
+        "action_priority",
+        "resolve_policies"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_008",
+      "gold_functions": [
+        "authorize",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "count_matching_policies",
+        "action_priority",
+        "resolve_policies"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_009",
+      "gold_functions": [
+        "authorize",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "count_matching_policies",
+        "action_priority",
+        "resolve_policies"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_010",
+      "gold_functions": [
+        "authorize",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "count_matching_policies",
+        "action_priority",
+        "resolve_policies"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_011",
+      "gold_functions": [
+        "action_priority",
+        "audit_access",
+        "authorize",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "action_priority",
+        "authorize",
+        "audit_access",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_012",
+      "gold_functions": [
+        "action_priority",
+        "audit_access",
+        "authorize",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "action_priority",
+        "authorize",
+        "audit_access",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_013",
+      "gold_functions": [
+        "action_priority",
+        "audit_access",
+        "authorize",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "action_priority",
+        "authorize",
+        "audit_access",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_014",
+      "gold_functions": [
+        "action_priority",
+        "audit_access",
+        "authorize",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "action_priority",
+        "authorize",
+        "audit_access",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_015",
+      "gold_functions": [
+        "action_priority",
+        "audit_access",
+        "authorize",
+        "list_allowed_actions"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "action_priority",
+        "authorize",
+        "audit_access",
+        "count_matching_policies"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_016",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "authorize",
+        "make_policy",
+        "action_priority",
+        "subject_has_role"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_017",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "authorize",
+        "make_policy",
+        "action_priority",
+        "subject_has_role"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_018",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "authorize",
+        "make_policy",
+        "action_priority",
+        "subject_has_role"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_019",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "authorize",
+        "make_policy",
+        "action_priority",
+        "subject_has_role"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_020",
+      "gold_functions": [
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "suggest_role",
+        "authorize",
+        "make_policy",
+        "action_priority",
+        "subject_has_role"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_021",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "subject_level_at_least",
+        "suggest_role",
+        "count_matching_policies"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_022",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "subject_level_at_least",
+        "suggest_role",
+        "count_matching_policies"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_023",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "subject_level_at_least",
+        "suggest_role",
+        "count_matching_policies"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_024",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "subject_level_at_least",
+        "suggest_role",
+        "count_matching_policies"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_025",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "authorize",
+        "subject_level_at_least",
+        "suggest_role",
+        "count_matching_policies"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_026",
+      "gold_functions": [
+        "evaluate_condition",
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "make_policy",
+        "resolve_policies",
+        "subject_level_at_least",
+        "subject_has_role"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_027",
+      "gold_functions": [
+        "evaluate_condition",
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "make_policy",
+        "resolve_policies",
+        "subject_level_at_least",
+        "subject_has_role"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_028",
+      "gold_functions": [
+        "evaluate_condition",
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "make_policy",
+        "resolve_policies",
+        "subject_level_at_least",
+        "subject_has_role"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_029",
+      "gold_functions": [
+        "evaluate_condition",
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "make_policy",
+        "resolve_policies",
+        "subject_level_at_least",
+        "subject_has_role"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_030",
+      "gold_functions": [
+        "evaluate_condition",
+        "parse_policy",
+        "resolve_policies"
+      ],
+      "naive_functions": [
+        "authorize",
+        "make_policy",
+        "resolve_policies",
+        "subject_level_at_least",
+        "subject_has_role"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_031",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "authorize",
+        "resolve_policies",
+        "count_matching_policies"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_032",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "authorize",
+        "resolve_policies",
+        "count_matching_policies"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_033",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "authorize",
+        "resolve_policies",
+        "count_matching_policies"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_034",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "authorize",
+        "resolve_policies",
+        "count_matching_policies"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_035",
+      "gold_functions": [
+        "authorize",
+        "parse_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "make_policy",
+        "authorize",
+        "resolve_policies",
+        "count_matching_policies"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "quorix_l3_036",
+      "gold_functions": [
+        "authorize",
+        "format_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "authorize",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "is_sensitive"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_037",
+      "gold_functions": [
+        "authorize",
+        "format_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "authorize",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "is_sensitive"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_038",
+      "gold_functions": [
+        "authorize",
+        "format_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "authorize",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "is_sensitive"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_039",
+      "gold_functions": [
+        "authorize",
+        "format_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "authorize",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "is_sensitive"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_040",
+      "gold_functions": [
+        "authorize",
+        "format_resource",
+        "parse_subject"
+      ],
+      "naive_functions": [
+        "evaluate_condition",
+        "authorize",
+        "list_allowed_actions",
+        "subject_level_at_least",
+        "is_sensitive"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_041",
+      "gold_functions": [
+        "make_policy",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "suggest_role",
+        "make_policy",
+        "list_allowed_actions",
+        "evaluate_condition"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_042",
+      "gold_functions": [
+        "make_policy",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "suggest_role",
+        "make_policy",
+        "list_allowed_actions",
+        "evaluate_condition"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_043",
+      "gold_functions": [
+        "make_policy",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "suggest_role",
+        "make_policy",
+        "list_allowed_actions",
+        "evaluate_condition"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_044",
+      "gold_functions": [
+        "make_policy",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "suggest_role",
+        "make_policy",
+        "list_allowed_actions",
+        "evaluate_condition"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_045",
+      "gold_functions": [
+        "make_policy",
+        "suggest_role"
+      ],
+      "naive_functions": [
+        "resolve_policies",
+        "suggest_role",
+        "make_policy",
+        "list_allowed_actions",
+        "evaluate_condition"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "quorix_l3_046",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "evaluate_condition",
+        "authorize",
+        "resolve_policies",
+        "suggest_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_047",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "evaluate_condition",
+        "authorize",
+        "resolve_policies",
+        "suggest_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_048",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "evaluate_condition",
+        "authorize",
+        "resolve_policies",
+        "suggest_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_049",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "evaluate_condition",
+        "authorize",
+        "resolve_policies",
+        "suggest_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "quorix_l3_050",
+      "gold_functions": [
+        "authorize",
+        "list_allowed_actions",
+        "parse_resource"
+      ],
+      "naive_functions": [
+        "list_allowed_actions",
+        "evaluate_condition",
+        "authorize",
+        "resolve_policies",
+        "suggest_role"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_001",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "series_length",
+        "format_nimbla_series",
+        "nimbla_value",
+        "parse_nimbla_series",
+        "first_timestamp"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_002",
+      "gold_functions": [
+        "first_timestamp",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "series_length",
+        "nimbla_value",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_003",
+      "gold_functions": [
+        "last_timestamp",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "last_timestamp",
+        "forecast_next",
+        "series_length",
+        "nimbla_value",
+        "format_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_004",
+      "gold_functions": [
+        "first_value",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "forecast_next",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l1_005",
+      "gold_functions": [
+        "last_value",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "forecast_next",
+        "last_value",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l1_006",
+      "gold_functions": [
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "format_nimbla_series",
+        "detect_outliers",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "recall": 1.0,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "nimbla_l1_007",
+      "gold_functions": [
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "format_nimbla_series",
+        "scale_nimbla",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "recall": 1.0,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "nimbla_l1_008",
+      "gold_functions": [
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value",
+        "last_value",
+        "moving_average"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_009",
+      "gold_functions": [
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "series_length",
+        "format_nimbla_series",
+        "moving_average"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_010",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "parse_nimbla_series",
+        "format_nimbla_series",
+        "first_timestamp",
+        "first_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l1_011",
+      "gold_functions": [
+        "nimbla_value"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "parse_nimbla_series",
+        "forecast_next",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_012",
+      "gold_functions": [
+        "nimbla_value"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "series_length",
+        "parse_nimbla_series",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_013",
+      "gold_functions": [
+        "nimbla_value"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "parse_nimbla_series",
+        "first_value",
+        "last_value",
+        "format_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_014",
+      "gold_functions": [
+        "nimbla_value"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "merge_nimbla_series",
+        "first_value",
+        "last_value",
+        "series_length"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_015",
+      "gold_functions": [
+        "format_nimbla_series",
+        "nimbla_value"
+      ],
+      "naive_functions": [
+        "format_nimbla_series",
+        "parse_nimbla_series",
+        "select_nimbla_range",
+        "nimbla_value",
+        "merge_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_016",
+      "gold_functions": [
+        "format_nimbla_series",
+        "nimbla_value"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "format_nimbla_series",
+        "parse_nimbla_series",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_017",
+      "gold_functions": [
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "series_length",
+        "format_nimbla_series",
+        "first_timestamp",
+        "last_timestamp",
+        "nimbla_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l1_018",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "forecast_next",
+        "last_value",
+        "nimbla_value",
+        "last_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_019",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "forecast_next",
+        "first_value",
+        "nimbla_value",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_020",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "value_differences",
+        "nimbla_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_021",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "nimbla_value",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "forecast_next"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_022",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "nimbla_value",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "forecast_next"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_023",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "series_length",
+        "format_nimbla_series",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_024",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "select_nimbla_range",
+        "nimbla_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_025",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "detect_outliers",
+        "last_timestamp",
+        "first_value",
+        "scale_nimbla"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l1_026",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_027",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "nimbla_value",
+        "format_nimbla_series",
+        "normalize_nimbla",
+        "forecast_next"
+      ],
+      "recall": 0.5,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "nimbla_l1_028",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "nimbla_value",
+        "format_nimbla_series",
+        "normalize_nimbla",
+        "forecast_next"
+      ],
+      "recall": 0.5,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "nimbla_l1_029",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_value",
+        "nimbla_value",
+        "forecast_next",
+        "first_timestamp",
+        "last_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_030",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "forecast_next",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_031",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_value",
+        "last_value",
+        "nimbla_value",
+        "forecast_next",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_032",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "moving_average",
+        "format_nimbla_series"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_033",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "format_nimbla_series",
+        "nimbla_value",
+        "first_timestamp",
+        "first_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_034",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "nimbla_value",
+        "first_timestamp",
+        "first_value",
+        "last_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_035",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "last_value",
+        "last_timestamp",
+        "first_value",
+        "nimbla_value",
+        "forecast_next"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_036",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "nimbla_l1_037",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_038",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_039",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_040",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "moving_average"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_041",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "nimbla_value",
+        "format_nimbla_series"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_042",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "summarize_nimbla",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l1_043",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value",
+        "last_value",
+        "scale_nimbla"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_044",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "format_nimbla_series",
+        "scale_nimbla"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_045",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "format_nimbla_series",
+        "scale_nimbla"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_046",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "select_nimbla_range",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l1_047",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "select_nimbla_range",
+        "series_length"
+      ],
+      "naive_functions": [
+        "select_nimbla_range",
+        "series_length",
+        "format_nimbla_series",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_048",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "select_nimbla_range",
+        "format_nimbla_series",
+        "moving_average",
+        "detect_outliers",
+        "series_length"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_049",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "first_value",
+        "last_value",
+        "normalize_nimbla",
+        "forecast_next"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l1_050",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "series_length",
+        "value_differences"
+      ],
+      "naive_functions": [
+        "series_length",
+        "value_differences",
+        "nimbla_value",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_001",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "nimbla_value",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_002",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "parse_nimbla_series",
+        "nimbla_value",
+        "series_length"
+      ],
+      "recall": 0.5,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l2_003",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "forecast_next",
+        "last_value",
+        "last_timestamp",
+        "first_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_004",
+      "gold_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "nimbla_value",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_005",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "series_length",
+        "format_nimbla_series",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_006",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_007",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "select_nimbla_range",
+        "format_nimbla_series",
+        "moving_average",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_008",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "scale_nimbla",
+        "forecast_next",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_009",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "value_differences"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "forecast_next",
+        "value_differences",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l2_010",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "forecast_next",
+        "first_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_011",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "forecast_next",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_012",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "first_value",
+        "last_value",
+        "format_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_013",
+      "gold_functions": [
+        "detect_outliers",
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "select_nimbla_range",
+        "scale_nimbla",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_014",
+      "gold_functions": [
+        "forecast_next",
+        "last_value",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "last_value",
+        "last_timestamp",
+        "first_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_015",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "format_nimbla_series",
+        "nimbla_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_016",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_timestamp",
+        "first_value",
+        "last_timestamp",
+        "last_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_017",
+      "gold_functions": [
+        "forecast_next",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "merge_nimbla_series"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_018",
+      "gold_functions": [
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "series_length",
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l2_019",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "select_nimbla_range",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "select_nimbla_range",
+        "series_length",
+        "format_nimbla_series",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_020",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "detect_outliers",
+        "first_value",
+        "last_value",
+        "first_timestamp"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_021",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_value",
+        "last_value",
+        "nimbla_value",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_022",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "select_nimbla_range",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_023",
+      "gold_functions": [
+        "detect_outliers",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "format_nimbla_series",
+        "scale_nimbla",
+        "series_length",
+        "nimbla_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_024",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "moving_average",
+        "nimbla_value",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.333,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l2_025",
+      "gold_functions": [
+        "forecast_next",
+        "last_value",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "last_value",
+        "last_timestamp",
+        "first_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_026",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "first_value",
+        "last_value",
+        "moving_average",
+        "nimbla_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_027",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "value_differences"
+      ],
+      "naive_functions": [
+        "value_differences",
+        "parse_nimbla_series",
+        "nimbla_value",
+        "series_length",
+        "format_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_028",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "select_nimbla_range",
+        "forecast_next",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_029",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "format_nimbla_series",
+        "merge_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "nimbla_l2_030",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "nimbla_value",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "nimbla_l2_031",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "first_value",
+        "last_value",
+        "first_timestamp",
+        "forecast_next"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_032",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "first_timestamp",
+        "last_timestamp",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_033",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "summarize_nimbla",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 0.25
+    },
+    {
+      "task_id": "nimbla_l2_034",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "normalize_nimbla",
+        "first_value",
+        "last_value",
+        "first_timestamp"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_035",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "format_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_036",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_037",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "series_length",
+        "format_nimbla_series",
+        "first_timestamp"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_038",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_value",
+        "last_value",
+        "nimbla_value",
+        "forecast_next",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_039",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "parse_nimbla_series",
+        "nimbla_value",
+        "series_length"
+      ],
+      "recall": 0.5,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l2_040",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "last_timestamp",
+        "first_timestamp",
+        "last_value",
+        "series_length",
+        "merge_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "nimbla_l2_041",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "select_nimbla_range",
+        "moving_average",
+        "series_length",
+        "format_nimbla_series",
+        "scale_nimbla"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_042",
+      "gold_functions": [
+        "last_value",
+        "parse_nimbla_series",
+        "value_differences"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "last_value",
+        "last_timestamp",
+        "first_value"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l2_043",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "format_nimbla_series",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l2_044",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "nimbla_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_045",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "first_value",
+        "last_value",
+        "scale_nimbla",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_046",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "parse_nimbla_series",
+        "format_nimbla_series",
+        "series_length",
+        "nimbla_value",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_047",
+      "gold_functions": [
+        "format_nimbla_series",
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "format_nimbla_series",
+        "moving_average",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_048",
+      "gold_functions": [
+        "detect_outliers",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "first_timestamp",
+        "first_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_049",
+      "gold_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "format_nimbla_series",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l2_050",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "value_differences"
+      ],
+      "naive_functions": [
+        "value_differences",
+        "parse_nimbla_series",
+        "nimbla_value",
+        "series_length",
+        "format_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_001",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "format_nimbla_series"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_002",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "series_length",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_003",
+      "gold_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "format_nimbla_series",
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_004",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "select_nimbla_range",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "series_length",
+        "select_nimbla_range",
+        "format_nimbla_series",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.25,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l3_005",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "normalize_nimbla",
+        "first_value",
+        "last_value",
+        "nimbla_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l3_006",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "first_timestamp",
+        "first_value",
+        "last_timestamp",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_007",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "normalize_nimbla",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_008",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "last_value",
+        "moving_average",
+        "last_timestamp",
+        "first_value"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l3_009",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_010",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "series_length",
+        "scale_nimbla",
+        "nimbla_value",
+        "format_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_011",
+      "gold_functions": [
+        "detect_outliers",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "first_timestamp",
+        "last_timestamp",
+        "scale_nimbla",
+        "series_length"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_012",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "moving_average",
+        "normalize_nimbla",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l3_013",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "summarize_nimbla",
+        "first_timestamp",
+        "first_value",
+        "last_timestamp",
+        "last_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_014",
+      "gold_functions": [
+        "forecast_next",
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "series_length",
+        "select_nimbla_range",
+        "first_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_015",
+      "gold_functions": [
+        "detect_outliers",
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "scale_nimbla",
+        "first_value",
+        "last_value",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_016",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_017",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "parse_nimbla_series",
+        "series_length",
+        "format_nimbla_series"
+      ],
+      "recall": 0.333,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l3_018",
+      "gold_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "format_nimbla_series",
+        "forecast_next",
+        "normalize_nimbla",
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_019",
+      "gold_functions": [
+        "detect_outliers",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "format_nimbla_series",
+        "first_timestamp",
+        "first_value",
+        "last_timestamp"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_020",
+      "gold_functions": [
+        "forecast_next",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "first_timestamp"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_021",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "series_length"
+      ],
+      "naive_functions": [
+        "series_length",
+        "format_nimbla_series",
+        "moving_average",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_022",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "normalize_nimbla",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "format_nimbla_series",
+        "select_nimbla_range",
+        "parse_nimbla_series",
+        "normalize_nimbla",
+        "series_length"
+      ],
+      "recall": 0.75,
+      "mrr": 0.5
+    },
+    {
+      "task_id": "nimbla_l3_023",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "first_value",
+        "last_value",
+        "first_timestamp",
+        "last_timestamp",
+        "forecast_next"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_024",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "series_length",
+        "scale_nimbla",
+        "format_nimbla_series",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_025",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "nimbla_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_026",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "nimbla_value",
+        "first_value",
+        "last_value",
+        "forecast_next",
+        "normalize_nimbla"
+      ],
+      "recall": 0.5,
+      "mrr": 0.2
+    },
+    {
+      "task_id": "nimbla_l3_027",
+      "gold_functions": [
+        "forecast_next",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "normalize_nimbla",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_028",
+      "gold_functions": [
+        "detect_outliers",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "nimbla_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_029",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "series_length",
+        "format_nimbla_series",
+        "forecast_next"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_030",
+      "gold_functions": [
+        "forecast_next",
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "first_timestamp"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_031",
+      "gold_functions": [
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "scale_nimbla",
+        "forecast_next"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_032",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "first_value",
+        "last_value",
+        "select_nimbla_range",
+        "moving_average",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_033",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "first_timestamp",
+        "last_timestamp",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_034",
+      "gold_functions": [
+        "normalize_nimbla",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "normalize_nimbla",
+        "parse_nimbla_series",
+        "nimbla_value"
+      ],
+      "recall": 1.0,
+      "mrr": 0.333
+    },
+    {
+      "task_id": "nimbla_l3_035",
+      "gold_functions": [
+        "format_nimbla_series",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "format_nimbla_series",
+        "first_timestamp",
+        "last_timestamp",
+        "series_length",
+        "nimbla_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_036",
+      "gold_functions": [
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "moving_average",
+        "format_nimbla_series",
+        "parse_nimbla_series",
+        "forecast_next",
+        "select_nimbla_range"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_037",
+      "gold_functions": [
+        "forecast_next",
+        "merge_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "format_nimbla_series",
+        "nimbla_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_038",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "format_nimbla_series",
+        "scale_nimbla",
+        "parse_nimbla_series",
+        "merge_nimbla_series"
+      ],
+      "recall": 1.0,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_039",
+      "gold_functions": [
+        "detect_outliers",
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "select_nimbla_range",
+        "format_nimbla_series",
+        "scale_nimbla",
+        "series_length"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_040",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "moving_average",
+        "first_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_041",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "normalize_nimbla",
+        "parse_nimbla_series",
+        "scale_nimbla"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "normalize_nimbla",
+        "first_value",
+        "last_value",
+        "detect_outliers"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_042",
+      "gold_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "format_nimbla_series",
+        "normalize_nimbla",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.667,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_043",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "value_differences"
+      ],
+      "naive_functions": [
+        "value_differences",
+        "first_value",
+        "last_value",
+        "format_nimbla_series",
+        "forecast_next"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_044",
+      "gold_functions": [
+        "forecast_next",
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "select_nimbla_range"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "first_timestamp",
+        "merge_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_045",
+      "gold_functions": [
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "forecast_next",
+        "first_value",
+        "last_value",
+        "first_timestamp",
+        "last_timestamp"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_046",
+      "gold_functions": [
+        "detect_outliers",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "first_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_047",
+      "gold_functions": [
+        "detect_outliers",
+        "merge_nimbla_series",
+        "moving_average",
+        "parse_nimbla_series"
+      ],
+      "naive_functions": [
+        "detect_outliers",
+        "moving_average",
+        "select_nimbla_range",
+        "scale_nimbla",
+        "format_nimbla_series"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_048",
+      "gold_functions": [
+        "parse_nimbla_series",
+        "summarize_nimbla"
+      ],
+      "naive_functions": [
+        "first_timestamp",
+        "last_timestamp",
+        "series_length",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.0,
+      "mrr": 0.0
+    },
+    {
+      "task_id": "nimbla_l3_049",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "scale_nimbla",
+        "series_length"
+      ],
+      "naive_functions": [
+        "scale_nimbla",
+        "series_length",
+        "first_timestamp",
+        "last_timestamp",
+        "first_value"
+      ],
+      "recall": 0.5,
+      "mrr": 1.0
+    },
+    {
+      "task_id": "nimbla_l3_050",
+      "gold_functions": [
+        "merge_nimbla_series",
+        "parse_nimbla_series",
+        "value_differences"
+      ],
+      "naive_functions": [
+        "value_differences",
+        "first_timestamp",
+        "last_timestamp",
+        "first_value",
+        "last_value"
+      ],
+      "recall": 0.333,
+      "mrr": 1.0
+    }
+  ]
+}

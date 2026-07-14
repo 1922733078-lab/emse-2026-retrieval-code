@@ -1,0 +1,174 @@
+```python
+def parse(timestr, parserinfo=None, **kwargs):
+    """
+
+    Parse a string in one of the supported formats, using the
+    ``parserinfo`` parameters.
+
+    :param timestr:
+        A string containing a date/time stamp.
+
+    :param parserinfo:
+        A :class:`parserinfo` object containing parameters for the parser.
+        If ``None``, the default arguments to the :class:`parserinfo`
+        constructor are used.
+
+    The ``**kwargs`` parameter takes the following keyword arguments:
+
+    :param default:
+        The default datetime object, if this is a datetime object and not
+        ``None``, elements specified in ``timestr`` replace elements in the
+        default object.
+
+    :param ignoretz:
+        If set ``True``, time zones in parsed strings are ignored and a naive
+        :class:`datetime` object is returned.
+
+    :param tzinfos:
+        Additional time zone names / aliases which may be present in the
+        string. This argument maps time zone names (and optionally offsets
+        from those time zones) to time zones. This parameter can be a
+        dictionary with timezone aliases mapping time zone names to time
+        zones or a function taking two parameters (``tzname`` and
+        ``tzoffset``) and returning a time zone.
+
+        The timezones to which the names are mapped can be an integer
+        offset from UTC in seconds or a :class:`tzinfo` object.
+
+        .. doctest::
+           :options: +NORMALIZE_WHITESPACE
+
+            >>> from dateutil.parser import parse
+            >>> from dateutil.tz import gettz
+            >>> tzinfos = {"BRST": -7200, "CST": gettz("America/Chicago")}
+            >>> parse("2012-01-19 17:21:00 BRST", tzinfos=tzinfos)
+            datetime.datetime(2012, 1, 19, 17, 21, tzinfo=tzoffset(u'BRST', -7200))
+            >>> parse("2012-01-19 17:21:00 CST", tzinfos=tzinfos)
+            datetime.datetime(2012, 1, 19, 17, 21,
+                              tzinfo=tzfile('/usr/share/zoneinfo/America/Chicago'))
+
+        This parameter is ignored if ``ignoretz`` is set.
+
+    :param dayfirst:
+        Whether to interpret the first value in an ambiguous 3-integer date
+        (e.g. 01/05/09) as the day (``True``) or month (``False``). If
+        ``yearfirst`` is set to ``True``, this distinguishes between YDM and
+        YMD. If set to ``None``, this value is retrieved from the current
+        :class:`parserinfo` object (which itself defaults to ``False``).
+
+    :param yearfirst:
+        Whether to interpret the first value in an ambiguous 3-integer date
+        (e.g. 01/05/09) as the year. If ``True``, the first number is taken to
+        be the year, otherwise the last number is taken to be the year. If
+        this is set to ``None``, the value is retrieved from the current
+        :class:`parserinfo` object (which itself defaults to ``False``).
+
+    :param fuzzy:
+        Whether to allow fuzzy parsing, allowing for string like "Today is
+        January 1, 2047 at 8:21:00AM".
+
+    :param fuzzy_with_tokens:
+        If ``True``, ``fuzzy`` is automatically set to True, and the parser
+        will return a tuple where the first element is the parsed
+        :class:`datetime.datetime` datetimestamp and the second element is
+        a tuple containing the portions of the string which were ignored:
+
+        .. doctest::
+
+            >>> from dateutil.parser import parse
+            >>> parse("Today is January 1, 2047 at 8:21:00AM", fuzzy_with_tokens=True)
+            (datetime.datetime(2047, 1, 1, 8, 21), (u'Today is ', u' ', u'at '))
+
+    :return:
+        Returns a :class:`datetime.datetime` object or, if the
+        ``fuzzy_with_tokens`` option is ``True``, returns a tuple, the
+        first element being a :class:`datetime.datetime` object, the second
+        a tuple containing the fuzzy tokens.
+
+    :raises ParserError:
+        Raised for invalid or unknown string formats, if the provided
+        :class:`tzinfo` is not in a valid format, or if an invalid date would
+        be created.
+
+    :raises OverflowError:
+        Raised if the parsed date exceeds the largest valid C integer on
+        your system.
+    """
+    if parserinfo:
+        return parser(parserinfo).parse(timestr, **kwargs)
+    else:
+        return DEFAULTPARSER.parse(timestr, **kwargs)
+```
+
+```python
+def default_tzinfo(dt, tzinfo):
+    """
+    Sets the ``tzinfo`` parameter on naive datetimes only
+
+    This is useful for example when you are provided a datetime that may have
+    either an implicit or explicit time zone, such as when parsing a time zone
+    string.
+
+    .. doctest::
+
+        >>> from dateutil.tz import tzoffset
+        >>> from dateutil.parser import parse
+        >>> from dateutil.utils import default_tzinfo
+        >>> dflt_tz = tzoffset("EST", -18000)
+        >>> print(default_tzinfo(parse('2014-01-01 12:30 UTC'), dflt_tz))
+        2014-01-01 12:30:00+00:00
+        >>> print(default_tzinfo(parse('2014-01-01 12:30'), dflt_tz))
+        2014-01-01 12:30:00-05:00
+
+    :param dt:
+        The datetime on which to replace the time zone
+
+    :param tzinfo:
+        The :py:class:`datetime.tzinfo` subclass instance to assign to
+        ``dt`` if (and only if) it is naive.
+
+    :return:
+        Returns an aware :py:class:`datetime.datetime`.
+    """
+    if dt.tzinfo is not None:
+        return dt
+    else:
+        return dt.replace(tzinfo=tzinfo)
+```
+
+```python
+def normalized(self):
+        """
+        Return a version of this object represented entirely using integer
+        values for the relative attributes.
+
+        >>> relativedelta(days=1.5, hours=2).normalized()
+        relativedelta(days=+1, hours=+14)
+
+        :return:
+            Returns a :class:`dateutil.relativedelta.relativedelta` object.
+        """
+        # Cascade remainders down (rounding each to roughly nearest microsecond)
+        days = int(self.days)
+
+        hours_f = round(self.hours + 24 * (self.days - days), 11)
+        hours = int(hours_f)
+
+        minutes_f = round(self.minutes + 60 * (hours_f - hours), 10)
+        minutes = int(minutes_f)
+
+        seconds_f = round(self.seconds + 60 * (minutes_f - minutes), 8)
+        seconds = int(seconds_f)
+
+        microseconds = round(self.microseconds + 1e6 * (seconds_f - seconds))
+
+        # Constructor carries overflow back up with call to _fix()
+        return self.__class__(years=self.years, months=self.months,
+                              days=days, hours=hours, minutes=minutes,
+                              seconds=seconds, microseconds=microseconds,
+                              leapdays=self.leapdays, year=self.year,
+                              month=self.month, day=self.day,
+                              weekday=self.weekday, hour=self.hour,
+                              minute=self.minute, second=self.second,
+                              microsecond=self.microsecond)
+```

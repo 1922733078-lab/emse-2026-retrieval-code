@@ -1,0 +1,100 @@
+[2026-07-13T21:19:26+08:00] Starting final validation
+[2026-07-13T21:19:26+08:00] Validate outputs/raw_generations/qwen_3b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:27+08:00] Validate outputs/raw_generations/qwen_7b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:27+08:00] Validate outputs/raw_generations/codellama_7b_instruct_q5_k_m.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:27+08:00] Validate outputs/raw_generations/deepseek_v4_flash_main.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:27+08:00] Validate outputs/raw_generations/longcat_2_0_main.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:28+08:00] Validate outputs/raw_generations/qwen3b_naive_topk_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:28+08:00] Validate outputs/raw_generations/qwen7b_naive_topk_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:28+08:00] Validate outputs/raw_generations/codellama_naive_topk_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:29+08:00] Validate outputs/raw_generations/deepseek_v4_flash_naive_topk_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:29+08:00] Validate outputs/raw_generations/longcat_2_0_naive_topk_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:29+08:00] Validate outputs/raw_generations/qwen3b_gold_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:29+08:00] Validate outputs/raw_generations/qwen7b_gold_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:30+08:00] Validate outputs/raw_generations/codellama_gold_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:30+08:00] Validate outputs/raw_generations/deepseek_v4_flash_gold_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:30+08:00] Validate outputs/raw_generations/longcat_2_0_gold_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:30+08:00] Validate outputs/raw_generations/qwen3b_distractor_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:30+08:00] Validate outputs/raw_generations/qwen7b_distractor_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:30+08:00] Validate outputs/raw_generations/codellama_distractor_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:30+08:00] Validate outputs/raw_generations/deepseek_v4_flash_distractor_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:31+08:00] Validate outputs/raw_generations/longcat_2_0_distractor_reminder_full.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:31+08:00] Validate outputs/raw_generations/p1_qwen3b_n3.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:31+08:00] Validate outputs/raw_generations/p1_qwen7b_n3.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:32+08:00] Validate outputs/raw_generations/p1_codellama_n3.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:33+08:00] Validate outputs/raw_generations/p1_deepseek_v4_flash_n3.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:33+08:00] Validate outputs/raw_generations/p1_longcat_2_0_n3.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:34+08:00] Validate outputs/raw_generations/p0_qwen3b_cot.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:34+08:00] Validate outputs/raw_generations/p0_qwen7b_cot.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:35+08:00] Validate outputs/raw_generations/p0_codellama_cot.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:35+08:00] Validate outputs/raw_generations/p0_deepseek_v4_flash_cot.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:35+08:00] Validate outputs/raw_generations/p0_longcat_2_0_cot.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:35+08:00] Validate outputs/raw_generations/e7_qwen3b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:35+08:00] Validate outputs/raw_generations/e7_qwen7b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:35+08:00] Validate outputs/raw_generations/e7_codellama.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e8_qwen3b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e8_qwen7b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e8_codellama.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e7_LongCat-2.0_dense.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e7_LongCat-2.0_hybrid.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e7_deepseek-v4-flash_dense.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e7_deepseek-v4-flash_hybrid.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e8_LongCat-2.0_distractor_weak.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e8_LongCat-2.0_distractor_strong.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e8_deepseek-v4-flash_distractor_weak.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate outputs/raw_generations/e8_deepseek-v4-flash_distractor_strong.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate realworld/outputs/raw_generations/e9_longcat_2_0_async.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:36+08:00] Validate realworld/outputs/raw_generations/e9_deepseek_v4_flash_async.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:37+08:00] Validate realworld/outputs/raw_generations/e9_qwen3b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:37+08:00] Validate realworld/outputs/raw_generations/e9_qwen7b.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:37+08:00] Validate realworld/outputs/raw_generations/e9_codellama.jsonl
+OK: all validation checks passed
+[2026-07-13T21:19:37+08:00] Final validation finished

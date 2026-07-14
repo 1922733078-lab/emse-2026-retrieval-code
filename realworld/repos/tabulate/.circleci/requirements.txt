@@ -1,0 +1,10 @@
+pytest
+tox
+numpy
+pandas
+wcwidth
+setuptools
+pip
+build
+wheel
+setuptools_scm

@@ -1,0 +1,8 @@
+```python
+def getzoneinfofile_stream():
+    try:
+        return BytesIO(get_data(__name__, ZONEFILENAME))
+    except IOError as e:  # TODO  switch to FileNotFoundError?
+        warnings.warn("I/O error({0}): {1}".format(e.errno, e.strerror))
+        return None
+```

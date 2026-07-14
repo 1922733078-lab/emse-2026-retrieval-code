@@ -1,0 +1,7 @@
+```python
+def tzoffset(self, name):
+        if name in self._utczone:
+            return 0
+
+        return self.TZOFFSET.get(name)
+```

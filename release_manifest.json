@@ -1,0 +1,32 @@
+{
+  "release_version": "v1.0.0",
+  "status": "publicly archived; github + zenodo",
+  "paper_target": "Empirical Software Engineering",
+  "license": {
+    "code": "MIT",
+    "outputs": {
+      "Qwen2.5-Coder-3B": "Apache-2.0",
+      "Qwen2.5-Coder-7B": "Apache-2.0",
+      "CodeLlama-7B": "Llama 2 Community License (see outputs/LLAMA2-NOTICE.txt)",
+      "DeepSeek-V4-Flash": "MIT",
+      "LongCat-2.0": "MIT"
+    }
+  },
+  "redistribution_notes": "CodeLlama-7B outputs retain Llama 2 Community License attribution; see outputs/LLAMA2-NOTICE.txt. All other model outputs are MIT/Apache-2.0.",
+  "final_models": [
+    "Qwen2.5-Coder-3B",
+    "Qwen2.5-Coder-7B",
+    "CodeLlama-7B",
+    "DeepSeek-V4-Flash",
+    "LongCat-2.0"
+  ],
+  "reproduction_scope": "recompute results from frozen outputs; no model inference",
+  "entrypoint": "reproduction/reproduce_results.sh",
+  "primary_table": "results/tables/pass_at_1_final_five.csv",
+  "primary_figures": [
+    "figure_1_monochrome_conditions",
+    "figure_2_monochrome_paired_effects"
+  ],
+  "doi": null,
+  "github_repo": "1922733078-lab/emse-2026-retrieval-code"
+}

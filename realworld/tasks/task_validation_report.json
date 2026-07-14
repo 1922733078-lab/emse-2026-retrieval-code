@@ -1,0 +1,653 @@
+{
+  "generated_at": "2026-07-13T06:11:47.077907Z",
+  "total_requested": 90,
+  "total_generated": 90,
+  "total_passed": 90,
+  "total_failed": 0,
+  "per_repo": {
+    "python-dateutil": {
+      "passed": 30,
+      "failed": 0
+    },
+    "humanize": {
+      "passed": 30,
+      "failed": 0
+    },
+    "tabulate": {
+      "passed": 30,
+      "failed": 0
+    }
+  },
+  "per_task": [
+    {
+      "task_id": "python-dateutil_l1_001",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_002",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_003",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_004",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_005",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_006",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_007",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_008",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_009",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l1_010",
+      "repo": "python-dateutil",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_001",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_002",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_003",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_004",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_005",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_006",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_007",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_008",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_009",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l2_010",
+      "repo": "python-dateutil",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_001",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_002",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_003",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_004",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_005",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_006",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_007",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_008",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_009",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "python-dateutil_l3_010",
+      "repo": "python-dateutil",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_001",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_002",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_003",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_004",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_005",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_006",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_007",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_008",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_009",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l1_010",
+      "repo": "humanize",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_001",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_002",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_003",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_004",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_005",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_006",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_007",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_008",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_009",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l2_010",
+      "repo": "humanize",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_001",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_002",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_003",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_004",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_005",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_006",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_007",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_008",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_009",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "humanize_l3_010",
+      "repo": "humanize",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_001",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_002",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_003",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_004",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_005",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_006",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_007",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_008",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_009",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l1_010",
+      "repo": "tabulate",
+      "level": "L1",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_001",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_002",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_003",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_004",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_005",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_006",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_007",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_008",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_009",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l2_010",
+      "repo": "tabulate",
+      "level": "L2",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_001",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_002",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_003",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_004",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_005",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_006",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_007",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_008",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_009",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    },
+    {
+      "task_id": "tabulate_l3_010",
+      "repo": "tabulate",
+      "level": "L3",
+      "status": "passed",
+      "error": ""
+    }
+  ]
+}

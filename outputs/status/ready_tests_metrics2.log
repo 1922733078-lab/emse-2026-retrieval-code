@@ -1,0 +1,10 @@
+[2026-07-13T10:18:21+08:00] Starting tests/metrics for newly ready files
+[2026-07-13T10:18:21+08:00] Testing deepseek_v4_flash_distractor_reminder_full.jsonl
+Wrote test results to outputs/test_results/deepseek_v4_flash_distractor_reminder_full_results.jsonl
+[2026-07-13T10:18:22+08:00] Metrics deepseek_v4_flash_distractor_reminder_full.jsonl
+Wrote metrics to outputs/metrics/deepseek_v4_flash_distractor_reminder_full_metrics.jsonl
+[2026-07-13T10:18:29+08:00] Testing e7_deepseek-v4-flash_hybrid.jsonl
+Wrote test results to outputs/test_results/e7_deepseek-v4-flash_hybrid_results.jsonl
+[2026-07-13T10:18:29+08:00] Metrics e7_deepseek-v4-flash_hybrid.jsonl
+Wrote metrics to outputs/metrics/e7_deepseek-v4-flash_hybrid_metrics.jsonl
+[2026-07-13T10:18:29+08:00] Finished

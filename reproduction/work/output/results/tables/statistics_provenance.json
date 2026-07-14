@@ -1,0 +1,25 @@
+{
+  "script": "scripts/rebuild_main_statistics.py",
+  "seed": 0,
+  "created_at": "2026-07-14T03:07:02.010487+00:00",
+  "note": "Bootstrap CI depends on NumPy RNG version; frozen baseline preserved after numerical verification",
+  "input_files": [
+    {
+      "path": "outputs/metrics/qwen_3b_metrics.jsonl"
+    },
+    {
+      "path": "outputs/metrics/qwen_7b_metrics.jsonl"
+    },
+    {
+      "path": "outputs/metrics/codellama_7b_instruct_q5_k_m_metrics.jsonl"
+    },
+    {
+      "path": "outputs/metrics/deepseek_v4_flash_main_metrics.jsonl"
+    },
+    {
+      "path": "outputs/metrics/longcat_2_0_main_metrics.jsonl"
+    }
+  ],
+  "output": "/Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/results/tables/statistical_tests_clean.csv",
+  "output_sha256": "f3a62d4dcc25fc1b57c4524dec9dc6a4fdb8afa8c200abf5b24fbd35f8f8f894"
+}

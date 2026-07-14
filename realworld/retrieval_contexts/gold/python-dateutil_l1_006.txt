@@ -1,0 +1,8 @@
+```python
+def month(self, name):
+        try:
+            return self._months[name.lower()] + 1
+        except KeyError:
+            pass
+        return None
+```

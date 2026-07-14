@@ -1,0 +1,30 @@
+# Virtual environments
+reproduction/work/.venv-lock/
+
+# Candidate release staging (copies for verification only)
+reproduction/work/candidate_release/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS metadata
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Large combined JSONL archives (>100 MB GitHub limit)
+# Full copies are archived with the Zenodo replication package.
+outputs/raw_generations/e6_combined_raw.jsonl
+outputs/raw_generations/e6_combined_test.jsonl
+outputs/test_results/e6_combined_raw_results.jsonl
+
+# External third-party repos (version-pinned dependencies; not our code)
+# Internal .git dirs removed so they are not git submodules here.
+realworld/repos/humanize/
+realworld/repos/python-dateutil/
+realworld/repos/tabulate/

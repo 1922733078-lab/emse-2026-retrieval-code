@@ -1,0 +1,16 @@
+{
+  "purpose": "analysis/reproduction environment; no model inference",
+  "python": "3.12.13",
+  "implementation": "CPython",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "pip": "pip 26.1.2 from /Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/.venv-lock/lib/python3.12/site-packages/pip (python 3.12)",
+  "requirements_lock_sha256": "5e3a24aaef5c05225cbee9b02d0a78edd78b12524887f1afda8d1b7426396492",
+  "created_at": "2026-07-13T18:52:42.807118+00:00",
+  "network_required_at_reproduction_time": false,
+  "times_new_roman": {
+    "path": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+    "sha256": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3",
+    "license_note": "System font on macOS; redistribution requires appropriate license."
+  }
+}

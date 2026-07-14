@@ -1,0 +1,569 @@
+{
+  "models": {
+    "qwen_3b": "Qwen2.5-Coder-3B-Instruct",
+    "qwen_7b": "Qwen2.5-Coder-7B-Instruct",
+    "codellama": "CodeLlama-7B-Instruct-Q5_K_M",
+    "deepseek_v4_flash": "DeepSeek-V4-Flash",
+    "longcat_2_0": "LongCat-2.0"
+  },
+  "experiments": {
+    "E1_main": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/qwen_3b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "6a589be90ee584bfddd95fb82d738485d194dbef32db7d7d7e1543d6a68bdf19",
+        "tested": "outputs/test_results/qwen_3b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "225397a65ada5db666f0af493d9d9df46d048ee8b9dc3ab47ff3139d1b6163a5",
+        "metrics": "outputs/metrics/qwen_3b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "fd65cb8dbb7b927c1e6780c2e5f66d720ddadb617264d0e769a3f2605b155963"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/qwen_7b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "2ce2a759c81bc851635b0c787628668ef16dd9a7864090dcf965684e66506f9e",
+        "tested": "outputs/test_results/qwen_7b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "81d8df4b640a09801e22df484f7eb67927fbc6c6a0188e7089a7791d160405fe",
+        "metrics": "outputs/metrics/qwen_7b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "1690648aa4788259ada726136bd5a84915cf48db9297a162fa1ef7ee7f84a60a"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/codellama_7b_instruct_q5_k_m.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "c7e43b7ca1d25bcf5b7e85fcaae1d968829b547c0edb073ce423cddcc8913039",
+        "tested": "outputs/test_results/codellama_7b_instruct_q5_k_m_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "a9e8b05c75994be9d89eea339af869c6c070dcb8bd2649d86771e53066914552",
+        "metrics": "outputs/metrics/codellama_7b_instruct_q5_k_m_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "a481512a1648d647b11b575be2e55969f02ccbb360893a7ebf64d5d4146b6e64"
+      },
+      "deepseek_v4_flash": {
+        "raw": "outputs/raw_generations/deepseek_v4_flash_main.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "30fd65ca8fdfa63f4ef6e1e41e6d8b7fed7a1ceb0230302f577ca4f76f98cd4a",
+        "tested": "outputs/test_results/deepseek_v4_flash_main_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "4808b7e27e1d40a3c297b8a8d50201eeec5adcec42b051fa40554b825b21844c",
+        "metrics": "outputs/metrics/deepseek_v4_flash_main_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "bf721f7cb7c5a5afd2dc206126f6b7a6f86fb92b261d2c1eb434e118482eaae0"
+      },
+      "longcat_2_0": {
+        "raw": "outputs/raw_generations/longcat_2_0_main.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "a2a633a305c9a2bc036d28a5dac7ef0ca4ce6153863afd860a65ba3d2db08f3d",
+        "tested": "outputs/test_results/longcat_2_0_main_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "948102b2ca9e98847639e41c3aa8b9e3fa78829b162684c41028e357a1f5ad8c",
+        "metrics": "outputs/metrics/longcat_2_0_main_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "714010d6ed7fa710c485243169c23e77181556d0a97b0e8905fa5b1eb970d1f2"
+      }
+    },
+    "E2_topk": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/qwen3b_naive_topk_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "ea0ac39459d05217e1ef9cb339500dcd6016f5497eb44009dc1a15a3f3566c2b",
+        "tested": "outputs/test_results/qwen3b_naive_topk_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "893f52a53302dba8b5ffb0e9efcac2f3b5e7e601705cde1b338c422a82c2a5ed",
+        "metrics": "outputs/metrics/qwen3b_naive_topk_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "0919ea67656391da28405be1c970fff0ff7d0fcef5e6d30d746e820c24681cc1"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/qwen7b_naive_topk_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "446184dc0538ba77f9ed137449226e79943750a3396fd1b20884d2c56809d2ad",
+        "tested": "outputs/test_results/qwen7b_naive_topk_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "401ac3bc489c92bc36d8b2d721f7fa6bd8bfca4c28bd17c2ca04f2df8bd21ac9",
+        "metrics": "outputs/metrics/qwen7b_naive_topk_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "d4460a3a1b717ceda677a3566820b3319fe505fff56119f1fd9c732b4e66c97c"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/codellama_naive_topk_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "86fb1a49ea56020cfdc3f17436f1b66a6147ba826905d2e32a62d6d0f1873ebc",
+        "tested": "outputs/test_results/codellama_naive_topk_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "031775853bbeda7305ab69f33c9aba95dfa0b39624fb96573c08d3be62b22f7b",
+        "metrics": "outputs/metrics/codellama_naive_topk_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "91550b2a2d42fc04488f1c63bfb80c9ae96aade518bdbe40172c0d11daa447e9"
+      },
+      "deepseek_v4_flash": {
+        "raw": "outputs/raw_generations/deepseek_v4_flash_naive_topk_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "2ea9ca62986130fcadb0bae6cc8a18529f9dd3822f07e9276b1b04e089b30c87",
+        "tested": "outputs/test_results/deepseek_v4_flash_naive_topk_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "c946f7e74b5f3a2c9750970b22e0fffebccd22a204f4c2777ae1f21bbc173a1f",
+        "metrics": "outputs/metrics/deepseek_v4_flash_naive_topk_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "c7f8a829732af2275eabd206c5d413e977f39f11f3f5837ff1c9c4a818ac53ec"
+      },
+      "longcat_2_0": {
+        "raw": "outputs/raw_generations/longcat_2_0_naive_topk_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "85e91086e09cdef204fa501b22cbb874f6bd9ed5d1d110bc8e30e58c6c0a677b",
+        "tested": "outputs/test_results/longcat_2_0_naive_topk_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "a93f9fc762d096d848b05231458cdfd45f934725f72e7292d1a7740f9148feb6",
+        "metrics": "outputs/metrics/longcat_2_0_naive_topk_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "24d59779c37edf2a565a79974eec65dc08668f08a5407388db19bd1ca97d214c"
+      }
+    },
+    "E3a_gold_reminder": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/qwen3b_gold_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "54c4c9f546e298050a4e8315830bfbcaa6e2968953aba9788af74fa83da18335",
+        "tested": "outputs/test_results/qwen3b_gold_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "dbb872b56ec35eebd2c2d622fcdb1021bc5eb78f639982504e239d3a31c8e8d2",
+        "metrics": "outputs/metrics/qwen3b_gold_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "05a9c9292264ba979f04c6721e9306af31bc7a1f0c48e332f59bd8247bfbb472"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/qwen7b_gold_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "ce0f804c7ecfdb9cd022ff75985c8ae66b240a5c93bfb78212239b743c166ff0",
+        "tested": "outputs/test_results/qwen7b_gold_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "de928391a1ecf92b70b42d805a2a9f85caa3be72bbe641cec4fb1dedf24a6ec1",
+        "metrics": "outputs/metrics/qwen7b_gold_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "0fab7544c2e2bb9358620aaaedf7b011cd5389480646f2c5a4815a7805c10ae8"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/codellama_gold_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "5eb19d89351f2e79c914244730815f4b02f0eacccb5d6d4da661326b8593216a",
+        "tested": "outputs/test_results/codellama_gold_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "14e87ad162221c142f4aa75799788216fdcea95d2d0ce0a0743eecf46a522ee6",
+        "metrics": "outputs/metrics/codellama_gold_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "6410f06098f9dbf9104b914be279e5a7b3f1714ae48b59a976023c8fbb5fbf73"
+      },
+      "deepseek_v4_flash": {
+        "raw": "outputs/raw_generations/deepseek_v4_flash_gold_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "e86aed95ce32ddbbe72a8932005150744d6fcc797e2c1c38118a81c798df86f2",
+        "tested": "outputs/test_results/deepseek_v4_flash_gold_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "0d9dc8d684b5771b89b13e90aafa35a0348128bd091d2f81fa0e8d62383e184f",
+        "metrics": "outputs/metrics/deepseek_v4_flash_gold_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "a166a15fbd8e2ec5741352b1ca806fe3d00869cc2bb76214fef62c9913e00cf1"
+      },
+      "longcat_2_0": {
+        "raw": "outputs/raw_generations/longcat_2_0_gold_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "8af5deff890d98ce5a9394a641c9d7e917fc66aabdc444329644e06fad67fbe3",
+        "tested": "outputs/test_results/longcat_2_0_gold_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "8ddd203421dcc77f9c685415e88bac51ce3fb98ffd1049d19fd3450d640bad44",
+        "metrics": "outputs/metrics/longcat_2_0_gold_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "9a8dc08d404f345319dec27e564885e0c7e14275d880fb5f9aff0e3a91f5875a"
+      }
+    },
+    "E3b_distractor_reminder": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/qwen3b_distractor_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "ce7421898207b11e8dbb028552ad42441a983e14aa063b98271995c9d2c358f7",
+        "tested": "outputs/test_results/qwen3b_distractor_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "ec54fa1f7628aa1e2abd0e3999b329eafe37f9f3f3bc9d180326361db75a7079",
+        "metrics": "outputs/metrics/qwen3b_distractor_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "3c405acf0059da320ed1478191f465c472e0543ee83a99362240432f6cef4888"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/qwen7b_distractor_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "130da21574c2a2f786d807c34944fd0011c358c032c67b87e02a0be40d905039",
+        "tested": "outputs/test_results/qwen7b_distractor_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "26ea41fcd632a13adb3c668600ec0d8d965bae6988bc4fcff0591c317b7c776d",
+        "metrics": "outputs/metrics/qwen7b_distractor_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "0c2691b7cb5a9d783b6b9957fc268890773d05d3d4a15f921485890d2f8d4660"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/codellama_distractor_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "610608019d34a0b7f8091f0b5e0266707b1adbecfabc4c8aec3b96e5b161cbed",
+        "tested": "outputs/test_results/codellama_distractor_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "12f399e7d366da73a1add066d4c480471585998bd3c1c9ddd9f5abc0cec7ca63",
+        "metrics": "outputs/metrics/codellama_distractor_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "a8141593882b93d630e6dc7046a5a35b667fc8f7ebacc5940b15dccf71f4eb13"
+      },
+      "deepseek_v4_flash": {
+        "raw": "outputs/raw_generations/deepseek_v4_flash_distractor_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "6b8ba8004e0b00d1239a670ab78da0de740767d591b9e848569eca6db265cacb",
+        "tested": "outputs/test_results/deepseek_v4_flash_distractor_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "5f5505938c69e12015ae03d69521248c2bc1762d272bcfe60e545e5a0fd359de",
+        "metrics": "outputs/metrics/deepseek_v4_flash_distractor_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "924bfee88f3ab6007ab89fa97bc3dd9d3c79ccb22b6e75975cf18103ffdbb28a"
+      },
+      "longcat_2_0": {
+        "raw": "outputs/raw_generations/longcat_2_0_distractor_reminder_full.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "dfb6f227b7ca6873f1911ea8d43205200751c41a092ca562bf7072e0574ad740",
+        "tested": "outputs/test_results/longcat_2_0_distractor_reminder_full_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "92c921ed3013d5e8c74ec118226a15cd4767bb7fc68143d284ed8b9ec85d869b",
+        "metrics": "outputs/metrics/longcat_2_0_distractor_reminder_full_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "28a2debb4d35a6058ec5466c243473221615e550d750071819833688825f8b48"
+      }
+    },
+    "E4_pass3": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/p1_qwen3b_n3.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "08c1c0e039858ce3fa82d3215be7beff16a53c8e94ba532a3c98d0ad36598e25",
+        "tested": "outputs/test_results/p1_qwen3b_n3_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "f22fcdb183edd4007434efa8712775848c654cce60bd4790b0f946eb1f1981c0",
+        "metrics": "outputs/metrics/p1_qwen3b_n3_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "8747f28faeb4fb6f4194186f1bb0b58711c1cdbf667a62cddf5a82c7e06954e4"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/p1_qwen7b_n3.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "7bfe07c22b0814e785f160c0d5262250fb2257b7e0d5b1808e9dd681259a7065",
+        "tested": "outputs/test_results/p1_qwen7b_n3_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "44d1a38be6423a8f30a242c35a051537d70d565c7a090ec0f40a1b899e8919e1",
+        "metrics": "outputs/metrics/p1_qwen7b_n3_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "2c25608f33dc916589f6490a759477e89663e17c1f78510b23e237b5d246ff1f"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/p1_codellama_n3.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "742cfd9fa28b1543b133c6c39f3acefd8e8256e58b8e604d0f8c3882a3de35af",
+        "tested": "outputs/test_results/p1_codellama_n3_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "5cc889fb8403c85f289a1d4a9cfc7b1f77c2480cd47f5e6136e3cd1303b3459c",
+        "metrics": "outputs/metrics/p1_codellama_n3_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "80912e54cae30b3787c8f162f1e3e474b67256cc396273bb1bf9b72a4d3e6823"
+      },
+      "deepseek_v4_flash": {
+        "raw": "outputs/raw_generations/p1_deepseek_v4_flash_n3.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "19b366d7d48cb51f0d4930d3dcde24e170a5b9b3e0a962156e9648048f4c6452",
+        "tested": "outputs/test_results/p1_deepseek_v4_flash_n3_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "65023df6a2312b8c25be1353a9184988cb15b5a768f92fa95b818e99a93e8d00",
+        "metrics": "outputs/metrics/p1_deepseek_v4_flash_n3_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "8e3b077a61f6ef8157c0afc9df2cbaff95ac7d21d3feede190aa931086891322"
+      },
+      "longcat_2_0": {
+        "raw": "outputs/raw_generations/p1_longcat_2_0_n3.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "f073f4184a3663f9a719b39c1458f3c69fe0b3b8db65f0e9e59f59ef759ed113",
+        "tested": "outputs/test_results/p1_longcat_2_0_n3_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "c94325cf9acf7318511c2495c21198ab44659ad08cd2105109bd75a2db748b9d",
+        "metrics": "outputs/metrics/p1_longcat_2_0_n3_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "bd0f02f96751d397d2b9185e499765283fa2885f2b42400454bd600d75786fe6"
+      }
+    },
+    "E5_cot": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/p0_qwen3b_cot.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "3ff6554750562cb5fce705889fb1b6a71c92b2c5bd4d30830bc0f19e7ddcdf51",
+        "tested": "outputs/test_results/p0_qwen3b_cot_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "745e55aba2a048029e05cacfbc15434643be1dc767027a8ac94400e4b759d6d0",
+        "metrics": "outputs/metrics/p0_qwen3b_cot_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "b8ff4156bfd5fefda4052810f991011522159107f1ce1926b3f16f8ef2dfc5b1"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/p0_qwen7b_cot.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "5da5cbe18dceb3ad7155c972671d83a0d4efd5b0e13ed72fbc6f2391e0dd347a",
+        "tested": "outputs/test_results/p0_qwen7b_cot_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "2bcf314a38960d2a73e64f4279802465887828051a7878eba0f4347d131d01bb",
+        "metrics": "outputs/metrics/p0_qwen7b_cot_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "a552890a9246fb9dd2ebebe377ed90280e35e8c18344acc34bf004e0faafc65a"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/p0_codellama_cot.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "b7feb0660ddeb9bbd1c991ebae402d7ae2863bfa0c00642fca8ae143d386d78c",
+        "tested": "outputs/test_results/p0_codellama_cot_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "ad4e04c47d28c79fd001cb37dd5c067a94dfd3d55a44ea9d64c911da493fb341",
+        "metrics": "outputs/metrics/p0_codellama_cot_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "c970dd999acf04032e2b0e24bc0c766f81b90a7b9b951f3b9f421d8638e2e324"
+      },
+      "deepseek_v4_flash": {
+        "raw": "outputs/raw_generations/p0_deepseek_v4_flash_cot.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "ee02a430eaa952f64340d7cc828f8015d524fff30f614d688b4becca289247cd",
+        "tested": "outputs/test_results/p0_deepseek_v4_flash_cot_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "9a11d42458f663e77903e32f3b0ba29bb2d59dd9e5e2fdb64067fe6de57ee69e",
+        "metrics": "outputs/metrics/p0_deepseek_v4_flash_cot_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "c973a45a933286f75635b9acd13f1bb0b3d513acdf5f59da36514f66cd5bbead"
+      },
+      "longcat_2_0": {
+        "raw": "outputs/raw_generations/p0_longcat_2_0_cot.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "da1ac5c8f185cd391e1ba69d7ef8c105ca20d01a65ecee9a65061b584b659fba",
+        "tested": "outputs/test_results/p0_longcat_2_0_cot_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "9cf3b62c472c51d429bf3650daa26e5917606dc008a877cdadda414b15ed606b",
+        "metrics": "outputs/metrics/p0_longcat_2_0_cot_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "855859db0b85fb9b5e569cb1f16738af1414998bfbbebe8cbbfd8717dedb96e2"
+      }
+    },
+    "E7_retriever_robustness": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/e7_qwen3b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "93320ad9381bf39c17cfbb48db58b34304f64f9a3779618b2a52c260570a83c0",
+        "tested": "outputs/test_results/e7_qwen3b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "9f9efeb08ec40187e6fcc82b52b6ed437eb4a7dc1e71343a5698865fb74d4db8",
+        "metrics": "outputs/metrics/e7_qwen3b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "5e5d2a72c32b3d60e027017863fc579d02e4e683470233559bb2602c9d55d0c8"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/e7_qwen7b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "3405c7251388847037138f9f3604f3baab32895d4a2cdbf95ae8fa934951f4dc",
+        "tested": "outputs/test_results/e7_qwen7b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "9aed93cd2ce88e285613fc26fee0e5763eac614a40afdd1ac9dffd7f6458755e",
+        "metrics": "outputs/metrics/e7_qwen7b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "d235a221a38c9f0f3c3b8046504a59f2964ccb2feae8f5da83b003d86424c08a"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/e7_codellama.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "70d24fef643ea93ddcd4b0d96dc70e94ea82b3481d378e5805ad621a90e20e2f",
+        "tested": "outputs/test_results/e7_codellama_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "204cfaec7ba62ef139016d722e4bab89071451ceabf4716ece81e1dae42c1e8c",
+        "metrics": "outputs/metrics/e7_codellama_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "12cf2623185eba4912c8e94ce594fed27143af83804e4d2438c07baa9549b53a"
+      },
+      "deepseek_v4_flash": {
+        "raw": "outputs/raw_generations/e7_deepseek-v4-flash_dense.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "a4416bd27f9a058bfddf1a8f26b02da941035c2b5ffbee8ac6e4657e5d8e7ae1",
+        "tested": "outputs/test_results/e7_deepseek-v4-flash_dense_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "6f55e848cd2bf881decbbf978b77f4582d6d9fec45e05680f68a3e4c0c601762",
+        "metrics": "outputs/metrics/e7_deepseek-v4-flash_dense_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "0449fc19c23ffbbfb02f526cbe99b5ab2247990359e2aed8c0333c49baccd7e0"
+      },
+      "deepseek_v4_flash_hybrid": {
+        "raw": "outputs/raw_generations/e7_deepseek-v4-flash_hybrid.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "dd01daa2719156044678e0dc0e3a931d4dfa85e8af555c44c13ef13e21bf0972",
+        "tested": "outputs/test_results/e7_deepseek-v4-flash_hybrid_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "070d6267718487108dc19971fbc77eed1785f40a9a45bdcd03005f117f09a822",
+        "metrics": "outputs/metrics/e7_deepseek-v4-flash_hybrid_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "bac329f26437b3ea524dd1143babca7b57b4a427bd9b5989fae4f16db3fd0093"
+      },
+      "longcat_2_0": {
+        "raw": "outputs/raw_generations/e7_LongCat-2.0_dense.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "89acc3b970ba9af476e0b078a82ae1f4b41a28f7414be6d381e028e2bdccb971",
+        "tested": "outputs/test_results/e7_LongCat-2.0_dense_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "9bb610662e65137c25f0f2908167644b2c7e0a8fc83ed4f224797295368847d1",
+        "metrics": "outputs/metrics/e7_LongCat-2.0_dense_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "ecb16a641cece73f3af3c6fbd3cbaa5875e5d435d6ff8d8508664ceda979c488"
+      },
+      "longcat_2_0_hybrid": {
+        "raw": "outputs/raw_generations/e7_LongCat-2.0_hybrid.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "3d6cd35d68c857ea4d80ea56b86149da1259bb7dda15a04206edcd84e93582f2",
+        "tested": "outputs/test_results/e7_LongCat-2.0_hybrid_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "20ec2467da98a65eec854cd1cb00b0bb480005dd394883f8e33b847f83a574fb",
+        "metrics": "outputs/metrics/e7_LongCat-2.0_hybrid_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "400ae675bea5d96395f5d380d869fffa1b3e91906d5e3ec1fd6bd82e9cebfea7"
+      }
+    },
+    "E8_distractor_intensity": {
+      "qwen_3b": {
+        "raw": "outputs/raw_generations/e8_qwen3b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "c7181056b52bdf5504a3d9004a6ce4fafc5bf31735d47dcaf5e545c37294f5ec",
+        "tested": "outputs/test_results/e8_qwen3b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "4fc88b63c9016e6bb70972530c57e4dc6cbf733a27221f3df5b3588dc8f07717",
+        "metrics": "outputs/metrics/e8_qwen3b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "bcfa5519bb0342da5fc5098834d0cefad12e3e7792f05f392a61ead593d57321"
+      },
+      "qwen_7b": {
+        "raw": "outputs/raw_generations/e8_qwen7b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "d3c18a977b89a403ccd85c0b8402fbde97c667ce5b7223a82355ddb0b41e54c4",
+        "tested": "outputs/test_results/e8_qwen7b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "639befff8e1bac3a458caba2fea6788bd477543a6447b0a1e3a919acb95a728c",
+        "metrics": "outputs/metrics/e8_qwen7b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "b35219d14337eebedd7724d53324d1607d13266096678b9d60d9c4769ea445dd"
+      },
+      "codellama": {
+        "raw": "outputs/raw_generations/e8_codellama.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "5f810a6013a1bf8b8052f7bb03bdc57a9dc5ecfd179720b16e07ecfc622fac4e",
+        "tested": "outputs/test_results/e8_codellama_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "9ed70d4e084cbcfab463875964ad191405e6c97b6d2b7dc19d052eb392f83fa7",
+        "metrics": "outputs/metrics/e8_codellama_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "4c0258cd6047bcd08ade8c1f252c7a064f35ea257f94d7980fb75da3c8dcc63e"
+      },
+      "deepseek_v4_flash_weak": {
+        "raw": "outputs/raw_generations/e8_deepseek-v4-flash_distractor_weak.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "df4f9cd9ab18b5f8cc25ad8d8adc59d7b9e5ab56bfd2e02023461944a660642d",
+        "tested": "outputs/test_results/e8_deepseek-v4-flash_distractor_weak_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "bff2ae251fefdda0e969b7aef767c0bd130c76bc4b9816dadbb215c79f63bb43",
+        "metrics": "outputs/metrics/e8_deepseek-v4-flash_distractor_weak_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "8a0df6e958be9789c5bc7b0658a9b4b2f370e0b0a28193c0fe25acb287a53171"
+      },
+      "deepseek_v4_flash_strong": {
+        "raw": "outputs/raw_generations/e8_deepseek-v4-flash_distractor_strong.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "a8fd0cf2d0967aca32e640bd5aa871d6755e6303d7f2ae39b064e7407910097e",
+        "tested": "outputs/test_results/e8_deepseek-v4-flash_distractor_strong_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "6013ba222c81a75b922f4f25121775408fee68ad579063e9ccb2feade5c242b6",
+        "metrics": "outputs/metrics/e8_deepseek-v4-flash_distractor_strong_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "06c39b3429f5d4326a74275d80fe454b110f0a43d6a9e8dcb67c00b0bd65d388"
+      },
+      "longcat_2_0_weak": {
+        "raw": "outputs/raw_generations/e8_LongCat-2.0_distractor_weak.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "3084b799f8f246d22f1f7e76b22b016408e619d38f58dddc3a8a54bc195970b5",
+        "tested": "outputs/test_results/e8_LongCat-2.0_distractor_weak_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "b052869e06e6981f0e57066c81b66492c65d40195f5b8f9d6f7855208e261554",
+        "metrics": "outputs/metrics/e8_LongCat-2.0_distractor_weak_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "da6726e650db9b946c5b7254a288a5861f3cc3a8c714a757e65ce7287072c2a4"
+      },
+      "longcat_2_0_strong": {
+        "raw": "outputs/raw_generations/e8_LongCat-2.0_distractor_strong.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "33f4824d11895bf41b57ce6ea147c1beeeefe0c25c3aad728508f8a9444c0aea",
+        "tested": "outputs/test_results/e8_LongCat-2.0_distractor_strong_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "4f59648a3a5751768583771ef92d7b940645501c816006f155c1b6d27b79e7eb",
+        "metrics": "outputs/metrics/e8_LongCat-2.0_distractor_strong_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "b3ea68cc48e08e3254dc92a938fec961a3763f63cf56d2035430dadc79db6e7e"
+      }
+    },
+    "E9_realworld": {
+      "qwen_3b": {
+        "raw": "realworld/outputs/raw_generations/e9_qwen3b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "b48c802c9e5d42680eeae1db82c3433fbb753c542d1a596576d96170cc6842fc",
+        "tested": "realworld/outputs/test_results/e9_qwen3b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "8bf94341d652e1abb0b540ff8c2f1e7df6c6278daa8679989a0e2265f445995b",
+        "metrics": "realworld/outputs/metrics/e9_qwen3b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "3476f02fbe8de31f604f8df3a4bd9478d970da263eb0c59b279eb294d1b10dd4"
+      },
+      "qwen_7b": {
+        "raw": "realworld/outputs/raw_generations/e9_qwen7b.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "242eb5e10b2fdc18cf8625a7162f3d34454802d270de6c87c7128e8df793acdd",
+        "tested": "realworld/outputs/test_results/e9_qwen7b_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "517cbb1acde5dbb3664e3db9e1ee91f98ffe3597a2df1bd1b9d32e799b66a1a7",
+        "metrics": "realworld/outputs/metrics/e9_qwen7b_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "1a1873174e647617b94c69fe0560f569997f7b015f6ba74778a9058a3177caa3"
+      },
+      "codellama": {
+        "raw": "realworld/outputs/raw_generations/e9_codellama.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "624e0699214ddf38193881f3acb039224dc8e7ede195bffe24fd98248ead0847",
+        "tested": "realworld/outputs/test_results/e9_codellama_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "ba271c51a675e7dabe455c14a80e07d63738209f3e7ff1c6e1d6f5b5019e0020",
+        "metrics": "realworld/outputs/metrics/e9_codellama_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "b8c2db406f776b98fbed030188639db7b0a22b539fb9c3ab89097fbead2cac6b"
+      },
+      "deepseek_v4_flash": {
+        "raw": "realworld/outputs/raw_generations/e9_deepseek_v4_flash_async.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "e3f406cd3187ad094e930eeed99ea4bb17cded5509aa92da0c2826baa87f073e",
+        "tested": "realworld/outputs/test_results/e9_deepseek_v4_flash_async_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "88a4a84b2016ffe352dd3f6bf8bb9b0d993cadb8f6bfe276a392cec14966f024",
+        "metrics": "realworld/outputs/metrics/e9_deepseek_v4_flash_async_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "dfd123b63b7b6cf7b9752089ae4331776c535cc836934b2701e9bb0c610673ec"
+      },
+      "longcat_2_0": {
+        "raw": "realworld/outputs/raw_generations/e9_longcat_2_0_async.jsonl",
+        "raw_exists": true,
+        "raw_sha256": "cbada547e19251675d4a2dfd63eb17f7885f296e22d4ba225b5edfebdcc6b5be",
+        "tested": "realworld/outputs/test_results/e9_longcat_2_0_async_results.jsonl",
+        "tested_exists": true,
+        "tested_sha256": "c488d4a1361c81b70fac6b8eedc2d471845cbfa16e7ff5ae7b383a45dc2edac8",
+        "metrics": "realworld/outputs/metrics/e9_longcat_2_0_async_metrics.jsonl",
+        "metrics_exists": true,
+        "metrics_sha256": "2b67fcc126548cb071eb0a9db384f9efed0430adb658cfe3060343338a3fdcfe"
+      }
+    }
+  },
+  "missing_raw_files": []
+}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these artifacts, please cite the paper below."
+title: "Rivalry in Retrieved Code: How Plausible Distractors Undermine Code Generation with Retrieval-Augmented Context"
+version: 1.0.0-candidate
+date-released: 2026-07-14
+repository-artifact: "DOI pending archival release"
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+keywords:
+  - code generation
+  - retrieval-augmented generation
+  - software engineering
+  - large language models
+license: "See LICENSE_DECISION_REQUIRED.md"

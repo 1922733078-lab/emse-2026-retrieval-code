@@ -1,0 +1,11 @@
+{
+  "task_count": 90,
+  "conditions": [
+    "no",
+    "naive",
+    "gold",
+    "distractor"
+  ],
+  "top_k": 3,
+  "note": "Gold/distractor contexts are heuristic and require manual review for final study."
+}

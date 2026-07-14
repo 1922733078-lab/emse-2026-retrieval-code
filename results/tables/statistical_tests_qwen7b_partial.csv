@@ -1,0 +1,7 @@
+model,level,comparison,n_tasks,pass_rate_a,pass_rate_b,diff_pp,ci_low_95,ci_high_95,mcnemar_p,conditional_or,cohens_h,discordant_pairs
+../model_cache/qwen/Qwen2___5-Coder-7B-Instruct,All,gold_vs_distractor,43,86.05,2.33,-83.72,-93.02,-72.09,2.91e-11,inf,-2.07,36
+../model_cache/qwen/Qwen2___5-Coder-7B-Instruct,All,no_vs_distractor,43,4.65,2.33,-2.33,-6.98,0,1,inf,-0.129,1
+../model_cache/qwen/Qwen2___5-Coder-7B-Instruct,All,no_vs_gold,43,4.65,86.05,81.4,69.77,93.02,5.821e-11,0,1.941,35
+../model_cache/qwen/Qwen2___5-Coder-7B-Instruct,L1,gold_vs_distractor,43,86.05,2.33,-83.72,-93.02,-72.09,2.91e-11,inf,-2.07,36
+../model_cache/qwen/Qwen2___5-Coder-7B-Instruct,L1,no_vs_distractor,43,4.65,2.33,-2.33,-6.98,0,1,inf,-0.129,1
+../model_cache/qwen/Qwen2___5-Coder-7B-Instruct,L1,no_vs_gold,43,4.65,86.05,81.4,69.77,93.02,5.821e-11,0,1.941,35

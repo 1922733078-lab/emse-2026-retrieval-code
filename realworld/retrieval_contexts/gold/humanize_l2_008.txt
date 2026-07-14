@@ -1,0 +1,47 @@
+```python
+def naturaltime(
+    value: dt.datetime | dt.timedelta | float,
+    future: bool = False,
+    months: bool = True,
+    minimum_unit: str = "seconds",
+    when: dt.datetime | None = None,
+) -> str:
+    """Return a natural representation of a time in a resolution that makes sense.
+
+    This is more or less compatible with Django's `naturaltime` filter.
+
+    Args:
+        value (datetime.datetime, datetime.timedelta, int or float): A `datetime`, a
+            `timedelta`, or a number of seconds.
+        future (bool): Ignored for `datetime`s and `timedelta`s, where the tense is
+            always figured out based on the current time. For integers and floats, the
+            return value will be past tense by default, unless future is `True`.
+        months (bool): If `True`, then a number of months (based on 30.5 days) will be
+            used for fuzziness between years.
+        minimum_unit (str): The lowest unit that can be used.
+        when (datetime.datetime): Point in time relative to which _value_ is
+            interpreted.  Defaults to the current time in the local timezone.
+
+    Returns:
+        str: A natural representation of the input in a resolution that makes sense.
+    """
+    value = _convert_aware_datetime(value)
+    when = _convert_aware_datetime(when)
+
+    now = when or _now()
+
+    date, delta = _date_and_delta(value, now=now)
+    if date is None:
+        return str(value)
+    # determine tense by value only if datetime/timedelta were passed
+    if isinstance(value, (dt.datetime, dt.timedelta)):
+        future = date > now
+
+    ago = _("%s from now") if future else _("%s ago")
+    delta = naturaldelta(delta, months, minimum_unit)
+
+    if delta == _("a moment"):
+        return _("now")
+
+    return str(ago % delta)
+```

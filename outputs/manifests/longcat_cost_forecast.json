@@ -1,0 +1,25 @@
+{
+  "phase": "B",
+  "experiment": "E0 LongCat calibration",
+  "model": "LongCat-2.0",
+  "pilot_tasks": 90,
+  "pilot_records": 360,
+  "prompt_tokens": 169915,
+  "completion_tokens": 106911,
+  "avg_prompt_tokens": 471.9861111111111,
+  "avg_completion_tokens": 296.975,
+  "pilot_est_cost_usd": 0.44282370000000004,
+  "longcat_remaining_calls": 12150,
+  "longcat_forecast_usd": 14.945299875000003,
+  "budget_max_usd": 100,
+  "gate_passed": true,
+  "gate_reasons": [
+    "360/360 records",
+    "success_rate=1.0",
+    "empty_code=0",
+    "finish_reason reasonable",
+    "gold 23.3% / distractor 5.6% plausible"
+  ],
+  "raw_sha256": "1fd68d19a480dc8309e5ebfd920a1f26541e70f57421ea4359c7e5f82d00e0e5",
+  "test_sha256": "a41564020aaf8ef7a34c0fba2e273304c969391ec05ccc73f5662e01508e5d66"
+}

@@ -1,0 +1,23 @@
+[2026-07-13T09:19:37+08:00] Starting DeepSeek completions
+Resuming: found 757 existing generations in /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/deepseek_v4_flash_gold_reminder_full.jsonl
+Skipping 757 already-generated (task, condition, strategy, sample_id) combos
+Progress: 50 generated, 0 failed, tokens(p/c)=32511/38364, est_cost=$0.0000
+Progress: 100 generated, 0 failed, tokens(p/c)=67711/75809, est_cost=$0.0000
+Wrote 143 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/deepseek_v4_flash_gold_reminder_full.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/deepseek_v4_flash_gold_reminder_full_errors.jsonl; est_cost=$0.0000
+Resuming: found 237 existing generations in /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/deepseek_v4_flash_distractor_reminder_full.jsonl
+Skipping 237 already-generated (task, condition, strategy, sample_id) combos
+Progress: 50 generated, 0 failed, tokens(p/c)=20354/146148, est_cost=$0.0000
+Progress: 100 generated, 0 failed, tokens(p/c)=36186/214918, est_cost=$0.0000
+Progress: 150 generated, 0 failed, tokens(p/c)=51431/257924, est_cost=$0.0000
+Progress: 200 generated, 0 failed, tokens(p/c)=68633/328655, est_cost=$0.0000
+Progress: 250 generated, 0 failed, tokens(p/c)=86256/403307, est_cost=$0.0000
+Progress: 300 generated, 0 failed, tokens(p/c)=105388/500374, est_cost=$0.0000
+Progress: 350 generated, 0 failed, tokens(p/c)=124159/591649, est_cost=$0.0000
+Progress: 400 generated, 0 failed, tokens(p/c)=141534/659967, est_cost=$0.0000
+Progress: 450 generated, 0 failed, tokens(p/c)=155952/700801, est_cost=$0.0000
+Progress: 500 generated, 0 failed, tokens(p/c)=171949/745572, est_cost=$0.0000
+Progress: 550 generated, 0 failed, tokens(p/c)=186950/792125, est_cost=$0.0000
+Progress: 600 generated, 0 failed, tokens(p/c)=203934/852205, est_cost=$0.0000
+Progress: 650 generated, 0 failed, tokens(p/c)=221611/916090, est_cost=$0.0000
+Wrote 663 generations to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/raw_generations/deepseek_v4_flash_distractor_reminder_full.jsonl; logged 0 failures to /root/rivermind-data/lost+found/CCF-B/02-实验代码/retrieval-vs-reasoning/v2/outputs/errors/deepseek_v4_flash_distractor_reminder_full_errors.jsonl; est_cost=$0.0000
+[2026-07-13T10:07:09+08:00] DeepSeek completions finished

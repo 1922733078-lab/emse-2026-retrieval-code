@@ -1,0 +1,16 @@
+model,condition,standard_pass@1,cot_pass@1,delta
+Qwen2.5-Coder-3B-Instruct,no,2.22,0.00,-2.22
+Qwen2.5-Coder-3B-Instruct,gold,71.11,26.00,-45.11
+Qwen2.5-Coder-3B-Instruct,distractor,1.11,0.67,-0.44
+Qwen2.5-Coder-7B-Instruct,no,4.00,3.78,-0.22
+Qwen2.5-Coder-7B-Instruct,gold,59.78,47.78,-12.00
+Qwen2.5-Coder-7B-Instruct,distractor,2.67,1.56,-1.11
+CodeLlama-7B-Instruct-Q5_K_M,no,2.89,2.22,-0.67
+CodeLlama-7B-Instruct-Q5_K_M,gold,57.11,53.11,-4.00
+CodeLlama-7B-Instruct-Q5_K_M,distractor,0.44,2.22,+1.78
+deepseek-v4-flash,no,4.00,3.56,-0.44
+deepseek-v4-flash,gold,84.00,82.22,-1.78
+deepseek-v4-flash,distractor,6.00,4.89,-1.11
+LongCat-2.0,no,2.44,4.00,+1.56
+LongCat-2.0,gold,22.22,25.56,+3.33
+LongCat-2.0,distractor,3.56,4.67,+1.11

@@ -1,0 +1,46 @@
+{
+  "script": "scripts/rebuild_final_five_tables.py",
+  "script_sha256": "2e8befa1e516b51570687560ba697e6a48000e2e3d5189238d4c8df811f991cd",
+  "manifest": "/Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/outputs/manifests/final_five_model_inputs.json",
+  "manifest_sha256": "e1890b2ead5fb069f3358a126e55dd56e71efc58a6db4a367ab4658ccfbf5e1e",
+  "seed": 20260713,
+  "created_at": "2026-07-14T03:06:46.858110+00:00",
+  "input_files": [
+    {
+      "path": "outputs/test_results/codellama_7b_instruct_q5_k_m_results.jsonl",
+      "sha256": "a9e8b05c75994be9d89eea339af869c6c070dcb8bd2649d86771e53066914552"
+    },
+    {
+      "path": "outputs/test_results/deepseek_v4_flash_main_results.jsonl",
+      "sha256": "4808b7e27e1d40a3c297b8a8d50201eeec5adcec42b051fa40554b825b21844c"
+    },
+    {
+      "path": "outputs/test_results/longcat_2_0_main_results.jsonl",
+      "sha256": "948102b2ca9e98847639e41c3aa8b9e3fa78829b162684c41028e357a1f5ad8c"
+    },
+    {
+      "path": "outputs/test_results/qwen_3b_results.jsonl",
+      "sha256": "225397a65ada5db666f0af493d9d9df46d048ee8b9dc3ab47ff3139d1b6163a5"
+    },
+    {
+      "path": "outputs/test_results/qwen_7b_results.jsonl",
+      "sha256": "81d8df4b640a09801e22df484f7eb67927fbc6c6a0188e7089a7791d160405fe"
+    }
+  ],
+  "model_order": [
+    "codellama",
+    "deepseek_v4_flash",
+    "longcat_2_0",
+    "qwen_3b",
+    "qwen_7b"
+  ],
+  "model_display": {
+    "qwen_3b": "Qwen2.5-Coder-3B",
+    "qwen_7b": "Qwen2.5-Coder-7B",
+    "codellama": "CodeLlama-7B",
+    "deepseek_v4_flash": "DeepSeek-V4-Flash",
+    "longcat_2_0": "LongCat-2.0"
+  },
+  "output": "/Volumes/Graduate Program Documents/小论文/CCF-B/03-数据资料/supplementary_experiment_artifacts_20260713_212826/reproduction/work/output/results/tables/pass_at_1_final_five.csv",
+  "output_sha256": "f064535d8b07e514b6f0d61ff982adaeb281c113b6f5f3f088fcf8680895c763"
+}

@@ -1,0 +1,50 @@
+```python
+def apnumber(value: NumberOrString) -> str:
+    """Converts an integer to Associated Press style.
+
+    Examples:
+      ```pycon
+      >>> apnumber(0)
+      'zero'
+      >>> apnumber(5)
+      'five'
+      >>> apnumber(10)
+      '10'
+      >>> apnumber("7")
+      'seven'
+      >>> apnumber("foo")
+      'foo'
+      >>> apnumber(None)
+      'None'
+
+      ```
+
+    Args:
+        value (int, float, str): Integer to convert.
+
+    Returns:
+        str: For numbers 0-9, the number spelled out. Otherwise, the number. This always
+            returns a string unless the value was not `int`-able, then `str(value)`
+            is returned.
+    """
+    try:
+        if not math.isfinite(float(value)):
+            return _format_not_finite(float(value))
+        value = int(value)
+    except (TypeError, ValueError):
+        return str(value)
+    if not 0 <= value < 10:
+        return str(value)
+    return (
+        _("zero"),
+        _("one"),
+        _("two"),
+        _("three"),
+        _("four"),
+        _("five"),
+        _("six"),
+        _("seven"),
+        _("eight"),
+        _("nine"),
+    )[value]
+```

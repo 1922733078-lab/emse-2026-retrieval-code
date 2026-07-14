@@ -1,0 +1,10 @@
+model,level,retrieval_gain,distractor_loss,misleading_effect
+DeepSeek-V4-Flash,L1,81.3,76.0,-5.3
+DeepSeek-V4-Flash,L2,86.7,86.7,0.0
+DeepSeek-V4-Flash,L3,72.0,71.3,-0.7
+Qwen2.5-Coder-3B,L1,90.0,89.3,-0.7
+Qwen2.5-Coder-3B,L2,77.3,81.3,4.0
+Qwen2.5-Coder-3B,L3,39.3,39.3,0.0
+Qwen2.5-Coder-7B,L1,68.7,68.7,0.0
+Qwen2.5-Coder-7B,L2,64.0,67.3,3.3
+Qwen2.5-Coder-7B,L3,34.7,35.3,0.7

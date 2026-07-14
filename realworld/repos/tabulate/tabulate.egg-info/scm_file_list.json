@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md",
+    "tox.ini",
+    "pyproject.toml",
+    "README",
+    ".gitignore",
+    "appveyor.yml",
+    "LICENSE",
+    "MANIFEST.in",
+    "CHANGELOG",
+    ".pre-commit-config.yaml",
+    "HOWTOPUBLISH",
+    "benchmark.py",
+    "tabulate/__init__.py",
+    ".circleci/config.yml",
+    ".circleci/requirements.txt",
+    "test/test_cli.py",
+    "test/common.py",
+    "test/test_input.py",
+    "test/test_internal.py",
+    "test/test_output.py",
+    "test/test_api.py",
+    "test/test_textwrapper.py",
+    "test/test_regression.py"
+  ]
+}

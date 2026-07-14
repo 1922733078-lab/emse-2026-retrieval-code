@@ -1,0 +1,24 @@
+[2026-07-13T16:52:38+08:00] Starting E6 reuse mechanism analysis
+ADD qwen_3b: raw ok, test ok
+ADD qwen_7b: raw ok, test ok
+ADD codellama_7b_instruct_q5_k_m: raw ok, test ok
+ADD deepseek_v4_flash_main: raw ok, test ok
+ADD longcat_2_0_main: raw ok, test ok
+ADD qwen3b_distractor_reminder_full: raw ok, test ok
+ADD qwen7b_distractor_reminder_full: raw ok, test ok
+ADD codellama_distractor_reminder_full: raw ok, test ok
+ADD deepseek_v4_flash_distractor_reminder_full: raw ok, test ok
+ADD longcat_2_0_distractor_reminder_full: raw ok, test ok
+ADD p1_qwen3b_n3: raw ok, test ok
+ADD p1_qwen7b_n3: raw ok, test ok
+ADD p1_codellama_n3: raw ok, test ok
+ADD p1_deepseek_v4_flash_n3: raw ok, test ok
+ADD p1_longcat_2_0_n3: raw ok, test ok
+Combined 40500 raw and 40500 test records
+Wrote outputs/raw_generations/e6_combined_raw.jsonl and outputs/raw_generations/e6_combined_test.jsonl
+Wrote summary to results/tables/reuse_mechanism_summary.csv
+Wrote distractor inheritance details to results/tables/distractor_error_inheritance.csv
+Wrote figure to results/figures/reuse_vs_correctness.pdf
+Wrote figure to results/figures/distractor_inheritance_by_model.pdf
+Reuse mechanism analysis complete.
+[2026-07-13T16:55:19+08:00] E6 reuse mechanism analysis finished

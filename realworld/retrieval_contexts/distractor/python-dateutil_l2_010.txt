@@ -1,0 +1,5 @@
+```python
+def isspace(cls, nextchar):
+        """ Whether the next character is whitespace """
+        return nextchar.isspace()
+```

@@ -82,9 +82,15 @@ python reproduction/verify_release.py \
 
 ## Data Availability
 
-**Status**: DOI pending archival release. Once a DOI is obtained, this section will
-be updated. Raw model outputs are subject to provider terms and will not be
-publicly released without confirmation of redistribution rights.
+The replication package is publicly archived on GitHub and is sufficient to
+reproduce all paper tables and figures without invoking any model API:
+
+\url{https://github.com/1922733078-lab/emse-2026-retrieval-code}
+
+A DOI-minted Zenodo snapshot will be linked here once obtained. Raw model
+outputs remain subject to each provider's terms; see the `LICENSE` and
+`outputs/LLAMA2-NOTICE.txt` for the third-party attribution required for
+CodeLlama-7B outputs.
 
 ---
 
